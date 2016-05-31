@@ -1,22 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <style>
-.header{
-  height: 110px;
-  width:1000px;
-  background-color: #257425;
-}
-.kissa{
-  box-shadow: 10px 10px 5px grey;
-  height: 660px;
-  width:1000px;
-  margin: 0 auto;
-}
-
-
-
-    </style>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -24,6 +8,7 @@
     <title>Laatu</title>
 
     <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -34,101 +19,34 @@
     <![endif]-->
   </head>
   <body>
-    <div class="kissa">
-    <div  style="margin: 0 auto" class="header"></div>
-    <div id="carousel-example-generic" class="carousel slide" style="background-color: red; width: 1000px; height: 550px; margin: 0 auto" data-ride="carousel">
+    <div class="varjo">
+    <div class="header"></div>
 
-  <!-- Indicators -->
+    <div  id="carousel-example-generic" class="carousel slide" data-interval="false" style=" background-color: ;width: 1000px;height: 550px;  margin: 0 auto;" >
+
+  <!-- Sivujen indikaattorit -->
   <ol class="carousel-indicators">
     <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
     <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="7"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="8"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="9"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="10"></li>
-    <li data-target="#carousel-example-generic" data-slide-to="11"></li>
+
 
   </ol>
 
-  <!-- Wrapper for slides -->
+  <!-- Sivujen wrapperit -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <p>Insert XML anal here</p>
+      <p>Insert XML here</p>
       <div class="carousel-caption">
-        Kissa
+        Caption
       </div>
     </div>
     <div class="item">
-      <p>Insert XML  here</p>
+      <p>Insert XML here</p>
       <div class="carousel-caption">
-        Kissa
+        Caption
       </div>
     </div>
-    <div class="item">
-      <p>Insert XML  here</p>
-      <div class="carousel-caption">
-        Kissa
-      </div>
-    </div>
-    <div class="item">
-      <p>Insert XML  here</p>
-      <div class="carousel-caption">
-        Kissa
-      </div>
-    </div>
-    <div class="item">
-      <p>Insert XML  here</p>
-      <div class="carousel-caption">
-        Kissa
-      </div>
-    </div>
-    <div class="item">
-      <p>Insert XML  here</p>
-      <div class="carousel-caption">
-        Kissa
-      </div>
-    </div>
-    <div class="item">
-      <p>Insert XML  here</p>
-      <div class="carousel-caption">
-        Kissa
-      </div>
-    </div>
-    <div class="item">
-      <p>Insert XML  here</p>
-      <div class="carousel-caption">
-        Kissa
-      </div>
-    </div>
-    <div class="item">
-      <p>Insert XML  here</p>
-      <div class="carousel-caption">
-        Kissa
-      </div>
-    </div>
-    <div class="item">
-      <p>Insert XML  here</p>
-      <div class="carousel-caption">
-        Kissa
-      </div>
-    </div>
-    <div class="item">
-      <p>Insert XML  here</p>
-      <div class="carousel-caption">
-        Kissa
-      </div>
-    </div>
-    <div class="item">
-      <p>Insert XML  here</p>
-      <div class="carousel-caption">
-        Kissa
-      </div>
-    </div>
+
 
   </div>
 
