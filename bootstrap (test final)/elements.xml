@@ -6,7 +6,7 @@
 <OSA>
   <sivu>
     <teksti>
-      <otsikko> Otsikko </otsikko>
+      <otsikko> Laadunhallinnasta ja laadun kehityksestä Esedulaisille </otsikko>
       <leipateksti> Leipäteksti </leipateksti>
     </teksti>
     <muut>
@@ -25,6 +25,31 @@
           <kysymys3></kysymys3>
         </kysely>
       </kyselyt>
+      <kuvat>laatuympyra.png</kuvat>
     </muut>
-    <kuvat></kuvat>
+</sivu>
+<sivu>
+  <teksti>
+    <otsikko>Johdanto</otsikko>
+    <leipateksti> Leipäteksti </leipateksti>
+  </teksti>
+  <muut>
+    <dropoff>
+      <kuva></kuva>
+      <teksti></teksti>
+      <otsikko></otsikko>
+    </dropoff>
+    <kyselyt>
+      <kysely>
+        <vastaus1></vastaus1>
+        <vastaus2></vastaus2>
+        <vastaus3></vastaus3>
+        <kysymys1></kysymys1>
+        <kysymys2></kysymys2>
+        <kysymys3></kysymys3>
+      </kysely>
+    </kyselyt>
+    <kuvat>laatuympyra.png</kuvat>
+  </muut>
+</sivu>
  </OSA>
