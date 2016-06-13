@@ -2,12 +2,18 @@
   height: 110px;
   width:1000px;
   background-color:  #4BAD31;
+  font-family: Chapparal Pro;
+  padding-top: 10px;
   float:left;
   -webkit-box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
 box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
 }
 
+.header img{
+  width: 250px;
+  margin: 0px 20px 0px 10px;
+}
 
 .indicators li{
   border: 1px solid #cccccc;
@@ -23,6 +29,8 @@ box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
   height: 450px;
   margin-top: 15px;
   margin-left: 40px;
+  font-family: Corbel;
+  color: grey;
 }
 .rightside{
   width: 450px;
@@ -30,6 +38,8 @@ box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
   float:right;
   margin-top: 15px;
   margin-right: 40px;
+  font-family: Corbel;
+  color: grey;
 }
 .rightside img{
   width: 450px;
@@ -47,13 +57,22 @@ box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
 #header_text1{
   font-size: 30px;
   color: white;
-  font-family: Adobe Arabic;
+}
+#header_text1:hover{
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
 }
 #header_text2{
   font-size: 30px;
   color: white;
-  font-family: Adobe Arabic;
   font-style: italic;
+}
+#header_text2:hover{
+  font-size: 30px;
+  color: white;
+  font-style: italic;
+  text-decoration: none;
 }
 #carousel-custom{
   width: 1000px;
@@ -64,7 +83,7 @@ box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
 box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
        }
-#carousel-custom .carousel-indicators {
+#carousel-custom .carousel-indicators{
          position: absolute;
          bottom: 0px;
          left: 50%;
@@ -73,7 +92,6 @@ box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
          margin-left: -30%;
          text-align: center;
          list-style: none;
-
        }
 #carousel-custom .carousel-indicators li {
            background-color: transparent;
@@ -97,18 +115,36 @@ box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
            float:left;
        }
 #wrapper{
-  width: 1222px;
+  width: 1422px;
   height: 662px;
   margin: auto;
   margin-top: 100px;
-
 }
 #navbaar{
   height: 660px;
-  width: 200px;
-  border: 1px solid black;
+  width: 400px;
   float:left;
   margin-right: 20px;
+  font-family: Corbel;
+  color: grey;
+}
+#navlist{
+  height: 593px;
+  width: 400px;
+  padding: 10px;
+  overflow-y: scroll;
+}
+#navbaar .inactive{
+  height: 40px;
+  width: 370px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+#navbaar .active{
+  height: 40px;
+  width: 370px;
+  padding-left: 10px;
+  background-color: #acd29b;
 }
 #vastauswrapper{
   width: 452px;
@@ -127,14 +163,35 @@ border-top: 1px solid black;
 #vastaus1{
   width: 75px;
   height: 25px;
-float: right;
+  float: right;
   margin-bottom: 7px;
 }
 #kysymys{
   width: 150px;
   height: 25px;
+  float: left;
+}
 
-float: left;
+/* dragrop */
+.draggable{
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  float: left;
+}
 
+.droppable{
+  width: 220px;
+  height: 200px;
+  border: 1px solid black;
+  float: left;
+  margin-top: 200px;
+}
 
+.droppedright{
+  background-color: #4dff4d;
+}
+
+.droppedwrong{
+  background-color: #ff6666;
 }
