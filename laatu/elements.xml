@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <title> Laatu </title>
+  <header>
+    <logo>esedu_logo.png</logo>
+    <teksti1>Etelä-Savon ammattiopisto</teksti1>
+    <teksti2>South Savo Vocational College</teksti2>
+  </header>
+  <sivut>
+    <sivu>
+      <tekstit>
+        <otsikko></otsikko>
+        <teksti></teksti>
+      </tekstit>
+      <muut>
+        <haitarilista>
+          <otsikko></otsikko>
+          <teksti></teksti>
+          <kuva></kuva>
+        </haitarilista>
+          <kysely>
+            <vastaus1></vastaus1>
+            <vastaus2></vastaus2>
+            <vastaus3></vastaus3>
+            <kysymys1></kysymys1>
+            <kysymys2></kysymys2>
+            <kysymys3></kysymys3>
+          </kysely>
+        <kuvat></kuvat>
+      </muut>
+    </sivu>
+    <sivu>
+      <tekstit>
+        <otsikko></otsikko>
+        <teksti></teksti>
+      </tekstit>
+      <muut>
+        <haitarilista>
+          <otsikko></otsikko>
+          <teksti></teksti>
+          <kuva></kuva>
+        </haitarilista>
+          <kysely>
+            <vastaus1></vastaus1>
+            <vastaus2></vastaus2>
+            <vastaus3></vastaus3>
+            <kysymys1></kysymys1>
+            <kysymys2></kysymys2>
+            <kysymys3></kysymys3>
+          </kysely>
+        <kuvat></kuvat>
+      </muut>
+    </sivu>
+  </sivut>
+ </root>
