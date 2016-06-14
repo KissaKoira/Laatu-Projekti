@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<header>
-  <logo></logo>
-  <teksti></teksti>
-</header>
-<OSA>
-  <sivu>
-    <teksti>
-      <otsikko> Laadunhallinnasta ja laadun kehityksestä Esedulaisille </otsikko>
-      <leipateksti> Leipäteksti </leipateksti>
-    </teksti>
-    <muut>
-      <dropoff>
-        <kuva></kuva>
-        <teksti></teksti>
+<root>
+  <title> Laatu </title>
+  <header>
+    <logo>esedu_logo.png</logo>
+    <teksti1>Etelä-Savon ammattiopisto</teksti1>
+    <teksti2>South Savo Vocational College</teksti2>
+  </header>
+  <sivut>
+    <sivu>
+      <tekstit>
         <otsikko></otsikko>
-      </dropoff>
-      <kyselyt>
-        <kysely>
-          <vastaus1></vastaus1>
-          <vastaus2></vastaus2>
-          <vastaus3></vastaus3>
-          <kysymys1></kysymys1>
-          <kysymys2></kysymys2>
-          <kysymys3></kysymys3>
-        </kysely>
-      </kyselyt>
-      <kuvat>laatuympyra.png</kuvat>
-    </muut>
-</sivu>
-<sivu>
-  <teksti>
-    <otsikko>Johdanto</otsikko>
-    <leipateksti> Leipäteksti </leipateksti>
-  </teksti>
-  <muut>
-    <dropoff>
-      <kuva></kuva>
-      <teksti></teksti>
-      <otsikko></otsikko>
-    </dropoff>
-    <kyselyt>
-      <kysely>
-        <vastaus1></vastaus1>
-        <vastaus2></vastaus2>
-        <vastaus3></vastaus3>
-        <kysymys1></kysymys1>
-        <kysymys2></kysymys2>
-        <kysymys3></kysymys3>
-      </kysely>
-    </kyselyt>
-    <kuvat>laatuympyra.png</kuvat>
-  </muut>
-</sivu>
- </OSA>
+        <teksti></teksti>
+      </tekstit>
+      <muut>
+        <haitarilista>
+          <otsikko></otsikko>
+          <teksti></teksti>
+          <kuva></kuva>
+        </haitarilista>
+          <kysely>
+            <vastaus1></vastaus1>
+            <vastaus2></vastaus2>
+            <vastaus3></vastaus3>
+            <kysymys1></kysymys1>
+            <kysymys2></kysymys2>
+            <kysymys3></kysymys3>
+          </kysely>
+        <kuvat></kuvat>
+      </muut>
+    </sivu>
+    <sivu>
+      <tekstit>
+        <otsikko></otsikko>
+        <teksti></teksti>
+      </tekstit>
+      <muut>
+        <haitarilista>
+          <otsikko></otsikko>
+          <teksti></teksti>
+          <kuva></kuva>
+        </haitarilista>
+          <kysely>
+            <vastaus1></vastaus1>
+            <vastaus2></vastaus2>
+            <vastaus3></vastaus3>
+            <kysymys1></kysymys1>
+            <kysymys2></kysymys2>
+            <kysymys3></kysymys3>
+          </kysely>
+        <kuvat></kuvat>
+      </muut>
+    </sivu>
+  </sivut>
+ </root>

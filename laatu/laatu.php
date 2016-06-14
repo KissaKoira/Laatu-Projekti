@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Laatu</title>
+  <title></title>
   <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
@@ -12,14 +12,7 @@
   <link rel="stylesheet" type="text/css" href="style.css">
 
   <script>
-    $(function() {
-      $( "#accordion" ).accordion({
-        collapsible: true,
-        heightStyle: "content"
-      });
-    });
-
-    //lisätty scripti
+    //ajax (hakee xml:n)
     $.ajax({
       type: "GET",
       url: "elements.xml",
@@ -33,27 +26,68 @@
       }
     });
 
+    function init(xml) {
+      var $xml = $(xml);
+      var $title = $xml.find("title");
+      console.log($title);
+      document.getElementsByTagName("title").innerHTML = "Laatu";
+      console.log(document.getElementsByTagName("title"))
+    }
+
+    //haitari listat
+    $(function() {
+      $( "#accordion" ).accordion({
+        collapsible: true,
+        heightStyle: "content"
+      });
+    });
+
+    //tab lista
     function checkActivity(){
+
       if(document.getElementById("indicator1").getAttribute("class") === "active"){
         document.getElementById("tab1").setAttribute("class", "active");
         document.getElementById("tab2").setAttribute("class", "inactive");
         document.getElementById("tab3").setAttribute("class", "inactive");
+        document.getElementById("tab4").setAttribute("class", "inactive");
+        document.getElementById("tab5").setAttribute("class", "inactive");
+        document.getElementById("tab6").setAttribute("class", "inactive");
       }else if(document.getElementById("indicator2").getAttribute("class") === "active"){
-        document.getElementById("tab2").setAttribute("class", "active");
         document.getElementById("tab1").setAttribute("class", "inactive");
+        document.getElementById("tab2").setAttribute("class", "active");
         document.getElementById("tab3").setAttribute("class", "inactive");
+        document.getElementById("tab4").setAttribute("class", "inactive");
+        document.getElementById("tab5").setAttribute("class", "inactive");
+        document.getElementById("tab6").setAttribute("class", "inactive");
       }else if(document.getElementById("indicator3").getAttribute("class") === "active"){
-        document.getElementById("tab3").setAttribute("class", "active");
         document.getElementById("tab1").setAttribute("class", "inactive");
         document.getElementById("tab2").setAttribute("class", "inactive");
+        document.getElementById("tab3").setAttribute("class", "active");
+        document.getElementById("tab4").setAttribute("class", "inactive");
+        document.getElementById("tab5").setAttribute("class", "inactive");
+        document.getElementById("tab6").setAttribute("class", "inactive");
+      }else if(document.getElementById("indicator4").getAttribute("class") === "active"){
+        document.getElementById("tab1").setAttribute("class", "inactive");
+        document.getElementById("tab2").setAttribute("class", "inactive");
+        document.getElementById("tab3").setAttribute("class", "inactive");
+        document.getElementById("tab4").setAttribute("class", "active");
+        document.getElementById("tab5").setAttribute("class", "inactive");
+        document.getElementById("tab6").setAttribute("class", "inactive");
+      }else if(document.getElementById("indicator5").getAttribute("class") === "active"){
+        document.getElementById("tab1").setAttribute("class", "inactive");
+        document.getElementById("tab2").setAttribute("class", "inactive");
+        document.getElementById("tab3").setAttribute("class", "inactive");
+        document.getElementById("tab4").setAttribute("class", "inactive");
+        document.getElementById("tab5").setAttribute("class", "active");
+        document.getElementById("tab6").setAttribute("class", "inactive");
+      }else if(document.getElementById("indicator6").getAttribute("class") === "active"){
+        document.getElementById("tab1").setAttribute("class", "inactive");
+        document.getElementById("tab2").setAttribute("class", "inactive");
+        document.getElementById("tab3").setAttribute("class", "inactive");
+        document.getElementById("tab4").setAttribute("class", "inactive");
+        document.getElementById("tab5").setAttribute("class", "inactive");
+        document.getElementById("tab6").setAttribute("class", "active");
       }
-    }
-
-    function init(xml) {
-      var $xml = $(xml);
-      console.log($xml);
-      var $teksti = $xml.find("teksti");
-      console.log($teksti);
     }
     setInterval(function(){ checkActivity(); }, 100);
 
@@ -72,13 +106,10 @@
     var block6 = document.getElementById("block6");
     $(block6).data("target", 2);
 
-    console.log("");
-
     var goal1 = document.getElementById("goal1");
     $(goal1).data("id", 1);
     var goal2 = document.getElementById("goal2");
     $(goal2).data("id", 2);
-    console.log("");
 
     $( ".draggable" ).draggable({
       revert: "invalid",
@@ -87,6 +118,7 @@
       drop: handleDropEvent,
     });
   });
+
     function handleDropEvent( event, ui ) {
       var drop = $(this).data( 'id' );
       var drag = ui.draggable.data( 'target' );
@@ -104,18 +136,12 @@
   <div id="navbaar">
     <h1> Sisältö </h1>
     <div id="navlist">
-      <div id="tab1" data-target="#carousel-custom" data-slide-to="0" class="active"><h2>Content 1</h2></div>
-      <div id="tab2" data-target="#carousel-custom" data-slide-to="1" class="inactive"><h2>Content 2</h2></div>
-      <div id="tab3" data-target="#carousel-custom" data-slide-to="2" class="inactive"><h2>Content 3</h2></div>
-      <div class="inactive"><h2>Content 4</h2></div>
-      <div class="inactive"><h2>Content 5</h2></div>
-      <div class="inactive"><h2>Content 6</h2></div>
-      <div class="inactive"><h2>Content 7</h2></div>
-      <div class="inactive"><h2>Content 8</h2></div>
-      <div class="inactive"><h2>Content 9</h2></div>
-      <div class="inactive"><h2>Content 10</h2></div>
-      <div class="inactive"><h2>Content 11</h2></div>
-      <div class="inactive"><h2>Content 12</h2></div>
+      <div id="tab1" data-target="#carousel-custom" data-slide-to="0" class="active"><a href=#>Content 1</a></div>
+      <div id="tab2" data-target="#carousel-custom" data-slide-to="1" class="inactive"><a href=#>Content 2</a></div>
+      <div id="tab3" data-target="#carousel-custom" data-slide-to="2" class="inactive"><a href=#>Content 3</a></div>
+      <div id="tab4" data-target="#carousel-custom" data-slide-to="3" class="inactive"><a href=#>Content 4</a></div>
+      <div id="tab5" data-target="#carousel-custom" data-slide-to="4" class="inactive"><a href=#>Content 5</a></div>
+      <div id="tab6" data-target="#carousel-custom" data-slide-to="5" class="inactive"><a href=#>Content 6</a></div>
     </div>
   </div>
       <div class="header"><img src="pics/esedu_logo.png" style="float: left;"></img>
@@ -130,6 +156,9 @@
           <li id="indicator1" data-target="#carousel-custom" data-slide-to="0" class="active"><img src="pics/123.png"/></li>
           <li id="indicator2" data-target="#carousel-custom" data-slide-to="1"><img src="pics/123.png"/></li>
           <li id="indicator3" data-target="#carousel-custom" data-slide-to="2"><img src="pics/123.png"/></li>
+          <li id="indicator4" data-target="#carousel-custom" data-slide-to="3"><img src="pics/123.png"/></li>
+          <li id="indicator5" data-target="#carousel-custom" data-slide-to="4"><img src="pics/123.png"/></li>
+          <li id="indicator6" data-target="#carousel-custom" data-slide-to="5"><img src="pics/123.png"/></li>
         </ol>
 
         <!-- Sivujen wrapperit -->
@@ -256,6 +285,12 @@
             <input type="submit" name="Lähetä">
           </form>
           </div>
+        </div>
+        <div class="item">
+        </div>
+        <div class="item">
+        </div>
+        <div class="item">
         </div>
       </div>
       <!-- Controls -->
