@@ -3,36 +3,30 @@
   <title> Laatu </title>
   <header>
     <logo>esedu_logo.png</logo>
-    <teksti1>Etelä-Savon ammattiopisto</teksti1>
-    <teksti2>South Savo Vocational College</teksti2>
+    <teksti>Etelä-Savon ammattiopisto</teksti>
+    <teksti>South Savo Vocational College</teksti>
   </header>
   <sivut>
+    <!-- Kansi -->
     <sivu>
       <tekstit>
-        <otsikko></otsikko>
-        <teksti></teksti>
+        <otsikko>Laadunhallinnasta ja laadun kehityksestä Esedulaisille</otsikko>
       </tekstit>
       <muut>
-        <haitarilista>
-          <otsikko></otsikko>
-          <teksti></teksti>
-          <kuva></kuva>
-        </haitarilista>
-          <kysely>
-            <vastaus1></vastaus1>
-            <vastaus2></vastaus2>
-            <vastaus3></vastaus3>
-            <kysymys1></kysymys1>
-            <kysymys2></kysymys2>
-            <kysymys3></kysymys3>
-          </kysely>
-        <kuvat></kuvat>
+        <kuvat>laatuympyrä.png</kuvat>
       </muut>
     </sivu>
+    <!-- Johdanto -->
     <sivu>
       <tekstit>
-        <otsikko></otsikko>
-        <teksti></teksti>
+        <otsikko>Tervetuloa tutustumaan laadunhallintaan ja jatkuvan parantamisen periaatteeseen!</otsikko>
+        <teksti2>Tämän materiaalin myötä perehdyt Esedun laadunhallintaan, sen periaatteisiin ja toimintamalleihin. Materiaaliin läpi käytyäsi tiedät, mistä asioista laatu syntyy. Olet myös tutustunut Esedun toiminnan kulmakiviin kuten strategiaan ja prosesseihin, joiden tunteminen on laadukkaan toiminnan edellytys. Materiaali porautuu organisaatiotasolta oman työn tasolle.
+
+Aikaa materiaaliin perehtymiseen menee arvioilta 1-1,5 tuntia. Materiaali sisältää pieniä
+tehtäviä, joihin vastaaminen onnistuu materiaaliin tutustumalla. Tehtävien oikeat vastaukset saat näkyviin Lähteä-painikkeen kautta.
+
+Vahvistamalla henkilöstön osaamista vahvistamme myös työhyvinvointia!
+</teksti2>
       </tekstit>
       <muut>
         <haitarilista>

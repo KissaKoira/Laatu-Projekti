@@ -32,6 +32,9 @@
       console.log($title);
       document.getElementsByTagName("title").innerHTML = "Laatu";
       console.log(document.getElementsByTagName("title"))
+      var $teksti2 = $xml.find("teksti2");
+      console.log($teksti2);
+      document.getElementById("esimerkki").innerHTML = $teksti2;
     }
 
     //haitari listat
@@ -177,30 +180,27 @@
         <div class="item">
           <div class="leftside">
             <?php
-$lista = simplexml_load_file('esimiehet.xml');
-echo "<h1>$lista->nimi</h1>";
+            $lista = simplexml_load_file('esimiehet.xml');
+            echo "<h1>$lista->nimi</h1>";
 
-echo '<form action="action_page.php">
-      Nimi:<br>
-      <div id="formi_nimi">
-      <input type="text" name="firstname"><br>
-      <select name="esimiehet">
-      <option value="Tyhja"> - </option>
-';
-foreach ($lista->esimiehet->children() as $asia) {
+            echo '<form action="action_page.php">
+                  Nimi:<br>
+                  <div id="formi_nimi">
+                  <input type="text" name="firstname"><br>
+                  <select name="esimiehet">
+                  <option value="Tyhja"> - </option>
+            ';
+            foreach ($lista->esimiehet->children() as $asia) {
 
-  echo '<option value="esimies">' .$asia. '</option>';
-  echo '<p>' . $asia . '</p>';
+              echo '<option value="esimies">' .$asia. '</option>';
 
-};
-?>
+            };
+            ?>
 
-
-
-  </select>
-  <input type="submit">
-</form>
-</div>
+      </select>
+      <input type="submit">
+    </form>
+  </div>
 </div>
 <div class="rightside">
 <img src="pics/ukko4.png"/>
@@ -321,9 +321,7 @@ foreach ($lista->esimiehet->children() as $asia) {
           </form>
           </div>
         </div>
-        <div class="item">
-        </div>
-        <div class="item">
+        <div id="esimerkki" class="item">
         </div>
         <div class="item">
         </div>
