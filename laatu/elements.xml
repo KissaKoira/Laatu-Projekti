@@ -20,13 +20,13 @@
     <sivu>
       <tekstit>
         <otsikko>Tervetuloa tutustumaan laadunhallintaan ja jatkuvan parantamisen periaatteeseen!</otsikko>
-        <teksti2>Tämän materiaalin myötä perehdyt Esedun laadunhallintaan, sen periaatteisiin ja toimintamalleihin. Materiaaliin läpi käytyäsi tiedät, mistä asioista laatu syntyy. Olet myös tutustunut Esedun toiminnan kulmakiviin kuten strategiaan ja prosesseihin, joiden tunteminen on laadukkaan toiminnan edellytys. Materiaali porautuu organisaatiotasolta oman työn tasolle.
+        <teksti>Tämän materiaalin myötä perehdyt Esedun laadunhallintaan, sen periaatteisiin ja toimintamalleihin. Materiaaliin läpi käytyäsi tiedät, mistä asioista laatu syntyy. Olet myös tutustunut Esedun toiminnan kulmakiviin kuten strategiaan ja prosesseihin, joiden tunteminen on laadukkaan toiminnan edellytys. Materiaali porautuu organisaatiotasolta oman työn tasolle.
 
 Aikaa materiaaliin perehtymiseen menee arvioilta 1-1,5 tuntia. Materiaali sisältää pieniä
 tehtäviä, joihin vastaaminen onnistuu materiaaliin tutustumalla. Tehtävien oikeat vastaukset saat näkyviin Lähteä-painikkeen kautta.
 
 Vahvistamalla henkilöstön osaamista vahvistamme myös työhyvinvointia!
-</teksti2>
+</teksti>
       </tekstit>
       <muut>
         <haitarilista>
@@ -44,6 +44,207 @@ Vahvistamalla henkilöstön osaamista vahvistamme myös työhyvinvointia!
           </kysely>
         <kuvat></kuvat>
       </muut>
+    </sivu>
+
+
+<sivu>
+<otsikko>Miten arvioimme oppilaitoksemme toiminnan vaikuttavuutta</otsikko>
+<tekstit>
+  <teksti>
+    • Otamme mukaan henkilöstön, opiskelijat, kumppanit ja muut sidosryhmät
+    • Toimimme arviointi-, palaute- ja seurantajärjestelmän sekä vuosisuunnitelmamme mukaisesti
+    • Analysoimme arviointi-, palaute- ja tulostietojamme sekä muuta tarkoituksenmukaista tietoa
+    • Teemme itsearviointeja ja sisäisiä arviointeja tai auditointeja sekä osallistumme ulkoisiin arviointeihin ja auditointeihin
+    ”Ammatillisen koulutuksen lainsäädäntö velvoittaa koulutuksen järjestäjät:
+    Arvioimaan antamaansa koulutusta ja sen vaikuttavuutta sekä osallistumaan toimintansa ulkopuoliseen arviointiin
+    Julkistamaan keskeisen arviointi-, palaute- ja tulostiedon
+</tekstit>
+<haitarilista>
+  <haitari>
+  <otsikko>Laadunhallinnan menetelmiä</otsikko>
+  <teksti>Laadunhallinnan menetelmät antavat viitekehyksen laadunhallinnalle ja laadun jatkuvalle parantamiselle. Ne myös helpottavat hahmottamaan toiminnan kokonaisuutta, eri toimintojen välisiä yhteyksiä ja vaikutuksia tuloksiin.
+          Esedussa käytössä oleva EFQM Excellence-malli on
+          * toiminnan arviointi- ja kehittämistyökalu
+          * itsearvioinnin viitekehys vahvuuksien ja kehittämiskohteiden tunnistamiseen
+          * kuvaa toiminnan ja tulosten välisen yhteyden eli miten hyvin toiminta ja tulokset vastaavat erinomaisesti toimivan organisaation tunnuspiirteitä
+          * mahdollistaa toiminnan ja tuloksien vertaamisen muihin toimijoihin kansallisesti kansainvälisesti
+          * voi olla myös johtamisjärjestelmän tai laadunhallintajärjestelmän viitekehys</teksti>
+</haitari>
+<haitari>
+<otsikko>Toiminnan ja tulosten arviointi</otsikko>
+<teksti>Organisaation toimintaa ja sen vaikutuksia ja vaikuttavuutta voi arvioida monin eri tavoin. Arviointitapoja ovat mm.
+        * itsearviointi
+        * sisäinen arviointi tai auditointi
+        * ulkoinen arviointi esim. vertaisarvioinnit, kansallinen teema-arvioinnit tai laatupalkintokilpailujen arvioinnit
+        * ulkoinen auditointi, esim. sertifiointeihin liittyvät auditoinit
+        Arviointi ei ole arvostelua vaan tapa nostaa esille hyvin toimivia asioita eli vahvuuksia sekä asioita, jotka kaipaavat kehittämistä. Arviointeihin osallistuu useimmiten opiskelijoita, työelämän edustajia sekä muita sidosryhmien edustajia. Opiskelijat tulee perehdyttää palautteen antamiseen ja arviointeihin osallistumiseen osana opintoja.</teksti>
+</haitari>
+<haitari>
+  <otsikko>Arviointimenetelmät</otsikko>
+  <teksti>Itsearviointi on oppilaitoksen ja siinä toimivien henkilöiden oman toiminnan arviointia, jossa tarkastellaan saavutetaanko toiminnan tavoitteet ja tapahtuuko se mahdollisimman järkevästi. Itsearvioinnin tarkoitus on johtaa toiminnan ja tulosten parantumiseen erilaisten kehittämistoimenpiteiden kautta. Usein arviointeihin kutsutaan mukaan asiakkaidemme, kumppaneidemme ja muiden sidosryhmien edustajia.
+          Sisäisen arvioinnin, auditoinnin tai katselmuksen tekee oppilaitoksen oma henkilöstö, joka on riippumaton arvioinnin kohteesta. Tarkoituksena on varmistaa että oppilaitoksessa toimitaan sovitulla tavoilla, saavutetaan tavoitteet sekä löytää hyviä käytäntöjä ja kehittämisen kohteita.
+          Vertaisarviointi on kriteeriperustaista ulkoista arviointia. Arvioinnin tekee vertaisarvioijista koostuva ulkopuolinen ryhmä (esim. toisen oppilaitoksen henkilöstöä). Tavoitteena on vahvuuksien ja parantamisalueiden esiin tuominen, toisilta oppiminen ja yhdessä kehittäminen. Vertaisarviointi voi olla myös sisäistä, jolloin esim. toisen alan opettajat arvioivat kriteeriperustaisesti ennalta sovittua teemaa.
+          Ulkoinen arviointi on oppilaitoksen ulkopuolisten tahojen (esim. OPH, Karvi) tekemää tulkinnallista analyysia oppilaitoksen tilasta ja toiminnasta. Arviointi voi kohdistua koko organisaatioon tai johonkin toiminnan osaan tai prosessiin.
+          Ulkoinen auditointi on ulkopuolisen tekemään järjestelmällistä ja puolueetonta tulkintaa sen selvittämiseksi, onko oppilaitoksen toiminta tavoitteiden mukaista, tehokasta ja tarkoituksenmukaista. Ulkoisen auditoinnin tavoitteena on usein sertifiointi (esim. keke tai ISO9000)
+</teksti>
+</haitarilista>
+</sivu>
+<sivu>
+  <otsikko>Miten arvioin oman työni vaikutuksia ja vaikuttavuutta</otsikko>
+  <tekstit>
+    <teksti>
+      • Arvioin omaa ja ryhmäni työtä sekä oppilaitokseni toimintaa ja tavoitteiden toteutumista
+      • Annan ja otan vastaan palautetta esimerkiksi opiskelijoiltani ja muilta asiakkailtani ja esimieheltäni
+      • Osallistun omaa työtäni, ryhmääni ja oppilaitostani koskevien arviointi-, palaute- ja tulostietojen käsittelyyn
+      • Osallistun itsearviointeihin sekä sisäisiin että ulkoisiin arviointeihin ja auditointeihin sovituilla tavoilla
+      Kuinka parannan omaa toimintaani
+      • Otan selvää mikä on nykytilanteeni ja mihin ollaan menossa
+      • Määritän osaamiseni ja kehittymistarpeeni
+      • Sovin kehittämistoimista ja mitä tuloksia niillä halutaan/haluan saavuttaa
+      • Seuraan ja arvioin kehittämistoimien toteutumista ja vaikuttavuutta</teksti>
+</tekstit>
+<haitarilista>
+  <haitari>
+    <otsikko>Palaute arvioinnin työvälineenä</otsikko>
+      <teksti>
+      Opiskelija-, työelämä ja muut asiakaspalautteet ovat yksi mittari työn tuloksellisuudesta ja laadusta. Kunkin opettajan tulee kerätä henkilökohtaista palautetta kaksi kertaa lukuvuodessa. Tämän lisäksi lähes kaikkia opettajia koskevat aikuiskoulutuksen AIPAL- tai OPAL-palautteet ja/tai nuorten koulutuksen tulo-, olo- ja päättökyselyt.
+      Sen ohella, että opiskelijapalautteet kertovat oppilaitoksen onnistumisesta sen perustehtävässä, ovat ne myös opettajan oman toiminnan arvioinnin tärkeä työväline. Aina palautetulokset saatuasi tarkista, ovatko tulokset saavuttaneet Esedun tavoitetason. Tämän jälkeen katso, mitkä tulokset ovat erityisen hyviä. Näitä vahvuuksia tulee ylläpitää ja edelleen vahvistaa tulevaisuudessa. Viimeiseksi määrittele itsellesi palautetulosten perusteella kehityskohde ja päätä kuinka parannat toimintaasi. Seuraavan palautteen saatuasi tarkista kuinka oman työsi kehittäminen on vaikuttanut palautetuloksiin.
+</teksti>
+  </haitari>
+  <haitari>
+    <otsikko>Oppimistulokset</otsikko>
+        <teksti>
+          Oppimistuloksilla tarkoitetaan nuorten koulutuksen ammattiosaamisen näyttöjen arvosanoja ja niiden jakaumaa. Esedussa kootaan nuorten suorittamien tutkintojen oppimistulokset tutkinnon osien arvosanojen ja niiden jakauman osalta. Lisäksi kootaan kustakin tutkinnosta tiedot kuinka suuri osa ammattiosaamisen näytöistä on annettu työelämässä ja kuinka paljon oppilaitoksessa. Oppimistulostietoja hyödynnetään koulutuksen kehittämisessä (mitä voidaan tehdä paremmin, jotta opiskelijat saavuttaisivat parempaa tai lisäosaamista). Myös ammattiosaamisen näyttöjen toimikunta hyödyntää oppimistulostietoja ammattiosaamisen näyttöjen laadunvalvonnassa.
+          Oppimistulostiedot ovat tiimien nähtävillä O365-alustalla. Katso oman OneDrivesi jaettu kanssani-kansiosta millaisia tutkintosi oppimistulokset ovat.
+        </teksti>
+  </haitari>
+</haitarilista>
+</sivu>
+<sivu>
+  <otsikko>TEHTÄVÄSIVU: Palautteiden hyödyntäminen</otsikko>
+  <muut>
+    <kuvat>pics/opiskelijapalaute.png</kuvat>
+  </muut>
+  <tekstit>
+    <teksti>
+      Nuorten koulutuksen opettaja:
+        • Käy merkitsemässä Y-aseman opintopalautteen varauslistalle (y-asema à opiskelijapalautteet à varauslistat) lukuvuodelle kaksi palautteen ottoa.
+        • Mikäli olet ryhmänohjaaja muista tulo-, olo- ja päättökyselyt. Tulokysely toteutetaan loka-marraskuussa ja olokysely tammi-maaliskuussa. Laatukoordinaattori lähettää ryhmänohjaajille sähköpostia kun kysely on avattu. Päättökysely on auki syyskuusta alkaen koko vuoden. Muistathan huolehtia että jokainen valistuva opiskelija vastaa päättökyselyyn
+    </teksti>
+    <teksti>
+      Aikuiskoulutuksen opettaja:
+        • Opetatko työvoimapoliittisessa koulutuksessa? Jos opetat, niin merkitse kalenteriisi koska on välipalautteen aika (kolmen kuukauden kuluessa koulutuksen aloituksesta. Mikäli koulutus on lyhyempi
+        kuin kolme kuukautta niin kun kolmannes koulutuksesta on kulunut). Päättöpalautteen pyydät kun koulutus päättyy.
+        • Tutkintoon johtavasta koulutuksesta (mikäli ei ole työvoimapoliittista) kerätään AIPAL-palaute. Välipalaute (henkilökohtaistamisvaiheen palaute) kerätään samoin kuin OPAL-palaute eli kolmen kuukauden kuluessa koulutuksen aloituksesta. Päättöpalaute (tarvittavan ammattitaidon hankkimisvaiheen sekä tutkinnon suorittamisvaiheen palautteet) kerätään tutkinnon suorittajan valmistuessa.
+        • Varmista, että sinulla on lisäksi henkilökohtainen palaute esimiehellesi HEKS-keskusteluissa käsiteltäväksi
+    </teksti>
+  </tekstit>
+</sivu>
+<sivu>
+  <otsikko>Miten parannamme oppilaitoksen toimintaa</otsikko>
+  <tekstit>
+    <teksti>
+      • Määritämme kehittämistarpeet ja priorisoimme ne arviointi-, palaute- ja tulostiedot sekä muu tarkoituksenmukainen tieto huomioon ottaen
+      • Sovimme kehittämistoimista ja niiden tavoitteista
+      • Seuraamme kehittämistoimien toteutusta ja arvioimme niiden vaikuttavuutta
+      • Keräämme näyttöjä vaikuttavasta kehittämisestä
+    </teksti>
+  </teksti>
+  <haitarilista>
+    <haitari>
+      <otsikko>Esedun kehittämissuunnitelma</otsikko>
+      <teksti>
+        Esedun kehittämissuunnitelman tarkoitus on linjata ne toimintojen kehittämisen painopisteet, jotka auttavat Etelä‐Savon ammattiopistoa vastaamaan omalla toimialueellaan niihin haasteisiin, joita julkisen talouden tehostamispaineet ja edessä oleva rakennemuutos edellyttävät
+      </teksti>
+    </haitari>
+    <haitari>
+      <otsikko>Hanketoiminta</otsikko>
+      <teksti>
+      Etelä-Savon ammattiopiston kehittämistyötä tuetaan monipuolisella hanketoiminnalla. Hanketyötä tekee päätoimisesti parikymmentä esedulaista ja lähes 100 opettajaa osallistuu kehittämistyöhön oman opetustyönsä ohessa.
+      Oppilaitoksen hankesalkku on noin 5,5 miljoonaa euroa. Salkussa on sekä EU-osarahoitteisia ja valtion rahoittamia hankkeita.
+      Hankkeiden keskeinen kehittämisen painopiste on oppilaitoksen strategiaa tukeva kehittämistyö. Oman kehittämistyön ohella olemme myös vahva aluekehittäjä – tuemme alueemme yritysten kehittymistä ja vahvistamme oppilaitoksen työelämäyhteistyötä sekä tuemme eteläsavolaisten yhteiskunnallista osallisuutta tarjoamalla kouluttautumis- ja työllistymismahdollisuuksia aikuisille, nuorille ja maahanmuuttajille.
+      </teksti>
+    </haitari>
+  </haitarilista>
+</sivu>
+<sivu>
+  <otsikko>Miten osoitamme oppilaitoksen laadukkuuden</otsikko>
+  <tekstit>
+    <teksti>
+      • Todennamme toimintamme tuloksellisuutta ja vaikuttavuutta arviointi-, palaute- ja tulostiedoin
+      • Teemme näkyväksi tuloksellisuuden ja vaikuttavuuden henkilöstöllemme opiskelijoillemme ja muille sidosryhmille
+      • Julkistamme keskeiset arviointi-, palaute- ja tulostietomme
+      • Osallistumme kansallisiin teema-arviointeihin sekä tuomme esiin niiden tulokset, esim.
+        o Karvin teema-arvioinnit, ammatilisen koulutuksen laatupalkintokilpailu, Excellence Finland-kilpailu ja Euroopan laatupalkintokilpailu
+        o Kansalliset ja kansainväliset ammattitaitokilpailut, kuten Taitaja-, Taitaja9 sekä WorldSkills
+      • Tuomme esiin hyviä käytäntöjä sekä kehittämistoimiemme tuloksellisuutta ja vaikuttavuutta
+    </teksti>
+  </tekstit>
+</sivu>
+<sivu>
+  <otsikko>Tuloksellisuus- ja vaikuttavuusmittarit</otsikko>
+  <tekstit>
+    <teksti>
+      • Kaikkea palveluntuotantoa, myös koulutuspalveluiden tuottamista tulee mitata
+      • Koulutuksen järjestäjä määrittää mitä tuloksellisuus- ja vaikuttavuusmittareita se käyttää
+      • Koulutuksen järjestäjät ovat lisäksi määrittäneet ja ottaneet käyttöön yhteisiä mittareita vertailutiedon saamiseksi ja vertailun mahdollistamiseksi
+      • OKM:n toimesta on määritelty tuloksellisuusrahoituksen mittarit ammatilliseen peruskoulutukseen ja ammatilliseen lisäkoulutukseen
+    </teksti>
+  </tekstit>
+  <haitarilista>
+    <haitari>
+      <otsikko>Mittarit, mittarin tavoitetaso ja mittariseloste</otsikko>
+      <teksti>
+        Mittari on
+          • väline jolla seurataan, miten tavoite toteutuu
+          • voi olla määrällinen tai laadullinen
+          • valitaan siten, että mittarin toteutumiseen on mahdollista vaikuttaa omalla toiminnalla
+          • on useimmiten segmentoitu, esim. taustamuuttujien kuten koulutusala, tutkinto, ryhmä tai ikäryhmä mukaan
+        Mittarin tavoitetaso
+          • Mittarille määritellään tavoitetaso, joka halutaan saavuttaa
+          • Tavoitetason on oltava haasteellinen, mutta realistinen
+      </teksti>
+    </haitari>
+    <haitari>
+      <otsikko>Tavoitteet ja niiden saavuttaminen</otsikko>
+      <teksti>
+        Tavoite on jotain, mihin pyritään. Tarvitaan monipuoliset ja eri näkökulmista asetetut tavoitteet.
+        Strategiset tavoitteet: Taustalla esim. kansalliset tavoitteet, toimintaympäristö, ennakointi ja oma palaute-, arviointi- ja tulostieto sekä vertailutieto.
+        Tavoitteet prosesseissa määritellään strategisten tavoitteiden pohjalta. Tavoitteet tuotteissa ja palveluissa ovat linjassa edellisten kanssa.
+        Tiimien ja/tai kunkin omat tavoitteet johdetaan edellisistä yleensä lukuvuodeksi kerrallaan.
+        Opiskelijan tavoitteet määritetään opiskelijan osaamisen ja tarpeiden mukaisesti yhdessä opiskelijan kanssa.
+      </teksti>
+    </haitari>
+    <sivu>
+      <otsikko>Tiedon keruu ja analysointi</otsikko>
+      <tekstit>
+        <teksti>
+          Koulutuksen järjestäjä määrittää:
+          • Mitä tietoa tarvitaan ja miksi
+          • kenen vastuulla tiedon keruu ja tarkistaminen on
+          • mihin tieto kerätään, esim. opiskelija-, henkilöstö- vai taloushallintajärjestelmiin vai tietovarastoon
+          • missä muodossa tieto tuotetaan
+          • milloin tieto tuotetaan
+          • kenelle tieto tuotetaan sisäisesti ja ulkoisesti ja mikä tieto julkaistaan
+          • miten tiedot segmentoidaan
+          • kuka analysoi tiedot
+        </teksti>
+      </tekstit>
+    </sivu>
+    <sivu>
+      <otsikko>Tiedon keruu ja analysointi</otsikko>
+      <tekstit>
+        <teksti>
+          Näyttöjä tuloksellisuudesta ja vaikuttavuudesta ovat esimerkiksi
+          • henkilöstöltä, opiskelijoilta ja sidosryhmiltä saatu palaute
+          • opiskelijoiden oppimistulokset
+          • läpäisy- ja keskeytystiedot
+          • opiskelijoiden sijoittuminen opintojen päätyttyä
+          • oppilaitoksen tulos tuloksellisuusrahoituksessa
+          • opiskelijoiden menestyminen erilaisissa ammattitaitoa ja osaamista osoittavissa kilpailuissa
+          • oppilaitoksen menestyminen erilaisissa teema-arvioinneissa ja laatupalkintokilpailussa
+        </teksti>
+      </tekstit>
     </sivu>
   </sivut>
  </root>
