@@ -33,8 +33,8 @@
       document.getElementsByTagName("title").innerHTML = "Laatu";
       console.log(document.getElementsByTagName("title"))
       var $teksti2 = $xml.find("teksti2");
-      console.log($teksti2);
-      document.getElementById("esimerkki").innerHTML = $teksti2;
+      var teksti3 = $teksti2.text();
+      document.getElementById("esimerkki").innerHTML = teksti3;
     }
 
     //haitari listat
@@ -321,7 +321,8 @@
           </form>
           </div>
         </div>
-        <div id="esimerkki" class="item">
+        <div class="item">
+          <img src="pics/TESTIYMPYRÄ.gif"/>
         </div>
         <div class="item">
         </div>
