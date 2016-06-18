@@ -79,10 +79,9 @@ box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
   width: 1000px;
   height: 550px;
   float:left;
-
   -webkit-box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
-box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
        }
 #carousel-custom .carousel-indicators{
          position: absolute;
@@ -179,6 +178,18 @@ border-top: 1px solid black;
 }
 #formi_nimi{
   margin: auto;
+}
+.teksti{
+  margin: 20px;
+  font-family: Corbel;
+  font-size: 20px;
+  color: grey;
+}
+.otsikko{
+  margin: 20px;
+  font-family: Corbel;
+  font-size: 35px;
+  color: orange;
 }
 
 /* dragrop */
