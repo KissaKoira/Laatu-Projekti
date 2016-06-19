@@ -14,7 +14,9 @@ box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
   width: 250px;
   margin: 0px 20px 0px 10px;
 }
-
+.item{
+  padding: 20px;
+}
 .indicators li{
   border: 1px solid #cccccc;
   background-color: #cccccc;
@@ -25,19 +27,16 @@ box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
 }
 .leftside{
   float: left;
-  width: 450px;
+  width: 475px;
   height: 450px;
-  margin-top: 15px;
-  margin-left: 40px;
   font-family: Corbel;
   color: grey;
+  overflow-y: auto;
 }
 .rightside{
-  width: 450px;
+  width: 475px;
   height: 450px;
   float:right;
-  margin-top: 15px;
-  margin-right: 40px;
   font-family: Corbel;
   color: grey;
 }
@@ -103,8 +102,8 @@ box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
 .carousel-indicators img {
            display: block;
            background-color:#acd29b;
-           width: 50px;
-           height:10px;
+           width: 29px;
+           height: 8px;
        }
 .carousel-indicators .active img{
          display: block;
@@ -180,16 +179,18 @@ border-top: 1px solid black;
   margin: auto;
 }
 .teksti{
-  margin: 20px;
   font-family: Corbel;
   font-size: 20px;
   color: grey;
 }
 .otsikko{
-  margin: 20px;
   font-family: Corbel;
   font-size: 35px;
   color: orange;
+}
+.accwrapper{
+  height: 290px;
+  width: 475px;
 }
 
 /* dragrop */

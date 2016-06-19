@@ -57,8 +57,8 @@
       <muut>
         <haitarilista>
           <haitari>
-            <otsikko>Esedun laadunhallintasuunnitelma</otsikko>
-            <teksti>
+            <otsikko id="hotsikko1">Esedun laadunhallintasuunnitelma</otsikko>
+            <teksti id="hteksti1">
               <![CDATA[
                 Esedun laadunhallintaa ohjaa säännöllisesti päivitettävä ja johtoryhmän hyväksymä laadunhallintasuunnitelma. Laadunhallintasuunnitelma <br>
                 * kuvaa laadunhallinnan periaatteet ja laadunhallinnan viitekehys (missä selitys mikä?) <br>
@@ -72,8 +72,8 @@
             </teksti>
           </haitari>
           <haitari>
-            <otsikko>Laatuympyrä – suunnittelu, toteutus, arviointi ja parantaminen</otsikko>
-            <teksti>
+            <otsikko id="hotsikko2">Laatuympyrä – suunnittelu, toteutus, arviointi ja parantaminen</otsikko>
+            <teksti id="hteksti2">
               <![CDATA[
                 Laatuympyröitä on useita, mutta periaate niissä kaikissa on sama. Ympyrän mukainen toiminta on keskeistä omassa, tiimien sekä koko organisaation toiminnassa, jotta laatu kehittyy. <br>
                 EQAVET-viitekehyksen laatuympyrä <br>
@@ -87,8 +87,8 @@
             </teksti>
           </haitari>
           <haitari>
-            <otsikko>Sidosryhmät ja kumppanit</otsikko>
-            <teksti>
+            <otsikko id="hotsikko3">Sidosryhmät ja kumppanit</otsikko>
+            <teksti id="hteksti3">
               <![CDATA[
                 Sidosryhmä tarkoittaa henkilöä, ryhmää tai organisaatiota, jolla on suora tai epäsuora sidos tai kiinnostus organisaatiota kohtaan, koska se voi joko vaikuttaa organisaatioon tai organisaatio voi vaikuttaa siihen. Ulkoisia sidosryhmiä ovat esim. omistajat, osakkaat, asiakkaat, toimittajat, kumppanit, valtionhallinto ja kunnat (EFQM Excellence –malli 2013) <br> <br>
 
@@ -104,8 +104,8 @@
              </teksti>
           </haitari>
           <haitari>
-            <otsikko>Toiminnan reunaehtoja</otsikko>
-            <teksti>
+            <otsikko id="hotsikko4">Toiminnan reunaehtoja</otsikko>
+            <teksti id="hteksti4">
               <![CDATA[
                 Ammatillisen koulutuksen järjestäjälle reunaehtoja asettavat kansalliset normit, suositukset ja ohjeet joita esim. ovat <br>
                 * ammatillisen koulutukset lait, asetukset ja päätökset toimintaan ja rahoitukseen liittyen <br>
@@ -278,7 +278,7 @@
               <![CDATA[
                 Opettajan työn kannalta tärkein suunnitelma on tutkinnon opetussuunnitelma. Opetussuunnitelman yhtenä tehtävänä on taata koulutuksen laadukkuus ja tasalaatuisuus, myös strategian painopistealueita tulisi näkyä opetussuunnitelmassa. Opetussuunnitelmien toteutumista seurataan Esedussa mm. johdon katselmuksissa. <br><br>
 
-                Opetussuunnitelman yhteisenä osana toimii pedagoginen ohjelma [linkki http://www.esedu.fi/pedagoginen/]. Pedagogisessa ohjelmassa kuvataan toimintaa ohjaavat periaatteet. Pedagogisen ohjelman liitteenä ovat: <br>
+                Opetussuunnitelman yhteisenä osana toimii <a href="http://www.esedu.fi/pedagoginen/">pedagoginen ohjelma</a>. Pedagogisessa ohjelmassa kuvataan toimintaa ohjaavat periaatteet. Pedagogisen ohjelman liitteenä ovat: <br>
                 * arviointisuunnitelma <br>
                 * asuntolasäännöt <br>
                 * erityisopetussuunnitelma <br>
@@ -444,7 +444,7 @@
         <teksti id="teksti10">
           <![CDATA[
             Nuorten koulutuksen opettaja: <br>
-            • Käy merkitsemässä Y-aseman opintopalautteen varauslistalle (y-asema à opiskelijapalautteet à varauslistat) lukuvuodelle kaksi palautteen ottoa. <br>
+            • Käy merkitsemässä Y-aseman opintopalautteen varauslistalle (y-asema > opiskelijapalautteet > varauslistat) lukuvuodelle kaksi palautteen ottoa. <br>
             • Mikäli olet ryhmänohjaaja muista tulo-, olo- ja päättökyselyt. Tulokysely toteutetaan loka-marraskuussa ja olokysely tammi-maaliskuussa. Laatukoordinaattori lähettää ryhmänohjaajille sähköpostia kun kysely on avattu. Päättökysely on auki syyskuusta alkaen koko vuoden. Muistathan huolehtia että jokainen valistuva opiskelija vastaa päättökyselyyn <br><br>
 
             Aikuiskoulutuksen opettaja: <br>

@@ -61,9 +61,14 @@
 
     //haitari listat
     $(function() {
+      var icons = {
+        header: "ui-icon-plus",
+        activeHeader: "ui-icon-minusthick"
+      };
       $( "#accordion" ).accordion({
         collapsible: true,
-        heightStyle: "content"
+        heightStyle: "fill",
+        icons: icons
       });
     });
 
@@ -512,52 +517,139 @@
           <p id="teksti1" class="teksti"></p>
         </div>
         <div class="item">
-          <p id="otsikko3" class="otsikko"></p>
-          <p id="teksti2" class="teksti"></p>
+          <div class="leftside">
+            <p id="otsikko3" class="otsikko"></p>
+            <p id="teksti2" class="teksti"></p>
+          </div>
+          <div class="rightside">
+            <div class="accwrapper">
+              <div id="accordion">
+                <h3 id="hotsikko1">Esedun laadunhallintasuunnitelma</h3>
+                <div>
+                  <p id="hteksti1">
+                    Esedun laadunhallintaa ohjaa säännöllisesti päivitettävä ja johtoryhmän hyväksymä laadunhallintasuunnitelma. Laadunhallintasuunnitelma<br>
+                    * kuvaa laadunhallinnan periaatteet ja laadunhallinnan viitekehys (missä selitys mikä?)<br>
+                    * kuvaa toimintajärjestelmämme<br>
+                    * kuvaa kuinka prosesseja arvioidaan ja parannetaan<br>
+                    * kuvaa laadunhallinnan työnjaon ja vastuut<br>
+                    * sisältää arviointisuunnitelman<br>
+                    * sisältää organisaatiotasoiset laadunhallinnan kehittämisen toimenpiteet seuraaville vuosille<br>
+                    Laadunhallintasuunnitelma löytyy Essin aarrearkusta Laadun sivustolta
+                  </p>
+                </div>
+                <h3 id="hotsikko2">Laatuympyrä – suunnittelu, toteutus, arviointi ja parantaminen</h3>
+                <div>
+                  <p id="hteksti2">
+                    Laatuympyröitä on useita, mutta periaate niissä kaikissa on sama. Ympyrän mukainen toiminta on keskeistä omassa, tiimien sekä koko organisaation toiminnassa, jotta laatu kehittyy. <br>
+                    EQAVET-viitekehyksen laatuympyrä <br>
+                    * On ammatillisen koulutuksen eurooppalaisen viitekehyksen sisältyvä laatuympyrä, jonka vaiheet ovat suunnittelu, toteutus, arviointi ja parantaminen <br>
+                    PDCA-sykli eli Demingin laatuympyrä <br>
+                    * Perustuu ympyrää, jota kierretään ja jonka vaiheet ovat: suunnittele, toteuta, tarkista ja korjaa <br>
+                    * kehittäminen nähdään jatkuvana prosessina, jossa jokaisen ympyrän kierroksen jälkeen ollaan lähempänä tavoitetta tai tavoitteita <br>
+                    TUTKA- tai Radar-logiikka <br>
+                    * EFQM-malliin sisältyvä ympyrä, jonka vaiheet ovat: määrittele tavoiteltavat tulokset (results), suunnittele ja kehitä toimintamallit ja –tavat (approaches), toteuta toimintamalleja ja –tapoja (deploy), mittaa, arvioi ja paranna toimintamalleja ja –tapoja sekä niiden toteutusta (assess and refine)
+                  </p>
+                </div>
+                <h3 id="hotsikko3">Sidosryhmät ja kumppanit</h3>
+                <div>
+                  <p id="hteksti3">
+                    Sidosryhmä tarkoittaa henkilöä, ryhmää tai organisaatiota, jolla on suora tai epäsuora sidos tai kiinnostus organisaatiota kohtaan, koska se voi joko vaikuttaa organisaatioon tai organisaatio voi vaikuttaa siihen. Ulkoisia sidosryhmiä ovat esim. omistajat, osakkaat, asiakkaat, toimittajat, kumppanit, valtionhallinto ja kunnat (EFQM Excellence –malli 2013) <br> <br>
+
+                    Esedun kumppanit ja sidosryhmät on määritelty ja kokonaisuutta päivitetään säännöllisesti strategiaprosessin yhteydessä. Esedun asiakas, kumppani- ja sidosryhmätasot ovat: <br>
+                    * Opetustoimen viranomaiset, omistajat, järjestöt ja toimikunnat <br>
+                    * Hankeverkostot ja projektiorganisaatiot <br>
+                    * Kv-toiminnan kumppanit <br>
+                    * Rahoittajat <br>
+                    * Koulutuksen toteutuksen yhteistyökumppanit <br>
+                    * Koulutusmyynnin asiakkaat <br>
+                  </p>
+                </div>
+                <h3 id="hotsikko4">Toiminnan reunaehtoja</h3>
+                <div>
+                  <p id="hteksti4">
+                    Ammatillisen koulutuksen järjestäjälle reunaehtoja asettavat kansalliset normit, suositukset ja ohjeet joita esim. ovat <br>
+                    * ammatillisen koulutukset lait, asetukset ja päätökset toimintaan ja rahoitukseen liittyen <br>
+                    * ammatillisen koulutuksen järjestämisluvat koulutuksen järjestämistä varten <br>
+                    * tutkinnon perusteet
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <div class="item">
-          <p id="otsikko4" class="otsikko"></p>
-          <p id="teksti3" class="teksti"></p>
+          <div class="leftside">
+            <p id="otsikko4" class="otsikko"></p>
+            <p id="teksti3" class="teksti"></p>
+          </div>
+          <div class="rightside">
+          </div>
         </div>
         <div class="item">
           <p id="otsikko5" class="otsikko"></p>
           <p id="teksti4" class="teksti"></p>
         </div>
         <div class="item">
-          <p id="otsikko6" class="otsikko"></p>
-          <p id="teksti5" class="teksti"></p>
+          <div class="leftside">
+            <p id="otsikko6" class="otsikko"></p>
+            <p id="teksti5" class="teksti"></p>
+          </div>
+          <div class="rightside">
+          </div>
         </div>
         <div class="item">
-          <p id="otsikko7" class="otsikko"></p>
-          <p id="teksti6" class="teksti"></p>
+          <div class="leftside">
+            <p id="otsikko7" class="otsikko"></p>
+            <p id="teksti6" class="teksti"></p>
+          </div>
+          <div class="rightside">
+          </div>
         </div>
         <div class="item">
           <p id="otsikko8" class="otsikko"></p>
           <p id="teksti7" class="teksti"></p>
         </div>
         <div class="item">
-          <p id="otsikko9" class="otsikko"></p>
-          <p id="teksti8" class="teksti"></p>
+          <div class="leftside">
+            <p id="otsikko9" class="otsikko"></p>
+            <p id="teksti8" class="teksti"></p>
+          </div>
+          <div class="rightside">
+          </div>
         </div>
         <div class="item">
-          <p id="otsikko10" class="otsikko"></p>
-          <p id="teksti9" class="teksti"></p>
+          <div class="leftside">
+            <p id="otsikko10" class="otsikko"></p>
+            <p id="teksti9" class="teksti"></p>
+          </div>
+          <div class="rightside">
+          </div>
         </div>
         <div class="item">
-          <p id="otsikko11" class="otsikko"></p>
-          <p id="teksti10" class="teksti"></p>
+          <div style="width: 975px; height: 480px; overflow-y: auto;">
+            <p id="otsikko11" class="otsikko"></p>
+            <p id="teksti10" class="teksti"></p>
+          </div>
         </div>
         <div class="item">
-          <p id="otsikko12" class="otsikko"></p>
-          <p id="teksti11" class="teksti"></p>
+          <div class="leftside">
+            <p id="otsikko12" class="otsikko"></p>
+            <p id="teksti11" class="teksti"></p>
+          </div>
+          <div class="rightside">
+          </div>
         </div>
         <div class="item">
           <p id="otsikko13" class="otsikko"></p>
           <p id="teksti12" class="teksti"></p>
         </div>
         <div class="item">
-          <p id="otsikko14" class="otsikko"></p>
-          <p id="teksti13" class="teksti"></p>
+          <div class="leftside">
+            <p id="otsikko14" class="otsikko"></p>
+            <p id="teksti13" class="teksti"></p>
+          </div>
+          <div class="rightside">
+          </div>
         </div>
         <div class="item">
           <p id="otsikko15" class="otsikko"></p>
