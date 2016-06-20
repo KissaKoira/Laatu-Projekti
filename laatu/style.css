@@ -1,3 +1,24 @@
+/* tekstit */
+.teksti{
+  font-family: Corbel;
+  font-size: 20px;
+  color: grey;
+}
+.otsikko{
+  font-family: Corbel;
+  font-size: 35px;
+  color: orange;
+}
+
+/* sivun wrapper */
+#wrapper{
+  width: 1422px;
+  height: 662px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+/* header */
 .header{
   height: 110px;
   width:1000px;
@@ -6,24 +27,42 @@
   padding-top: 10px;
   float:left;
   -webkit-box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
-box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
 }
-
 .header img{
   width: 250px;
   margin: 0px 20px 0px 10px;
 }
+#header_text1,
+#header_text1:hover{
+  font-size: 30px;
+  color: white;
+  text-decoration: none;
+}
+#header_text2,
+#header_text2:hover{
+  font-size: 30px;
+  color: white;
+  font-style: italic;
+  text-decoration: none;
+}
+
+/* karuselli */
+#carousel-custom{
+  width: 1000px;
+  height: 550px;
+  float:left;
+  -webkit-box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
+}
+#carousel-custom .carousel-outer {
+  position: relative;
+  float:left;
+}
 .item{
   padding: 20px;
-}
-.indicators li{
-  border: 1px solid #cccccc;
-  background-color: #cccccc;
-}
-.carousel-control.left, .carousel-control.right {
-    background-image: none;
-    top: 88%
 }
 .leftside{
   float: left;
@@ -31,6 +70,7 @@ box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
   height: 450px;
   font-family: Corbel;
   color: grey;
+  font-size: 20px;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -40,6 +80,7 @@ box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
   float:right;
   font-family: Corbel;
   color: grey;
+  font-size: 20px;
   overflow-y: auto;
   overflow-x: hidden;
 }
@@ -49,83 +90,55 @@ box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
   margin: auto;
   display: block;
 }
-.glyphicon-chevron-left{
-  color: green;
-}
 
-.glyphicon-chevron-right {
-  color: green;
-
-}
-#header_text1{
-  font-size: 30px;
-  color: white;
-}
-#header_text1:hover{
-  font-size: 30px;
-  color: white;
-  text-decoration: none;
-}
-#header_text2{
-  font-size: 30px;
-  color: white;
-  font-style: italic;
-}
-#header_text2:hover{
-  font-size: 30px;
-  color: white;
-  font-style: italic;
-  text-decoration: none;
-}
-#carousel-custom{
-  width: 1000px;
-  height: 550px;
-  float:left;
-  -webkit-box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
-  box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
-       }
+/* karusellin indikaattorit */
 #carousel-custom .carousel-indicators{
-         position: absolute;
-         bottom: 0px;
-         left: 50%;
-         z-index: 15;
-         width: 60%;
-         margin-left: -30%;
-         text-align: center;
-         list-style: none;
-       }
-#carousel-custom .carousel-indicators li {
-           background-color: transparent;
-           display: inline-block;
-           height: auto;
-           margin: 0 !important;
-           width: auto;
-       }
-.carousel-indicators img {
-           display: block;
-           background-color:#acd29b;
-           width: 28px;
-           height: 8px;
-       }
-.carousel-indicators .active img{
-         display: block;
-         background-color:#f08218;
-       }
-#carousel-custom .carousel-outer {
-           position: relative;
-           float:left;
-       }
-#wrapper{
-  width: 1422px;
-  height: 662px;
-  margin: auto;
-  margin-top: 100px;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
 }
+#carousel-custom .carousel-indicators li {
+  background-color: transparent;
+  display: inline-block;
+  height: auto;
+  margin: 0 !important;
+  width: auto;
+}
+.carousel-indicators img {
+  display: block;
+  background-color:#acd29b;
+  width: 28px;
+  height: 8px;
+}
+.carousel-indicators .active img{
+  display: block;
+  background-color:#f08218;
+}
+.indicators li{
+  border: 1px solid #cccccc;
+  background-color: #cccccc;
+}
+
+/* karusellin controllit */
+.carousel-control.left, .carousel-control.right {
+  background-image: none;
+  top: 88%
+}
+.glyphicon-chevron-left,
+.glyphicon-chevron-right{
+  color: green;
+}
+
+/* navbar */
 #navbaar{
   height: 660px;
   width: 400px;
-  float:left;
+  float: left;
   margin: 40px 20px 0px 0px;
   font-family: Corbel;
   color: grey;
@@ -136,6 +149,15 @@ box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
   color: grey;
   font-size: 30px;
 }
+#navbaar .inactive,
+#navbaar .active{
+  height: 40px;
+  width: 370px;
+  padding-left: 10px;
+}
+#navbaar .active{
+  background-color: #acd29b;
+}
 #navlist{
   height: 550px;
   width: 400px;
@@ -143,25 +165,15 @@ box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
   overflow-y: auto;
   overflow-x: hidden;
 }
-#navbaar .inactive{
-  height: 40px;
-  width: 370px;
-  padding-left: 10px;
-}
-#navbaar .active{
-  height: 40px;
-  width: 370px;
-  padding-left: 10px;
-  background-color: #acd29b;
-}
+
+ /* totta vai tarua tehtävät */
 #vastauswrapper{
   width: 452px;
-border-top: 1px solid black;
+  border-top: 1px solid black;
   float: left;
-    margin-top: 20px;
-    padding: 5px;
+  margin-top: 20px;
+  padding: 5px;
 }
-
 #vastaus{
   width: 80px;
   height: 25px;
@@ -182,19 +194,19 @@ border-top: 1px solid black;
 #formi_nimi{
   margin: auto;
 }
-.teksti{
-  font-family: Corbel;
-  font-size: 20px;
-  color: grey;
-}
-.otsikko{
-  font-family: Corbel;
-  font-size: 35px;
-  color: orange;
-}
+
+/* haitarilistat */
 .accwrapper{
   height: 290px;
   width: 475px;
+}
+
+/* taulukot */
+.tableborder,
+.tableborder tr,
+.tableborder td{
+  border: 1px solid grey;
+  padding: 5px;
 }
 
 /* dragrop */
@@ -206,7 +218,6 @@ border-top: 1px solid black;
   border-radius: 5px;
   background-color: #9fdf9f;
   float: left;
-
 }
 .droppable{
   width: 200px;

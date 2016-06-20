@@ -601,6 +601,20 @@
             <p id="teksti3" class="teksti"></p>
           </div>
           <div class="rightside">
+            Esedun strategiassa on määritelty strategiset mittarit ja tavoitetulokset em. mittareille <br>
+            Henkilöstön kannalta tärkeimmät strategiset mittarit ovat: <br>
+            <table class="tableborder">
+              <tr><td>Mittari</td><td>Tavoite</td></tr>
+              <tr><td>Tutkintojen läpäisy </td><td> 80% </td></tr>
+              <tr><td>Valmistuneiden opiskelijoiden työllistyminen </td><td> 70% </td></tr>
+              <tr><td>Valmistuneiden opiskelijoiden jatko-opintoihin siirtyminen </td><td> 15% </td></tr>
+              <tr><td>Vetovoima (hakijat/aloituspaikat) </td><td> 1,2 </td></tr>
+              <tr><td>Opiskelijatyytyväisyys, nuoret </td><td> 4,0 </td></tr>
+              <tr><td>Opiskelijatyytyväisyys, aikuiset </td><td> 4,0 </td></tr>
+              <tr><td>Verkko-opintojen määrä koulutuksessa </td><td> 10% </td></tr>
+              <tr><td>Opetushenkilöstön pedagoginen pätevyys </td><td> 85% </td></tr>
+              <tr><td>Työolobarometrin tulos </td> <td> 4,0 </td></tr>
+            </table>
           </div>
         </div>
         <div class="item">
