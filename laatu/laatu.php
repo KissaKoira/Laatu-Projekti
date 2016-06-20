@@ -394,16 +394,34 @@
     var block3 = document.getElementById("block3");
     $(block3).data("target", 2);
     var block4 = document.getElementById("block4");
-    $(block4).data("target", 1);
+    $(block4).data("target", 2);
     var block5 = document.getElementById("block5");
     $(block5).data("target", 2);
     var block6 = document.getElementById("block6");
     $(block6).data("target", 2);
+    var block7 = document.getElementById("block7");
+    $(block7).data("target", 3);
+    var block8 = document.getElementById("block8");
+    $(block8).data("target", 3);
+    var block9 = document.getElementById("block9");
+    $(block9).data("target", 3);
+    var block10 = document.getElementById("block10");
+    $(block10).data("target", 3);
+    var block11 = document.getElementById("block11");
+    $(block11).data("target", 4);
+    var block12 = document.getElementById("block12");
+    $(block12).data("target", 4);
+    var block13 = document.getElementById("block13");
+    $(block13).data("target", 4);
 
     var goal1 = document.getElementById("goal1");
     $(goal1).data("id", 1);
     var goal2 = document.getElementById("goal2");
     $(goal2).data("id", 2);
+    var goal3 = document.getElementById("goal3");
+    $(goal3).data("id", 3);
+    var goal4 = document.getElementById("goal4");
+    $(goal4).data("id", 4);
 
     $( ".draggable" ).draggable({
       revert: "invalid",
@@ -588,6 +606,27 @@
         <div class="item">
           <p id="otsikko5" class="otsikko"></p>
           <p id="teksti4" class="teksti"></p>
+          <div id="blocks">
+            <div id="block6" class="draggable">Henkilöstösuunnitelma</div>
+            <div id="block13" class="draggable">Oppimistulokset</div>
+            <div id="block1" class="draggable">Työvoimapoliittisen koulutuksen raportointi</div>
+            <div id="block5" class="draggable">Opetussuunnitelma</div>
+            <div id="block12" class="draggable">Asiakastulokset</div>
+            <div id="block7" class="draggable">Opetus</div>
+            <div id="block3" class="draggable">Hanketoiminta</div>
+            <div id="block4" class="draggable">HEKS-keskustelut</div>
+            <div id="block9" class="draggable">Työssäoppiminen</div>
+            <div id="block11" class="draggable">Opiskelijapalautteet</div>
+            <div id="block2" class="draggable">Oman työn kehittäminen</div>
+            <div id="block10" class="draggable">Näyttötutkinto</div>
+            <div id="block8" class="draggable">Ohjaus</div>
+          </div>
+          <div id="goals">
+            <div id="goal1" class="droppable">Suunnittelu</div>
+            <div id="goal2" class="droppable">Toteutus</div>
+            <div id="goal3" class="droppable">Arviointi</div>
+            <div id="goal4" class="droppable">Parantaminen</div>
+          </div>
         </div>
         <div class="item">
           <div class="leftside">
@@ -606,8 +645,50 @@
           </div>
         </div>
         <div class="item">
-          <p id="otsikko8" class="otsikko"></p>
-          <p id="teksti7" class="teksti"></p>
+          <div class="leftside">
+            <p id="otsikko8" class="otsikko"></p>
+            <p id="teksti7" class="teksti"></p>
+          </div>
+          <div class="rightside">
+            <form method="post" action="send.php">
+              <h2> Totta vai Tarua? </h2>
+              <div id="vastauswrapper">
+                <p id="vastaus1">Totta</p>
+                <p id="vastaus1">Tarua</p>
+              </div>
+                <div id="vastauswrapper">
+                <p id="kysymys">Aikaisemman osaamisen tunnistamisen ja tunnustamisen prosessikuvauksen mukaan ohjauskeskustelun käyminen on opiskelijan vastuulla</p>
+                <fieldset id="group1">
+                <input id="vastaus" type="radio" name="group1">
+                <input id="vastaus" type="radio" name="group1"> <br></fieldset>
+              </div>
+              <div id="vastauswrapper">
+                <p id="kysymys">Aikuiskoulutushaussa vastuuopettaja ja opintosihteeri vastaavat yhdessä mahdollisten hakijoiden informoinnista ja ohjaamisesta</p>
+                <fieldset id="group2">
+                <input id="vastaus" type="radio" name="group2">
+                <input id="vastaus" type="radio" name="group2"> <br></fieldset>
+              </div>
+              <div id="vastauswrapper">
+                <p id="kysymys">Opettajan vastuulla on ohjata opiskelijat vastaamaan opiskelijapalautekyselyihin (nuorten tulo-, olo- ja päättökyselyt, aikuiskoulutus OPAL ja AIPAL sekä kummankin koulutusmuodon opettajan henkilökohtainen palaute)</p>
+                <fieldset id="group3">
+                <input id="vastaus" type="radio" name="group3">
+                <input id="vastaus" type="radio" name="group3"> <br></fieldset>
+              </div>
+              <div id="vastauswrapper">
+                <p id="kysymys">Opiskelija tunnistaa olemassa olevan osaamisen</p>
+                <fieldset id="group4">
+                <input id="vastaus" type="radio"  name="group4">
+                <input id="vastaus" type="radio"  name="group4"> <br></fieldset>
+              </div>
+              <div id="vastauswrapper">
+                <p id="kysymys">Oppisopimuskoordinaattori ja vastuuopettaja vastaavat yhdessä oppisopimuskoulutuksen tietopuolisen koulutuksen suunnittelusta</p>
+                <fieldset id="group4">
+                <input id="vastaus" type="radio"  name="group4">
+                <input id="vastaus" type="radio"  name="group4"> <br></fieldset>
+              </div>
+              <input type="submit" name="Lähetä">
+            </form>
+          </div>
         </div>
         <div class="item">
           <div class="leftside">

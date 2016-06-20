@@ -32,6 +32,7 @@ box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
   font-family: Corbel;
   color: grey;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 .rightside{
   width: 475px;
@@ -39,6 +40,8 @@ box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
   float:right;
   font-family: Corbel;
   color: grey;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .rightside img{
   height: 450px;
@@ -102,7 +105,7 @@ box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
 .carousel-indicators img {
            display: block;
            background-color:#acd29b;
-           width: 29px;
+           width: 28px;
            height: 8px;
        }
 .carousel-indicators .active img{
@@ -137,7 +140,8 @@ box-shadow: 0px 3px 22px -1px rgba(0,0,0,0.75);
   height: 550px;
   width: 400px;
   padding: 10px;
-  overflow-y: scroll;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 #navbaar .inactive{
   height: 40px;
@@ -195,24 +199,35 @@ border-top: 1px solid black;
 
 /* dragrop */
 .draggable{
-  width: 50px;
+  width: 100px;
   height: 50px;
-  border: 1px solid black;
+  margin: 0px 10px 10px 0px;
+  border: 5px solid #66cc66;
+  border-radius: 5px;
+  background-color: #9fdf9f;
   float: left;
-}
 
+}
 .droppable{
-  width: 220px;
+  width: 200px;
   height: 200px;
-  border: 1px solid black;
+  margin-right: 10px;
+  border: 5px solid #66cc66;
+  border-radius: 10px;
+  background-color: #9fdf9f;
   float: left;
-  margin-top: 200px;
 }
-
+#blocks{
+  width: 771px;
+  height: 121px;
+}
+#goals{
+  width: 841px;
+  height: 201px;
+}
 .droppedright{
   background-color: #4dff4d;
 }
-
 .droppedwrong{
   background-color: #ff6666;
 }
