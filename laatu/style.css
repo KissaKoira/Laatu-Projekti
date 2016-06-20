@@ -167,30 +167,39 @@
 }
 
  /* totta vai tarua tehtävät */
-#vastauswrapper{
-  width: 452px;
-  border-top: 1px solid black;
-  float: left;
-  margin-top: 20px;
-  padding: 5px;
-}
-#vastaus{
-  width: 80px;
-  height: 25px;
-  float:right;
-  margin-bottom: 7px;
-}
-#vastaus1{
-  width: 75px;
-  height: 25px;
-  float: right;
-  margin-bottom: 7px;
-}
-#kysymys{
-  width: 150px;
-  height: 25px;
-  float: left;
-}
+ #vastauswrapper{
+   width: 475px;
+   height: 310px;
+   padding: 5px;
+   overflow-y: auto;
+ }
+ #group{
+   display: block;
+   width: 120px;
+   float: left;
+   margin-left: 10px;
+   margin-top: 20px;
+ }
+ #radionappi{
+   margin-bottom: 7px;
+   width:35px;
+   height: 20px;
+   margin-left: 15px;
+
+ }
+ #tottatarua{
+   height: 25px;
+   width:25px;
+   float: right;
+   margin-bottom: 7px;
+   margin-right: 50px;
+ }
+ #kysymys{
+   width:300px;
+   float: left;
+   display: block;
+   margin-top: 20px;
+ }
 #formi_nimi{
   margin: auto;
 }
@@ -208,8 +217,15 @@
   border: 1px solid grey;
   padding: 5px;
 }
+.tableborderform,
+.tableborderform tr,
+.tableborderform td{
+  border-top: 1px solid grey;
+  padding: 5px;
+}
 
 /* dragrop */
+
 .draggable{
   width: 100px;
   height: 50px;

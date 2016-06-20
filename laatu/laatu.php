@@ -527,7 +527,7 @@
             </div>
           </div>
           <div class="rightside">
-            <img src="pics/ukko4.png"/>
+            <img src="pics/Ukko4.png"/>
           </div>
         </div>
         <div class="item">
@@ -660,58 +660,79 @@
         </div>
         <div class="item">
           <div class="leftside">
-            <p id="otsikko8" class="otsikko"></p>
-            <p id="teksti7" class="teksti"></p>
-          </div>
-          <div class="rightside">
-            <form method="post" action="send.php">
-              <h2> Totta vai Tarua? </h2>
-              <div id="vastauswrapper">
-                <p id="vastaus1">Totta</p>
-                <p id="vastaus1">Tarua</p>
-              </div>
-                <div id="vastauswrapper">
-                <p id="kysymys">Aikaisemman osaamisen tunnistamisen ja tunnustamisen prosessikuvauksen mukaan ohjauskeskustelun käyminen on opiskelijan vastuulla</p>
-                <fieldset id="group1">
-                <input id="vastaus" type="radio" name="group1">
-                <input id="vastaus" type="radio" name="group1"> <br></fieldset>
-              </div>
-              <div id="vastauswrapper">
-                <p id="kysymys">Aikuiskoulutushaussa vastuuopettaja ja opintosihteeri vastaavat yhdessä mahdollisten hakijoiden informoinnista ja ohjaamisesta</p>
-                <fieldset id="group2">
-                <input id="vastaus" type="radio" name="group2">
-                <input id="vastaus" type="radio" name="group2"> <br></fieldset>
-              </div>
-              <div id="vastauswrapper">
-                <p id="kysymys">Opettajan vastuulla on ohjata opiskelijat vastaamaan opiskelijapalautekyselyihin (nuorten tulo-, olo- ja päättökyselyt, aikuiskoulutus OPAL ja AIPAL sekä kummankin koulutusmuodon opettajan henkilökohtainen palaute)</p>
-                <fieldset id="group3">
-                <input id="vastaus" type="radio" name="group3">
-                <input id="vastaus" type="radio" name="group3"> <br></fieldset>
-              </div>
-              <div id="vastauswrapper">
-                <p id="kysymys">Opiskelija tunnistaa olemassa olevan osaamisen</p>
-                <fieldset id="group4">
-                <input id="vastaus" type="radio"  name="group4">
-                <input id="vastaus" type="radio"  name="group4"> <br></fieldset>
-              </div>
-              <div id="vastauswrapper">
-                <p id="kysymys">Oppisopimuskoordinaattori ja vastuuopettaja vastaavat yhdessä oppisopimuskoulutuksen tietopuolisen koulutuksen suunnittelusta</p>
-                <fieldset id="group4">
-                <input id="vastaus" type="radio"  name="group4">
-                <input id="vastaus" type="radio"  name="group4"> <br></fieldset>
-              </div>
-              <input type="submit" name="Lähetä">
-            </form>
-          </div>
-        </div>
-        <div class="item">
-          <div class="leftside">
-            <p id="otsikko9" class="otsikko"></p>
-            <p id="teksti8" class="teksti"></p>
-          </div>
-          <div class="rightside">
-          </div>
-        </div>
+                      <p id="otsikko8" class="otsikko"></p>
+                      <p id="teksti7" class="teksti"></p>
+                    </div>
+                    <div class="rightside" style="overflow-y: hidden;">
+                      <h2> Totta vai Tarua? </h2>
+                      <p id="tottatarua">Totta</p>
+                      <p id="tottatarua">Tarua</p>
+                      <div id="vastauswrapper">
+                        <table class="tableborderform">
+                        <form method="post" action="send.php">
+                          <tr>
+                            <td>
+                              <p id="kysymys">Aikaisemman osaamisen tunnistamisen ja tunnustamisen prosessikuvauksen mukaan ohjauskeskustelun käyminen on opiskelijan vastuulla</p>
+                              <fieldset id="group">
+                                  <input id="radionappi" type="radio" name="group1">
+                                  <input id="radionappi" type="radio" name="group1"> <br>
+                              </fieldset>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p id="kysymys">Aikuiskoulutushaussa vastuuopettaja ja opintosihteeri vastaavat yhdessä mahdollisten hakijoiden informoinnista ja ohjaamisesta</p>
+                              <fieldset id="group">
+                                <input id="radionappi" type="radio" name="group2">
+                                <input id="radionappi" type="radio" name="group2"> <br>
+                              </fieldset>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <p id="kysymys">Opettajan vastuulla on ohjata opiskelijat vastaamaan opiskelijapalautekyselyihin (nuorten tulo-, olo- ja päättökyselyt, aikuiskoulutus OPAL ja AIPAL sekä kummankin koulutusmuodon opettajan henkilökohtainen palaute)</p>
+                              <fieldset id="group">
+                                <input id="radionappi" type="radio" name="group3">
+                                <input id="radionappi" type="radio" name="group3"> <br>
+                              </fieldset>
+                            </td>
+                          </tr>
+                        <tr>
+                          <td>
+                            <p id="kysymys">Opiskelija tunnistaa olemassa olevan osaamisen</p>
+                            <fieldset id="group">
+                              <input id="radionappi" type="radio"  name="group4">
+                              <input id="radionappi" type="radio"  name="group4"> <br>
+                            </fieldset>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <p id="kysymys">Oppisopimuskoordinaattori ja vastuuopettaja vastaavat yhdessä oppisopimuskoulutuksen tietopuolisen koulutuksen suunnittelusta</p>
+                            <fieldset id="group">
+                              <input id="radionappi" type="radio"  name="group4">
+                              <input id="radionappi" type="radio"  name="group4"> <br>
+                            </fieldset>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                        <input type="submit" name="Lähetä">
+                      </td>
+                    </tr>
+                      </form>
+                    </table>
+                    </div>
+                  </div>
+                </div>
+                  <div class="item">
+                    <div class="leftside">
+                      <p id="otsikko9" class="otsikko"></p>
+                      <p id="teksti8" class="teksti"></p>
+                    </div>
+                    <div class="rightside">
+                    </div>
+                  </div>
         <div class="item">
           <div class="leftside">
             <p id="otsikko10" class="otsikko"></p>

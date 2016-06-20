@@ -1,4 +1,4 @@
 AuthType Basic
 AuthName "My Protected Area"
-AuthUserFile C:/xampp/htdocs/laatu/controlpanel/.htpasswd
+AuthUserFile /www/laatu/controlpanel/.htpasswd
 Require valid-user
