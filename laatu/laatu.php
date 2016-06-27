@@ -1,3 +1,10 @@
+<?php
+   // starting the session
+   session_start();
+   if (isset($_POST['Submit'])) {
+   $_SESSION['firstname'] = $_POST['firstname'];
+   }
+?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -511,10 +518,10 @@
             <?php
               $lista = simplexml_load_file('esimiehet.xml');
               echo "<h1>$lista->nimi</h1>";
-              echo '<form action="action_page.php">
+              echo '<form method="post">
               Nimi:<br>
               <div id="formi_nimi">
-                <input type="text" name="firstname"><br>
+                <input type="text" name="firstname" id="nimi"><br>
                 <select name="esimiehet">
                   <option value="Tyhja"> - </option>';
               foreach ($lista->esimiehet->children() as $asia) {
@@ -522,8 +529,9 @@
               };
             ?>
                 </select>
-                <input type="submit">
+                <input type="submit" name="Submit" value="Submit!" />
               </form>
+
             </div>
           </div>
           <div class="rightside">
@@ -669,7 +677,7 @@
                       <p id="tottatarua">Tarua</p>
                       <div id="vastauswrapper">
                         <table class="tableborderform">
-                        <form method="post" action="send.php">
+                        <form method="post">
                           <tr>
                             <td>
                               <p id="kysymys">Aikaisemman osaamisen tunnistamisen ja tunnustamisen prosessikuvauksen mukaan ohjauskeskustelun käyminen on opiskelijan vastuulla</p>

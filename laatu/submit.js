@@ -5,10 +5,9 @@ function submitdata() {
   var kysymys3 = document.querySelector('input[name="kysymys3"]:checked').value;
   var kysymys4 = document.querySelector('input[name="kysymys4"]:checked').value;
   var kysymys5 = document.querySelector('input[name="kysymys5"]:checked').value;
-  alert(kysymys1)
 
   // Returns successful data submission message when the entered information is stored in database.
-  var dataString = 'kysymys1=' + kysymys1 + 'kysymys2=' + kysymys2 + 'kysymys3=' + kysymys3 + 'kysymys4=' + kysymys4 + 'kysymys5=' + kysymys5;
+  var dataString = 'kysymys1=' + kysymys1 + '&kysymys2=' + kysymys2 + '&kysymys3=' + kysymys3 + '&kysymys4=' + kysymys4 + '&kysymys5=' + kysymys5;
       if (kysymys1 == '' || kysymys2 == '' || kysymys3 == '' || kysymys4 == '' || kysymys5 == '') {
       alert("Please Fill All Fields");
       }

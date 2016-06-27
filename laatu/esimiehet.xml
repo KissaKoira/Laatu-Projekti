@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <lista>
-  <nimi>Vastaukset</nimi>
-  <vastaukset>
-    <vastaus>Onni Heinonen</vastaus>
-    <vastaus>Riku Hänninen</vastaus>
-    <vastaus>Taruakysymys2=Tottakysymys3=Taruakysymys4=Tottakysymys5=Tarua</vastaus>
-  </vastaukset>
+  <nimi>Esimies ja Nimi</nimi>
+  <esimiehet>
+    <esimies>Onni Heinonen</esimies>
+    <esimies>Riku Hänninen</esimies>
+    <esimies>Tarua</esimies>
+  </esimiehet>
 </lista>
