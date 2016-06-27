@@ -9,6 +9,7 @@
 <body>
 <?php
 $lista = simplexml_load_file('C:/xampp/htdocs/laatu/esimiehet.xml');
+$lista1 = simplexml_load_file('C:/xampp/htdocs/laatu/vastaukset.xml');
 echo "<h1>$lista->nimi</h1>";
 
 $n = 0;
@@ -23,11 +24,19 @@ foreach ($lista->esimiehet->children() as $asia) {
 }
 echo '</ul>';
 ?>
+
 <form method="get" action="lisaaTuote.php">
   <input type="text" name="esimies" placeholder="lisää tuote" />
   <input type="submit" value="Lisää" />
 </form>
+<?php
+foreach ($lista1->vastaukset->children() as $asia1) {
 
+  // tarkistetaan onko tuotteella otettu="on" -atribuutti
+
+  echo "<ul>".$asia1."</ul>";
+}
+?>
 
 </body>
 </html>

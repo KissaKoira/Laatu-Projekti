@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-
+  <script src="submit.js"></script>
   <!-- lisätyt linkit -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
@@ -674,8 +674,8 @@
                             <td>
                               <p id="kysymys">Aikaisemman osaamisen tunnistamisen ja tunnustamisen prosessikuvauksen mukaan ohjauskeskustelun käyminen on opiskelijan vastuulla</p>
                               <fieldset id="group">
-                                  <input id="radionappi" type="radio" name="group1">
-                                  <input id="radionappi" type="radio" name="group1"> <br>
+                                  <input id="radionappi" type="radio" name="kysymys1" value="Tarua">
+                                  <input id="radionappi" type="radio" name="kysymys1" value="Totta"> <br>
                               </fieldset>
                             </td>
                           </tr>
@@ -683,8 +683,8 @@
                             <td>
                               <p id="kysymys">Aikuiskoulutushaussa vastuuopettaja ja opintosihteeri vastaavat yhdessä mahdollisten hakijoiden informoinnista ja ohjaamisesta</p>
                               <fieldset id="group">
-                                <input id="radionappi" type="radio" name="group2">
-                                <input id="radionappi" type="radio" name="group2"> <br>
+                                <input id="radionappi" type="radio" name="kysymys2" value="Tarua">
+                                <input id="radionappi" type="radio" name="kysymys2" value="Totta"> <br>
                               </fieldset>
                             </td>
                           </tr>
@@ -692,8 +692,8 @@
                             <td>
                               <p id="kysymys">Opettajan vastuulla on ohjata opiskelijat vastaamaan opiskelijapalautekyselyihin (nuorten tulo-, olo- ja päättökyselyt, aikuiskoulutus OPAL ja AIPAL sekä kummankin koulutusmuodon opettajan henkilökohtainen palaute)</p>
                               <fieldset id="group">
-                                <input id="radionappi" type="radio" name="group3">
-                                <input id="radionappi" type="radio" name="group3"> <br>
+                                <input id="radionappi" type="radio" name="kysymys3" value="Tarua">
+                                <input id="radionappi" type="radio" name="kysymys3" value="Totta"> <br>
                               </fieldset>
                             </td>
                           </tr>
@@ -701,8 +701,8 @@
                           <td>
                             <p id="kysymys">Opiskelija tunnistaa olemassa olevan osaamisen</p>
                             <fieldset id="group">
-                              <input id="radionappi" type="radio"  name="group4">
-                              <input id="radionappi" type="radio"  name="group4"> <br>
+                              <input id="radionappi" type="radio"  name="kysymys4" value="Tarua">
+                              <input id="radionappi" type="radio"  name="kysymys4" value="Totta"> <br>
                             </fieldset>
                           </td>
                         </tr>
@@ -710,14 +710,14 @@
                           <td>
                             <p id="kysymys">Oppisopimuskoordinaattori ja vastuuopettaja vastaavat yhdessä oppisopimuskoulutuksen tietopuolisen koulutuksen suunnittelusta</p>
                             <fieldset id="group">
-                              <input id="radionappi" type="radio"  name="group4">
-                              <input id="radionappi" type="radio"  name="group4"> <br>
+                              <input id="radionappi" type="radio"  name="kysymys5" value="Tarua">
+                              <input id="radionappi" type="radio"  name="kysymys5" value="Totta"> <br>
                             </fieldset>
                           </td>
                         </tr>
                         <tr>
                           <td>
-                        <input type="submit" name="Lähetä">
+                        <button type="button" onClick="submitdata();">Submit</button>
                       </td>
                     </tr>
                       </form>
