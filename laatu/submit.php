@@ -1,4 +1,5 @@
 <?php
+session_start();
 $answer1 = $_POST['kysymys1'];
 $answer2 = $_POST['kysymys2'];
 $answer3 = $_POST['kysymys3'];
