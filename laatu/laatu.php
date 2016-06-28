@@ -1,10 +1,4 @@
-<?php
-   // starting the session
-   session_start();
-   if (isset($_POST['Submit'])) {
-   $_SESSION['firstname'] = $_POST['firstname'];
-   }
-?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -514,31 +508,6 @@
           </div>
         </div>
         <div class="item">
-          <div class="leftside">
-            <?php
-              $lista = simplexml_load_file('esimiehet.xml');
-              echo "<h1>$lista->nimi</h1>";
-              echo '<form method="post">
-              Nimi:<br>
-              <div id="formi_nimi">
-                <input type="text" name="firstname" id="nimi"><br>
-                <select name="esimiehet">
-                  <option value="Tyhja"> - </option>';
-              foreach ($lista->esimiehet->children() as $asia) {
-                echo '<option value="esimies">' .$asia. '</option>';
-              };
-            ?>
-                </select>
-                <input type="submit" name="Submit" value="Submit!" />
-              </form>
-
-            </div>
-          </div>
-          <div class="rightside">
-            <img src="pics/Ukko4.png"/>
-          </div>
-        </div>
-        <div class="item">
           <p id="otsikko2" class="otsikko"></p>
           <p id="teksti1" class="teksti"></p>
         </div>
@@ -721,6 +690,21 @@
                               <input id="radionappi" type="radio"  name="kysymys5" value="Tarua">
                               <input id="radionappi" type="radio"  name="kysymys5" value="Totta"> <br>
                             </fieldset>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>
+                            <?php
+                              $lista = simplexml_load_file('esimiehet.xml');
+                              echo '
+                              Nimi:<br>
+                                <input type="text" name="firstname" id="nimi"><br>
+                                <select name="esimiehet" id="esimies">
+                                  <option value="Tyhja"> Esimies </option>';
+                              foreach ($lista->esimiehet->children() as $asia) {
+                                echo '<option value="esimies" id="">' .$asia. '</option>';
+                              };
+                            ?>
                           </td>
                         </tr>
                         <tr>

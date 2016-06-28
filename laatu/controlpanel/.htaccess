@@ -1,4 +1,0 @@
-AuthType Basic
-AuthName "My Protected Area"
-AuthUserFile /www/laatu/controlpanel/.htpasswd
-Require valid-user
