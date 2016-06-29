@@ -22,7 +22,7 @@
       </muut>
     </sivu1>
 
-    <sivu2>
+    <sivu3>
       <tekstit>
         <otsikko id="otsikko2">Tervetuloa tutustumaan laadunhallintaan ja jatkuvan parantamisen periaatteeseen!</otsikko>
         <teksti id="teksti1">
@@ -35,9 +35,9 @@
           ]]>
         </teksti>
       </tekstit>
-    </sivu2>
+    </sivu3>
 
-    <sivu3>
+    <sivu4>
       <tekstit>
         <otsikko id="otsikko3">Mikä tekee oppilaitoksestamme laadukkaan</otsikko>
         <teksti id="teksti2">
@@ -56,7 +56,7 @@
       </tekstit>
       <muut>
         <haitarilista>
-          <haitari1>
+          <haitari>
             <otsikko id="hotsikko1">Esedun laadunhallintasuunnitelma</otsikko>
             <teksti id="hteksti1">
               <![CDATA[
@@ -70,8 +70,8 @@
                 Laadunhallintasuunnitelma löytyy Essin aarrearkusta Laadun sivustolta
               ]]>
             </teksti>
-          </haitari1>
-          <haitari2>
+          </haitari>
+          <haitari>
             <otsikko id="hotsikko2">Laatuympyrä – suunnittelu, toteutus, arviointi ja parantaminen</otsikko>
             <teksti id="hteksti2">
               <![CDATA[
@@ -85,8 +85,8 @@
                 * EFQM-malliin sisältyvä ympyrä, jonka vaiheet ovat: määrittele tavoiteltavat tulokset (results), suunnittele ja kehitä toimintamallit ja –tavat (approaches), toteuta toimintamalleja ja –tapoja (deploy), mittaa, arvioi ja paranna toimintamalleja ja –tapoja sekä niiden toteutusta (assess and refine)
               ]]>
             </teksti>
-          </haitari2>
-          <haitari3>
+          </haitari>
+          <haitari>
             <otsikko id="hotsikko3">Sidosryhmät ja kumppanit</otsikko>
             <teksti id="hteksti3">
               <![CDATA[
@@ -102,8 +102,8 @@
                  [ns. kumppanuuskukka (päivitetään syksyllä ja lisätään sen valmistuttua]
                ]]>
              </teksti>
-          </haitari3>
-          <haitari4>
+          </haitari>
+          <haitari>
             <otsikko id="hotsikko4">Toiminnan reunaehtoja</otsikko>
             <teksti id="hteksti4">
               <![CDATA[
@@ -113,12 +113,12 @@
                 * tutkinnon perusteet
               ]]>
             </teksti>
-          </haitari4>
+          </haitari>
         </haitarilista>
       </muut>
-    </sivu3>
+    </sivu4>
 
-    <sivu4>
+    <sivu5>
       <tekstit>
         <otsikko id="otsikko4">Mikä siis tekee työstäni laadukkaan</otsikko>
         <teksti id="teksti3">
@@ -136,15 +136,15 @@
       </tekstit>
       <muut>
         <haitarilista>
-          <haitari5>
-            <otsikko id="hotsikko5">Esedun mittareita ja tavoitetasoja</otsikko>
-            <teksti id="hteksti5">
+          <haitari>
+            <otsikko>Esedun mittareita ja tavoitetasoja</otsikko>
+            <teksti>
               <![CDATA[
-                Esedun strategiassa on määritelty strategiset mittarit ja tavoitetulokset em. mittareille <br><br>
-                Henkilöstön kannalta tärkeimmät strategiset mittarit ovat: <br><br>
-                <table class="tableborder">
-                  <tr><td> Mittari </td> <td> Tavoite </td></tr>
-                  <tr><td> Tutkintojen läpäisy </td><td> 80% </td></tr>
+                Esedun strategiassa on määritelty strategiset mittarit ja tavoitetulokset em. mittareille <br>
+                Henkilöstön kannalta tärkeimmät strategiset mittarit ovat: <br>
+                <table>
+                  <tr><td> Mittari </td> <td> Tavoite 2020 </td></tr>
+                  <tr><td> Tutkintojen läpäisy </td> 80% </td></tr>
                   <tr><td> Valmistuneiden opiskelijoiden työllistyminen </td> <td> 70% </td></tr>
                   <tr><td> Valmistuneiden opiskelijoiden jatko-opintoihin siirtyminen </td> <td> 15% </td></tr>
                   <tr><td> Vetovoima (hakijat/aloituspaikat) </td> <td> 1,2 </td></tr>
@@ -156,12 +156,12 @@
                 </table>
               ]]>
             </teksti>
-          </haitari5>
+          </haitari>
         </haitarilista>
       </muut>
-    </sivu4>
+    </sivu5>
 
-    <sivu5>
+    <sivu6>
       <tekstit>
         <otsikko id="otsikko5">TEHTÄVÄSIVU</otsikko>
         <teksti id="teksti4">Vie sanat oikeaan laatikkoon:</teksti>
@@ -191,9 +191,9 @@
           </maalit>
         </dragdrop>
       </muut>
-    </sivu5>
+    </sivu6>
 
-    <sivu6>
+    <sivu7>
       <tekstit>
         <otsikko id="otsikko6">Miten asetamme tavoitteet oppilaitoksellemme</otsikko>
         <teksti id="teksti5">
@@ -214,9 +214,9 @@
       </tekstit>
       <muut>
         <haitarilista>
-          <haitari6>
-            <otsikko id="hotsikko6">Esedun strategia 2020 – Ketterä edelläkävijä</otsikko>
-            <teksti id="hteksti6">
+          <haitari>
+            <otsikko>Esedun strategia 2020 – Ketterä edelläkävijä</otsikko>
+            <teksti>
               <![CDATA[
                 Visiomme: Eturivin taitajat varmistavat alueen menestymisen <br>
                 Perustehtävänämme on tuottaa työelämän tarvitsevia osaajia, joilla on vahvat työelämätaidot, elinikäisen oppimisen edellytykset ja yrittäjämäinen asenne <br>
@@ -233,10 +233,10 @@
                 Tärkein arvomme on vastuullisuus!
               ]]>
             </teksti>
-          </haitari6>
-          <haitari7>
-            <otsikko id="hotsikko7">Prosessit Esedussa</otsikko>
-            <teksti id="hteksti7">
+          </haitari>
+          <haitari>
+            <otsikko>Prosessit Esedussa</otsikko>
+            <teksti>
               <![CDATA[
                 Prosesseilla tarkoitetaan tapahtumaketjuja, joista seuraa jokin tulos. Esedun prosessien tavoitteena toiminnan laatu ja tasalaatuisuus. Prosesseille on määritelty prosessinomistajat, jotka vastaavat prosessin kehityksestä. Prosessit on jaettu ydin- ja tukiprosesseihin. Ydinprosesseja, jotka kuvaavat Esedun perustehtävän mukaista toimintaa ovat: <br>
                 * Koulutustarjonnan ja opetuksen suunnittelu <br>
@@ -248,12 +248,12 @@
               ]]>
               <!-- saako upotettua prosessikarttaa?? Kartta löytyy pilvestä nimellä Prosessikartta 18022015 -->
             </teksti>
-          </haitari7>
+          </haitari>
         </haitarilista>
       </muut>
-    </sivu6>
+    </sivu7>
 
-    <sivu7>
+    <sivu8>
       <tekstit>
         <otsikko id="otsikko7">Miten asetan tavoitteet työlleni</otsikko>
         <teksti id="teksti6">
@@ -272,9 +272,9 @@
       </tekstit>
       <muut>
         <haitarilista>
-          <haitari8>
-            <otsikko id="hotsikko8">Työtä ohjaavat suunnitelmat ja ohjeet Esedussa</otsikko>
-            <teksti id="hteksti8">
+          <haitari>
+            <otsikko>Työtä ohjaavat suunnitelmat ja ohjeet Esedussa</otsikko>
+            <teksti>
               <![CDATA[
                 Opettajan työn kannalta tärkein suunnitelma on tutkinnon opetussuunnitelma. Opetussuunnitelman yhtenä tehtävänä on taata koulutuksen laadukkuus ja tasalaatuisuus, myös strategian painopistealueita tulisi näkyä opetussuunnitelmassa. Opetussuunnitelmien toteutumista seurataan Esedussa mm. johdon katselmuksissa. <br><br>
 
@@ -298,10 +298,10 @@
                 Näyttötutkintojen järjestämissuunnitelmaan voit perehtyä tutkintovastaavan kautta.
               ]]>
             </teksti>
-          </haitari8>
-          <haitari9>
-            <otsikko id="hotsikko9">Kansallinen ohjaus, normit, suositukset ja ohjeet</otsikko>
-            <teksti id="hteksti9">
+          </haitari>
+          <haitari>
+            <otsikko>Kansallinen ohjaus, normit, suositukset ja ohjeet</otsikko>
+            <teksti>
               <![CDATA[
                 * ammatillisen koulutuksen laita, asetuksen ja päätökset toimintaan ja rahoitukseen liittyen (Eduskunta, valtionneuvosto, OKM) <br>
                 * ammatillisen koulutuksen järjestämisluvat koulutuksen järjestämistä varten (OKM) <br>
@@ -310,12 +310,12 @@
                 * Ammatillisen koulutuksen laatustrategia 2011-2020 (OKM 2011)
               ]]>
             </teksti>
-          </haitari9>
+          </haitari>
         </haitarilista>
       </muut>
-    </sivu7>
+    </sivu8>
 
-    <sivu8>
+    <sivu9>
       <tekstit>
         <otsikko id="otsikko8">TEHTÄVÄSIVU:</otsikko>
         <teksti id="teksti7">
@@ -335,9 +335,9 @@
           <kysymys>Oppisopimuskoordinaattori ja vastuuopettaja vastaavat yhdessä oppisopimuskoulutuksen tietopuolisen koulutuksen suunnittelusta</kysymys>
         </tehtava>
       </muut>
-    </sivu8>
+    </sivu9>
 
-    <sivu9>
+    <sivu10>
     <tekstit>
       <otsikko id="otsikko9">Miten arvioimme oppilaitoksemme toiminnan vaikuttavuutta</otsikko>
       <teksti id="teksti8">
@@ -354,9 +354,9 @@
     </tekstit>
     <muut>
       <haitarilista>
-        <haitari10>
-          <otsikko id="hotsikko10">Laadunhallinnan menetelmiä</otsikko>
-          <teksti id="hteksti10">
+        <haitari>
+          <otsikko>Laadunhallinnan menetelmiä</otsikko>
+          <teksti>
             <![CDATA[
               Laadunhallinnan menetelmät antavat viitekehyksen laadunhallinnalle ja laadun jatkuvalle parantamiselle. Ne myös helpottavat hahmottamaan toiminnan kokonaisuutta, eri toimintojen välisiä yhteyksiä ja vaikutuksia tuloksiin. <br>
               Esedussa käytössä oleva EFQM Excellence-malli on <br>
@@ -367,10 +367,10 @@
               * voi olla myös johtamisjärjestelmän tai laadunhallintajärjestelmän viitekehys
             ]]>
           </teksti>
-        </haitari10>
-        <haitari11>
-          <otsikko id="hotsikko11">Toiminnan ja tulosten arviointi</otsikko>
-          <teksti id="hteksti11">
+        </haitari>
+        <haitari>
+          <otsikko>Toiminnan ja tulosten arviointi</otsikko>
+          <teksti>
             <![CDATA[
               Organisaation toimintaa ja sen vaikutuksia ja vaikuttavuutta voi arvioida monin eri tavoin. Arviointitapoja ovat mm <br>
               * itsearviointi <br>
@@ -380,10 +380,10 @@
               Arviointi ei ole arvostelua vaan tapa nostaa esille hyvin toimivia asioita eli vahvuuksia sekä asioita, jotka kaipaavat kehittämistä. Arviointeihin osallistuu useimmiten opiskelijoita, työelämän edustajia sekä muita sidosryhmien edustajia. Opiskelijat tulee perehdyttää palautteen antamiseen ja arviointeihin osallistumiseen osana opintoja.
             ]]>
           </teksti>
-        </haitari11>
-        <haitari12>
-          <otsikko id="hotsikko12">Arviointimenetelmät</otsikko>
-          <teksti id="hteksti12">
+        </haitari>
+        <haitari>
+          <otsikko>Arviointimenetelmät</otsikko>
+          <teksti>
             <![CDATA[
               Itsearviointi on oppilaitoksen ja siinä toimivien henkilöiden oman toiminnan arviointia, jossa tarkastellaan saavutetaanko toiminnan tavoitteet ja tapahtuuko se mahdollisimman järkevästi. Itsearvioinnin tarkoitus on johtaa toiminnan ja tulosten parantumiseen erilaisten kehittämistoimenpiteiden kautta. Usein arviointeihin kutsutaan mukaan asiakkaidemme, kumppaneidemme ja muiden sidosryhmien edustajia. <br>
               Sisäisen arvioinnin, auditoinnin tai katselmuksen tekee oppilaitoksen oma henkilöstö, joka on riippumaton arvioinnin kohteesta. Tarkoituksena on varmistaa että oppilaitoksessa toimitaan sovitulla tavoilla, saavutetaan tavoitteet sekä löytää hyviä käytäntöjä ja kehittämisen kohteita. <br>
@@ -392,12 +392,12 @@
               Ulkoinen auditointi on ulkopuolisen tekemään järjestelmällistä ja puolueetonta tulkintaa sen selvittämiseksi, onko oppilaitoksen toiminta tavoitteiden mukaista, tehokasta ja tarkoituksenmukaista. Ulkoisen auditoinnin tavoitteena on usein sertifiointi (esim. keke tai ISO9000)
             ]]>
           </teksti>
-        </haitari12>
+        </haitari>
       </haitarilista>
     </muut>
-  </sivu9>
+  </sivu10>
 
-    <sivu10>
+    <sivu11>
       <tekstit>
         <otsikko id="otsikko10">Miten arvioin oman työni vaikutuksia ja vaikuttavuutta</otsikko>
         <teksti id="teksti9">
@@ -416,29 +416,29 @@
       </tekstit>
       <muut>
         <haitarilista>
-          <haitari13>
-            <otsikko id="hotsikko13">Palaute arvioinnin työvälineenä</otsikko>
-            <teksti id="hteksti13">
+          <haitari>
+            <otsikko>Palaute arvioinnin työvälineenä</otsikko>
+            <teksti>
               <![CDATA[
                 Opiskelija-, työelämä ja muut asiakaspalautteet ovat yksi mittari työn tuloksellisuudesta ja laadusta. Kunkin opettajan tulee kerätä henkilökohtaista palautetta kaksi kertaa lukuvuodessa. Tämän lisäksi lähes kaikkia opettajia koskevat aikuiskoulutuksen AIPAL- tai OPAL-palautteet ja/tai nuorten koulutuksen tulo-, olo- ja päättökyselyt. <br>
                 Sen ohella, että opiskelijapalautteet kertovat oppilaitoksen onnistumisesta sen perustehtävässä, ovat ne myös opettajan oman toiminnan arvioinnin tärkeä työväline. Aina palautetulokset saatuasi tarkista, ovatko tulokset saavuttaneet Esedun tavoitetason. Tämän jälkeen katso, mitkä tulokset ovat erityisen hyviä. Näitä vahvuuksia tulee ylläpitää ja edelleen vahvistaa tulevaisuudessa. Viimeiseksi määrittele itsellesi palautetulosten perusteella kehityskohde ja päätä kuinka parannat toimintaasi. Seuraavan palautteen saatuasi tarkista kuinka oman työsi kehittäminen on vaikuttanut palautetuloksiin.
               ]]>
             </teksti>
-          </haitari13>
-          <haitari14>
-            <otsikko id="hotsikko14">Oppimistulokset</otsikko>
-            <teksti id="hteksti14">
+          </haitari>
+          <haitari>
+            <otsikko>Oppimistulokset</otsikko>
+            <teksti>
               <![CDATA[
                 Oppimistuloksilla tarkoitetaan nuorten koulutuksen ammattiosaamisen näyttöjen arvosanoja ja niiden jakaumaa. Esedussa kootaan nuorten suorittamien tutkintojen oppimistulokset tutkinnon osien arvosanojen ja niiden jakauman osalta. Lisäksi kootaan kustakin tutkinnosta tiedot kuinka suuri osa ammattiosaamisen näytöistä on annettu työelämässä ja kuinka paljon oppilaitoksessa. Oppimistulostietoja hyödynnetään koulutuksen kehittämisessä (mitä voidaan tehdä paremmin, jotta opiskelijat saavuttaisivat parempaa tai lisäosaamista). Myös ammattiosaamisen näyttöjen toimikunta hyödyntää oppimistulostietoja ammattiosaamisen näyttöjen laadunvalvonnassa. <br>
                 Oppimistulostiedot ovat tiimien nähtävillä O365-alustalla. Katso oman OneDrivesi jaettu kanssani-kansiosta millaisia tutkintosi oppimistulokset ovat.
               ]]>
             </teksti>
-          </haitari14>
+          </haitari>
         </haitarilista>
       </muut>
-    </sivu10>
+    </sivu11>
 
-    <sivu11>
+    <sivu12>
       <tekstit>
         <otsikko id="otsikko11">TEHTÄVÄSIVU: Palautteiden hyödyntäminen</otsikko>
         <teksti id="teksti10">
@@ -457,9 +457,9 @@
       <muut>
         <kuva>pics/opiskelijapalaute.png</kuva>
       </muut>
-    </sivu11>
+    </sivu12>
 
-    <sivu12>
+    <sivu13>
       <tekstit>
         <otsikko id="otsikko12">Miten parannamme oppilaitoksen toimintaa</otsikko>
         <teksti id="teksti11">
@@ -473,27 +473,27 @@
       </tekstit>
       <muut>
         <haitarilista>
-          <haitari15>
-            <otsikko id="hotsikko15">Esedun kehittämissuunnitelma</otsikko>
-            <teksti id="hteksti15">
+          <haitari>
+            <otsikko>Esedun kehittämissuunnitelma</otsikko>
+            <teksti>
               Esedun kehittämissuunnitelman tarkoitus on linjata ne toimintojen kehittämisen painopisteet, jotka auttavat Etelä‐Savon ammattiopistoa vastaamaan omalla toimialueellaan niihin haasteisiin, joita julkisen talouden tehostamispaineet ja edessä oleva rakennemuutos edellyttävät
             </teksti>
-          </haitari15>
-          <haitari16>
-            <otsikko id="hotsikko16">Hanketoiminta</otsikko>
-            <teksti id="hteksti16">
+          </haitari>
+          <haitari>
+            <otsikko>Hanketoiminta</otsikko>
+            <teksti>
               <![CDATA[
                 Etelä-Savon ammattiopiston kehittämistyötä tuetaan monipuolisella hanketoiminnalla. Hanketyötä tekee päätoimisesti parikymmentä esedulaista ja lähes 100 opettajaa osallistuu kehittämistyöhön oman opetustyönsä ohessa. <br>
                 Oppilaitoksen hankesalkku on noin 5,5 miljoonaa euroa. Salkussa on sekä EU-osarahoitteisia ja valtion rahoittamia hankkeita. <br>
                 Hankkeiden keskeinen kehittämisen painopiste on oppilaitoksen strategiaa tukeva kehittämistyö. Oman kehittämistyön ohella olemme myös vahva aluekehittäjä – tuemme alueemme yritysten kehittymistä ja vahvistamme oppilaitoksen työelämäyhteistyötä sekä tuemme eteläsavolaisten yhteiskunnallista osallisuutta tarjoamalla kouluttautumis- ja työllistymismahdollisuuksia aikuisille, nuorille ja maahanmuuttajille.
               ]]>
             </teksti>
-          </haitari16>
+          </haitari>
         </haitarilista>
       </muut>
-    </sivu12>
+    </sivu13>
 
-    <sivu13>
+    <sivu14>
       <tekstit>
         <otsikko id="otsikko13">Miten osoitamme oppilaitoksen laadukkuuden</otsikko>
         <teksti id="teksti12">
@@ -508,9 +508,9 @@
           ]]>
         </teksti>
       </tekstit>
-    </sivu13>
+    </sivu14>
 
-    <sivu14>
+    <sivu15>
       <tekstit>
         <otsikko id="otsikko14">Tuloksellisuus- ja vaikuttavuusmittarit</otsikko>
         <teksti id="teksti13">
@@ -524,9 +524,9 @@
       </tekstit>
       <muut>
         <haitarilista>
-          <haitari17>
-            <otsikko id="hotsikko17">Mittarit, mittarin tavoitetaso ja mittariseloste</otsikko>
-            <teksti id="hteksti17">
+          <haitari>
+            <otsikko>Mittarit, mittarin tavoitetaso ja mittariseloste</otsikko>
+            <teksti>
               <![CDATA[
                 Mittari on <br>
                 • väline jolla seurataan, miten tavoite toteutuu <br>
@@ -538,10 +538,10 @@
                 • Tavoitetason on oltava haasteellinen, mutta realistinen
               ]]>
             </teksti>
-          </haitari17>
-          <haitari18>
-            <otsikko id="hotsikko18">Tavoitteet ja niiden saavuttaminen</otsikko>
-            <teksti id="hteksti18">
+          </haitari>
+          <haitari>
+            <otsikko>Tavoitteet ja niiden saavuttaminen</otsikko>
+            <teksti>
               <![CDATA[
                 Tavoite on jotain, mihin pyritään. Tarvitaan monipuoliset ja eri näkökulmista asetetut tavoitteet. <br>
                 Strategiset tavoitteet: Taustalla esim. kansalliset tavoitteet, toimintaympäristö, ennakointi ja oma palaute-, arviointi- ja tulostieto sekä vertailutieto. <br>
@@ -550,12 +550,12 @@
                 Opiskelijan tavoitteet määritetään opiskelijan osaamisen ja tarpeiden mukaisesti yhdessä opiskelijan kanssa.
               ]]>
             </teksti>
-          </haitari18>
+          </haitari>
         </haitarilista>
       </muut>
-    </sivu14>
+    </sivu15>
 
-    <sivu15>
+    <sivu16>
       <tekstit>
         <otsikko id="otsikko15">Tiedon keruu ja analysointi</otsikko>
         <teksti id="teksti14">
@@ -572,9 +572,9 @@
           ]]>
         </teksti>
       </tekstit>
-    </sivu15>
+    </sivu16>
 
-    <sivu16>
+    <sivu17>
       <tekstit>
         <otsikko id="otsikko16">Tiedon keruu ja analysointi</otsikko>
         <teksti id="teksti15">
@@ -590,6 +590,6 @@
           ]]>
         </teksti>
       </tekstit>
-    </sivu16>
+    </sivu17>
   </sivut>
 </root>

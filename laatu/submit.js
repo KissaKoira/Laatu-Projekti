@@ -9,7 +9,7 @@ function submitdata() {
   var e = document.getElementById('esimies');
   var value = e.options[e.selectedIndex].value;
   var esimies = e.options[e.selectedIndex].text;
-  console.log(esimies)
+  console.log(e)
   // Returns successful data submission message when the entered information is stored in database.
   var dataString = 'kysymys1=' + kysymys1 + '&kysymys2=' + kysymys2 + '&kysymys3=' + kysymys3 + '&kysymys4=' + kysymys4 + '&kysymys5=' + kysymys5 + '&nimi=' + nimi + '&esimies' + esimies;
       if (kysymys1 == '' || kysymys2 == '' || kysymys3 == '' || kysymys4 == '' || kysymys5 == '') {
@@ -28,4 +28,5 @@ function submitdata() {
                   });
               }
       return false;
+        console.log(dataString)
 }

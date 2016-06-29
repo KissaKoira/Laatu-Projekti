@@ -9,13 +9,6 @@
   font-size: 35px;
   color: orange;
 }
-h3,
-a,
-a:hover{
-  text-decoration: none;
-  font-family: Corbel;
-  color: #222222;
-}
 
 /* sivun wrapper */
 #wrapper{
@@ -54,7 +47,10 @@ a:hover{
   font-style: italic;
   text-decoration: none;
 }
-
+#mobileheader{
+  background-color: #4BAD31;
+  height: 50px;
+}
 /* karuselli */
 #carousel-custom{
   width: 1000px;
@@ -68,8 +64,49 @@ a:hover{
   position: relative;
   float:left;
 }
+@media only screen and (max-device-width: 700px) {
+  #wrapper{
+    width: 100% !important;
+    height: auto !important;
+    margin: auto !important;
+    margin-top: 10px !important;
+    overflow-x: hidden !important;
+  }
+  #carousel-custom{
+    width: 700px;
+    height: auto;
+    margin: auto;
+  }
+  .leftside{
+    float: left;
+    width: 100%;
+    height: auto;
+    font-family: Corbel;
+    color: grey;
+    font-size: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  .rightside{
+    float: left !important;
+    width: 100% !important;
+    height: auto !important;
+    font-family: Corbel !important;
+    color: grey !important;
+    font-size: 20px !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+  }
+  .rightside img{
+    height: 450px;
+    margin: 0px !important;
+    background-color: transparent;
+  }
+  }
 .item{
   padding: 20px;
+  height: 450px;
+  width: 1000px;
 }
 .leftside{
   float: left;
@@ -88,6 +125,8 @@ a:hover{
   font-family: Corbel;
   color: grey;
   font-size: 20px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .rightside img{
   height: 450px;
@@ -211,11 +250,8 @@ a:hover{
 
 /* haitarilistat */
 .accwrapper{
-  height: 450px;
-  width: 450px;
-}
-.ui-accordion .ui-accordion-content{
-  padding: 10px;
+  height: 290px;
+  width: 475px;
 }
 
 /* taulukot */
