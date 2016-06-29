@@ -49,13 +49,44 @@
         var attribute = $teksti.attr("id");
         document.getElementById(attribute).innerHTML = value;
       }
+      function addAccordion(sivu, haitari){
+        var $sivu = $xml.find(sivu);
+        var $haitarilista = $sivu.find("haitarilista");
+        var $haitari = $haitarilista.find(haitari);
+        var $otsikko = $haitari.find("otsikko");
+        var $teksti = $haitari.find("teksti");
+        var otsikkoValue = $otsikko.text();
+        var otsikkoAttribute = $otsikko.attr("id");
+        var tekstiValue = $teksti.text();
+        var tekstiAttribute = $teksti.attr("id");
+        document.getElementById(otsikkoAttribute).innerHTML = otsikkoValue;
+        document.getElementById(tekstiAttribute).innerHTML = tekstiValue;
+      }
       function addContent(){
         addTitle("sivu1");
-        var sivut = ["sivu3","sivu4","sivu5","sivu6","sivu7","sivu8","sivu9","sivu10","sivu11","sivu12","sivu13","sivu14","sivu15","sivu16","sivu17"];
+        var sivut = ["sivu2","sivu3","sivu4","sivu5","sivu6","sivu7","sivu8","sivu9","sivu10","sivu11","sivu12","sivu13","sivu14","sivu15","sivu16"];
         for(i=0; i < sivut.length; i++){
           addTitle(sivut[i]);
           addText(sivut[i]);
         }
+        addAccordion("sivu3", "haitari1");
+        addAccordion("sivu3", "haitari2");
+        addAccordion("sivu3", "haitari3");
+        addAccordion("sivu3", "haitari4");
+        addAccordion("sivu4", "haitari5");
+        addAccordion("sivu6", "haitari6");
+        addAccordion("sivu6", "haitari7");
+        addAccordion("sivu7", "haitari8");
+        addAccordion("sivu7", "haitari9");
+        addAccordion("sivu9", "haitari10");
+        addAccordion("sivu9", "haitari11");
+        addAccordion("sivu9", "haitari12");
+        addAccordion("sivu10", "haitari13");
+        addAccordion("sivu10", "haitari14");
+        addAccordion("sivu12", "haitari15");
+        addAccordion("sivu12", "haitari16");
+        addAccordion("sivu14", "haitari17");
+        addAccordion("sivu14", "haitari18");
       }
       addContent();
     }
@@ -66,9 +97,10 @@
         header: "ui-icon-plus",
         activeHeader: "ui-icon-minusthick"
       };
-      $( "#accordion" ).accordion({
+      $( ".accordion" ).accordion({
         collapsible: true,
         heightStyle: "fill",
+        active: false,
         icons: icons
       });
     });
@@ -385,7 +417,6 @@
       }
     }
 
-
   //dragdrop testi
   $(function(){
     var block1 = document.getElementById("block1");
@@ -518,55 +549,22 @@
           </div>
           <div class="rightside">
             <div class="accwrapper">
-              <div id="accordion">
-                <h3 id="hotsikko1">Esedun laadunhallintasuunnitelma</h3>
+              <div class="accordion">
+                <h3 id="hotsikko1"></h3>
                 <div>
-                  <p id="hteksti1">
-                    Esedun laadunhallintaa ohjaa säännöllisesti päivitettävä ja johtoryhmän hyväksymä laadunhallintasuunnitelma. Laadunhallintasuunnitelma<br>
-                    * kuvaa laadunhallinnan periaatteet ja laadunhallinnan viitekehys (missä selitys mikä?)<br>
-                    * kuvaa toimintajärjestelmämme<br>
-                    * kuvaa kuinka prosesseja arvioidaan ja parannetaan<br>
-                    * kuvaa laadunhallinnan työnjaon ja vastuut<br>
-                    * sisältää arviointisuunnitelman<br>
-                    * sisältää organisaatiotasoiset laadunhallinnan kehittämisen toimenpiteet seuraaville vuosille<br>
-                    Laadunhallintasuunnitelma löytyy Essin aarrearkusta Laadun sivustolta
-                  </p>
+                  <a id="hteksti1"></a>
                 </div>
-                <h3 id="hotsikko2">Laatuympyrä – suunnittelu, toteutus, arviointi ja parantaminen</h3>
+                <h3 id="hotsikko2"></h3>
                 <div>
-                  <p id="hteksti2">
-                    Laatuympyröitä on useita, mutta periaate niissä kaikissa on sama. Ympyrän mukainen toiminta on keskeistä omassa, tiimien sekä koko organisaation toiminnassa, jotta laatu kehittyy. <br>
-                    EQAVET-viitekehyksen laatuympyrä <br>
-                    * On ammatillisen koulutuksen eurooppalaisen viitekehyksen sisältyvä laatuympyrä, jonka vaiheet ovat suunnittelu, toteutus, arviointi ja parantaminen <br>
-                    PDCA-sykli eli Demingin laatuympyrä <br>
-                    * Perustuu ympyrää, jota kierretään ja jonka vaiheet ovat: suunnittele, toteuta, tarkista ja korjaa <br>
-                    * kehittäminen nähdään jatkuvana prosessina, jossa jokaisen ympyrän kierroksen jälkeen ollaan lähempänä tavoitetta tai tavoitteita <br>
-                    TUTKA- tai Radar-logiikka <br>
-                    * EFQM-malliin sisältyvä ympyrä, jonka vaiheet ovat: määrittele tavoiteltavat tulokset (results), suunnittele ja kehitä toimintamallit ja –tavat (approaches), toteuta toimintamalleja ja –tapoja (deploy), mittaa, arvioi ja paranna toimintamalleja ja –tapoja sekä niiden toteutusta (assess and refine)
-                  </p>
+                  <a id="hteksti2"></a>
                 </div>
-                <h3 id="hotsikko3">Sidosryhmät ja kumppanit</h3>
+                <h3 id="hotsikko3"></h3>
                 <div>
-                  <p id="hteksti3">
-                    Sidosryhmä tarkoittaa henkilöä, ryhmää tai organisaatiota, jolla on suora tai epäsuora sidos tai kiinnostus organisaatiota kohtaan, koska se voi joko vaikuttaa organisaatioon tai organisaatio voi vaikuttaa siihen. Ulkoisia sidosryhmiä ovat esim. omistajat, osakkaat, asiakkaat, toimittajat, kumppanit, valtionhallinto ja kunnat (EFQM Excellence –malli 2013) <br> <br>
-
-                    Esedun kumppanit ja sidosryhmät on määritelty ja kokonaisuutta päivitetään säännöllisesti strategiaprosessin yhteydessä. Esedun asiakas, kumppani- ja sidosryhmätasot ovat: <br>
-                    * Opetustoimen viranomaiset, omistajat, järjestöt ja toimikunnat <br>
-                    * Hankeverkostot ja projektiorganisaatiot <br>
-                    * Kv-toiminnan kumppanit <br>
-                    * Rahoittajat <br>
-                    * Koulutuksen toteutuksen yhteistyökumppanit <br>
-                    * Koulutusmyynnin asiakkaat <br>
-                  </p>
+                  <a id="hteksti3"></a>
                 </div>
-                <h3 id="hotsikko4">Toiminnan reunaehtoja</h3>
+                <h3 id="hotsikko4"></h3>
                 <div>
-                  <p id="hteksti4">
-                    Ammatillisen koulutuksen järjestäjälle reunaehtoja asettavat kansalliset normit, suositukset ja ohjeet joita esim. ovat <br>
-                    * ammatillisen koulutukset lait, asetukset ja päätökset toimintaan ja rahoitukseen liittyen <br>
-                    * ammatillisen koulutuksen järjestämisluvat koulutuksen järjestämistä varten <br>
-                    * tutkinnon perusteet
-                  </p>
+                  <a id="hteksti4"></a>
                 </div>
               </div>
             </div>
@@ -578,20 +576,14 @@
             <p id="teksti3" class="teksti"></p>
           </div>
           <div class="rightside">
-            Esedun strategiassa on määritelty strategiset mittarit ja tavoitetulokset em. mittareille <br>
-            Henkilöstön kannalta tärkeimmät strategiset mittarit ovat: <br>
-            <table class="tableborder">
-              <tr><td>Mittari</td><td>Tavoite</td></tr>
-              <tr><td>Tutkintojen läpäisy </td><td> 80% </td></tr>
-              <tr><td>Valmistuneiden opiskelijoiden työllistyminen </td><td> 70% </td></tr>
-              <tr><td>Valmistuneiden opiskelijoiden jatko-opintoihin siirtyminen </td><td> 15% </td></tr>
-              <tr><td>Vetovoima (hakijat/aloituspaikat) </td><td> 1,2 </td></tr>
-              <tr><td>Opiskelijatyytyväisyys, nuoret </td><td> 4,0 </td></tr>
-              <tr><td>Opiskelijatyytyväisyys, aikuiset </td><td> 4,0 </td></tr>
-              <tr><td>Verkko-opintojen määrä koulutuksessa </td><td> 10% </td></tr>
-              <tr><td>Opetushenkilöstön pedagoginen pätevyys </td><td> 85% </td></tr>
-              <tr><td>Työolobarometrin tulos </td> <td> 4,0 </td></tr>
-            </table>
+            <div class="accwrapper">
+              <div class="accordion">
+                <h3 id="hotsikko5"></h3>
+                <div>
+                  <a id="hteksti5"></a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="item">
@@ -625,6 +617,18 @@
             <p id="teksti5" class="teksti"></p>
           </div>
           <div class="rightside">
+            <div class="accwrapper">
+              <div class="accordion">
+                <h3 id="hotsikko6"></h3>
+                <div>
+                  <a id="hteksti6"></a>
+                </div>
+                <h3 id="hotsikko7"></h3>
+                <div>
+                  <a id="hteksti7"></a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="item">
@@ -633,104 +637,144 @@
             <p id="teksti6" class="teksti"></p>
           </div>
           <div class="rightside">
+            <div class="accwrapper">
+              <div class="accordion">
+                <h3 id="hotsikko8"></h3>
+                <div>
+                  <a id="hteksti8"></a>
+                </div>
+                <h3 id="hotsikko9"></h3>
+                <div>
+                  <a id="hteksti9"></a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="item">
           <div class="leftside">
-                      <p id="otsikko8" class="otsikko"></p>
-                      <p id="teksti7" class="teksti"></p>
-                    </div>
-                    <div class="rightside" style="overflow-y: hidden;">
-                      <h2> Totta vai Tarua? </h2>
-                      <p id="tottatarua">Totta</p>
-                      <p id="tottatarua">Tarua</p>
-                      <div id="vastauswrapper">
-                        <table class="tableborderform">
-                        <form method="post">
-                          <tr>
-                            <td>
-                              <p id="kysymys">Aikaisemman osaamisen tunnistamisen ja tunnustamisen prosessikuvauksen mukaan ohjauskeskustelun käyminen on opiskelijan vastuulla</p>
-                              <fieldset id="group">
-                                  <input id="radionappi" type="radio" name="kysymys1" value="Tarua">
-                                  <input id="radionappi" type="radio" name="kysymys1" value="Totta"> <br>
-                              </fieldset>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <p id="kysymys">Aikuiskoulutushaussa vastuuopettaja ja opintosihteeri vastaavat yhdessä mahdollisten hakijoiden informoinnista ja ohjaamisesta</p>
-                              <fieldset id="group">
-                                <input id="radionappi" type="radio" name="kysymys2" value="Tarua">
-                                <input id="radionappi" type="radio" name="kysymys2" value="Totta"> <br>
-                              </fieldset>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              <p id="kysymys">Opettajan vastuulla on ohjata opiskelijat vastaamaan opiskelijapalautekyselyihin (nuorten tulo-, olo- ja päättökyselyt, aikuiskoulutus OPAL ja AIPAL sekä kummankin koulutusmuodon opettajan henkilökohtainen palaute)</p>
-                              <fieldset id="group">
-                                <input id="radionappi" type="radio" name="kysymys3" value="Tarua">
-                                <input id="radionappi" type="radio" name="kysymys3" value="Totta"> <br>
-                              </fieldset>
-                            </td>
-                          </tr>
-                        <tr>
-                          <td>
-                            <p id="kysymys">Opiskelija tunnistaa olemassa olevan osaamisen</p>
-                            <fieldset id="group">
-                              <input id="radionappi" type="radio"  name="kysymys4" value="Tarua">
-                              <input id="radionappi" type="radio"  name="kysymys4" value="Totta"> <br>
-                            </fieldset>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <p id="kysymys">Oppisopimuskoordinaattori ja vastuuopettaja vastaavat yhdessä oppisopimuskoulutuksen tietopuolisen koulutuksen suunnittelusta</p>
-                            <fieldset id="group">
-                              <input id="radionappi" type="radio"  name="kysymys5" value="Tarua">
-                              <input id="radionappi" type="radio"  name="kysymys5" value="Totta"> <br>
-                            </fieldset>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                            <?php
-                              $lista = simplexml_load_file('esimiehet.xml');
-                              echo '
-                              Nimi:<br>
-                                <input type="text" name="firstname" id="nimi"><br>
-                                <select name="esimiehet" id="esimies">
-                                  <option value="Tyhja"> Esimies </option>';
-                              foreach ($lista->esimiehet->children() as $asia) {
-                                echo '<option value="esimies" id="">' .$asia. '</option>';
-                              };
-                            ?>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>
-                        <button type="button" onClick="submitdata();">Submit</button>
-                      </td>
-                    </tr>
-                      </form>
-                    </table>
-                    </div>
-                  </div>
+            <p id="otsikko8" class="otsikko"></p>
+            <p id="teksti7" class="teksti"></p>
+          </div>
+          <div class="rightside" style="overflow-y: hidden;">
+            <h2> Totta vai Tarua? </h2>
+            <p id="tottatarua">Totta</p>
+            <p id="tottatarua">Tarua</p>
+            <div id="vastauswrapper">
+              <table class="tableborderform">
+                <form method="post">
+                  <tr>
+                    <td>
+                      <p id="kysymys">Aikaisemman osaamisen tunnistamisen ja tunnustamisen prosessikuvauksen mukaan ohjauskeskustelun käyminen on opiskelijan vastuulla</p>
+                      <fieldset id="group">
+                        <input id="radionappi" type="radio" name="kysymys1" value="Tarua">
+                        <input id="radionappi" type="radio" name="kysymys1" value="Totta"> <br>
+                      </fieldset>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p id="kysymys">Aikuiskoulutushaussa vastuuopettaja ja opintosihteeri vastaavat yhdessä mahdollisten hakijoiden informoinnista ja ohjaamisesta</p>
+                      <fieldset id="group">
+                        <input id="radionappi" type="radio" name="kysymys2" value="Tarua">
+                        <input id="radionappi" type="radio" name="kysymys2" value="Totta"> <br>
+                      </fieldset>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p id="kysymys">Opettajan vastuulla on ohjata opiskelijat vastaamaan opiskelijapalautekyselyihin (nuorten tulo-, olo- ja päättökyselyt, aikuiskoulutus OPAL ja AIPAL sekä kummankin koulutusmuodon opettajan henkilökohtainen palaute)</p>
+                      <fieldset id="group">
+                        <input id="radionappi" type="radio" name="kysymys3" value="Tarua">
+                        <input id="radionappi" type="radio" name="kysymys3" value="Totta"> <br>
+                      </fieldset>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p id="kysymys">Opiskelija tunnistaa olemassa olevan osaamisen</p>
+                        <fieldset id="group">
+                        <input id="radionappi" type="radio"  name="kysymys4" value="Tarua">
+                        <input id="radionappi" type="radio"  name="kysymys4" value="Totta"> <br>
+                      </fieldset>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <p id="kysymys">Oppisopimuskoordinaattori ja vastuuopettaja vastaavat yhdessä oppisopimuskoulutuksen tietopuolisen koulutuksen suunnittelusta</p>
+                      <fieldset id="group">
+                        <input id="radionappi" type="radio"  name="kysymys5" value="Tarua">
+                        <input id="radionappi" type="radio"  name="kysymys5" value="Totta"> <br>
+                      </fieldset>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <?php
+                        $lista = simplexml_load_file('esimiehet.xml');
+                        echo '
+                        Nimi:<br>
+                        <input type="text" name="firstname" id="nimi"><br>
+                        <select name="esimiehet" id="esimies">
+                        <option value="Tyhja"> Esimies </option>';
+                        foreach ($lista->esimiehet->children() as $asia) {
+                          echo '<option value="esimies" id="">' .$asia. '</option>';
+                        };
+                      ?>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <button type="button" onClick="submitdata();">Submit</button>
+                    </td>
+                  </tr>
+                </form>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="leftside">
+            <p id="otsikko9" class="otsikko"></p>
+            <p id="teksti8" class="teksti"></p>
+          </div>
+          <div class="rightside">
+            <div class="accwrapper">
+              <div class="accordion">
+                <h3 id="hotsikko10"></h3>
+                <div>
+                  <a id="hteksti10"></a>
                 </div>
-                  <div class="item">
-                    <div class="leftside">
-                      <p id="otsikko9" class="otsikko"></p>
-                      <p id="teksti8" class="teksti"></p>
-                    </div>
-                    <div class="rightside">
-                    </div>
-                  </div>
+                <h3 id="hotsikko11"></h3>
+                <div>
+                  <a id="hteksti11"></a>
+                </div>
+                <h3 id="hotsikko12"></h3>
+                <div>
+                  <a id="hteksti12"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="item">
           <div class="leftside">
             <p id="otsikko10" class="otsikko"></p>
             <p id="teksti9" class="teksti"></p>
           </div>
           <div class="rightside">
+            <div class="accwrapper">
+              <div class="accordion">
+                <h3 id="hotsikko13"></h3>
+                <div>
+                  <a id="hteksti13"></a>
+                </div>
+                <h3 id="hotsikko14"></h3>
+                <div>
+                  <a id="hteksti14"></a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="item">
@@ -745,6 +789,18 @@
             <p id="teksti11" class="teksti"></p>
           </div>
           <div class="rightside">
+            <div class="accwrapper">
+              <div class="accordion">
+                <h3 id="hotsikko15"></h3>
+                <div>
+                  <a id="hteksti15"></a>
+                </div>
+                <h3 id="hotsikko16"></h3>
+                <div>
+                  <a id="hteksti16"></a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="item">
@@ -757,6 +813,18 @@
             <p id="teksti13" class="teksti"></p>
           </div>
           <div class="rightside">
+            <div class="accwrapper">
+              <div class="accordion">
+                <h3 id="hotsikko17"></h3>
+                <div>
+                  <a id="hteksti17"></a>
+                </div>
+                <h3 id="hotsikko18"></h3>
+                <div>
+                  <a id="hteksti18"></a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
         <div class="item">
@@ -766,6 +834,10 @@
         <div class="item">
           <p id="otsikko16" class="otsikko"></p>
           <p id="teksti15" class="teksti"></p>
+        </div>
+        <div class="item">
+          <p> Tekninen toteutus: Onni Heinonen </p>
+          <p> Graafinen toteutus: Mitja Immonen </p>
         </div>
       </div>
       <!-- Controls -->

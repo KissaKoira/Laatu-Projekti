@@ -9,6 +9,13 @@
   font-size: 35px;
   color: orange;
 }
+h3,
+a,
+a:hover{
+  text-decoration: none;
+  font-family: Corbel;
+  color: #222222;
+}
 
 /* sivun wrapper */
 #wrapper{
@@ -81,8 +88,6 @@
   font-family: Corbel;
   color: grey;
   font-size: 20px;
-  overflow-y: auto;
-  overflow-x: hidden;
 }
 .rightside img{
   height: 450px;
@@ -206,8 +211,11 @@
 
 /* haitarilistat */
 .accwrapper{
-  height: 290px;
-  width: 475px;
+  height: 450px;
+  width: 450px;
+}
+.ui-accordion .ui-accordion-content{
+  padding: 10px;
 }
 
 /* taulukot */
