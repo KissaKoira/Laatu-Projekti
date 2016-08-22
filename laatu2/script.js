@@ -444,11 +444,15 @@ $( ".droppable" ).droppable({
 });
 });
 
+var right = 0;
+
 function handleDropEvent( event, ui ) {
   var drop = $(this).data( 'id' );
   var drag = ui.draggable.data( 'target' );
   if(drop === drag){
     ui.draggable.addClass( "droppedright" );
+    right += 1;
+    document.getElementById("rightA").innerHTML = right;
   } else{
     ui.draggable.addClass( "droppedwrong" );
   }

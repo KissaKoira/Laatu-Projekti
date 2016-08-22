@@ -9,12 +9,32 @@
   font-size: 35px;
   color: orange;
 }
-h3,
-a,
-a:hover{
+h3, a, a:hover{
   text-decoration: none;
   font-family: Corbel;
   color: #222222;
+}
+
+/* tooltip */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+     z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 
 /* sivun wrapper */
@@ -157,9 +177,9 @@ a:hover{
 }
 #navbaar .inactive,
 #navbaar .active{
-  height: 40px;
   width: 370px;
   padding-left: 10px;
+  margin-bottom: 10px;
 }
 #navbaar .active{
   background-color: #acd29b;
@@ -232,13 +252,10 @@ a:hover{
 /* dragrop */
 
 .draggable{
-  width: 100px;
-  height: 50px;
   margin: 0px 10px 10px 0px;
-  border: 5px solid #66cc66;
-  border-radius: 5px;
-  background-color: #9fdf9f;
   float: left;
+  font-family: Corbel;
+  font-size: 20px;
 }
 .droppable{
   width: 200px;
@@ -248,6 +265,10 @@ a:hover{
   border-radius: 10px;
   background-color: #9fdf9f;
   float: left;
+  padding-top: 70px;
+  text-align: center;
+  font-family: Corbel;
+  font-size: 30px;
 }
 #blocks{
   width: 771px;
