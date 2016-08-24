@@ -116,6 +116,10 @@ h3, a, a:hover{
   margin: auto;
   display: block;
 }
+.accordion .ui-accordion-content {
+    max-height: 220px;
+    overflow-y: auto;
+}
 
 /* karusellin indikaattorit */
 #carousel-custom .carousel-indicators{

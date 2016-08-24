@@ -42,15 +42,17 @@
         <otsikko id="otsikko3">Mikä tekee oppilaitoksestamme laadukkaan</otsikko>
         <teksti id="teksti2">
           <![CDATA[
-            • Suunnittelu, toteutus, arviointi ja parantaminen toteutuvat toiminnassamme <br>
-            • Pidämme antamamme laatulupaukset <br>
-            • Tunnemme toimintamme, asiakkaamme ja kumppanimme ja muut sidosryhmämme sekä palveluketjumme. <br>
-            • Olemme asiakaslähtöisiä ja vastuullisia <br>
-            • Teemme tavoitteellista kumppanuus- ja sidosryhmäyhteistyötä <br>
-            • Toimimme yhteiskuntavastuullisesti <br>
-            • Otamme huomioon toimintamme reunaehdot <br>
-            • Seuraamme ja arvioimme toimintaamme ja tavoitteidemme toteutumista <br>
-            • Kehitämme ja uudistamme toimintaamme suunnitelmallisesti ja vaikuttavasti
+          <ul>
+            <li>Suunnittelu, toteutus, arviointi ja parantaminen toteutuvat toiminnassamme</li>
+            <li>Pidämme antamamme laatulupaukset</li>
+            <li>Tunnemme toimintamme, asiakkaamme ja kumppanimme ja muut sidosryhmämme sekä palveluketjumme</li>
+            <li>Olemme asiakaslähtöisiä ja vastuullisia</li>
+            <li>Teemme tavoitteellista kumppanuus- ja sidosryhmäyhteistyötä</li>
+            <li>Toimimme yhteiskuntavastuullisesti</li>
+            <li>Otamme huomioon toimintamme reunaehdot</li>
+            <li>Seuraamme ja arvioimme toimintaamme ja tavoitteidemme toteutumista</li>
+            <li>Kehitämme ja uudistamme toimintaamme suunnitelmallisesti ja vaikuttavasti</li>
+          </ul>
           ]]>
         </teksti>
       </tekstit>
@@ -60,13 +62,15 @@
             <otsikko id="hotsikko1">Esedun laadunhallintasuunnitelma</otsikko>
             <teksti id="hteksti1">
               <![CDATA[
-                Esedun laadunhallintaa ohjaa säännöllisesti päivitettävä ja johtoryhmän hyväksymä laadunhallintasuunnitelma. Laadunhallintasuunnitelma <br>
-                • kuvaa laadunhallinnan periaatteet ja laadunhallinnan viitekehys (missä selitys mikä?) <br>
-                • kuvaa toimintajärjestelmämme <br>
-                • kuvaa kuinka prosesseja arvioidaan ja parannetaan <br>
-                • kuvaa laadunhallinnan työnjaon ja vastuut <br>
-                • sisältää arviointisuunnitelman <br>
-                • sisältää organisaatiotasoiset laadunhallinnan kehittämisen toimenpiteet seuraaville vuosille <br>
+                Esedun laadunhallintaa ohjaa säännöllisesti päivitettävä ja johtoryhmän hyväksymä laadunhallintasuunnitelma. Laadunhallintasuunnitelma
+                <ul>
+                  <li>kuvaa laadunhallinnan periaatteet ja laadunhallinnan viitekehys (missä selitys mikä?)</li>
+                  <li>kuvaa toimintajärjestelmämme</li>
+                  <li>kuvaa kuinka prosesseja arvioidaan ja parannetaan</li>
+                  <li>kuvaa laadunhallinnan työnjaon ja vastuut</li>
+                  <li>sisältää arviointisuunnitelman</li>
+                  <li>sisältää organisaatiotasoiset laadunhallinnan kehittämisen toimenpiteet seuraaville vuosille</li>
+                </ul>
                 Laadunhallintasuunnitelma löytyy Essin aarrearkusta Laadun sivustolta
               ]]>
             </teksti>

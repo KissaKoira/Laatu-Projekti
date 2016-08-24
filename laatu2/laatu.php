@@ -87,24 +87,22 @@
             <p id="teksti2" class="teksti"></p>
           </div>
           <div class="rightside">
-            <div style="height: 375px;">
-              <div class="accordion">
-                <h3 id="hotsikko1"></h3>
-                <div>
-                  <a id="hteksti1"></a>
-                </div>
-                <h3 id="hotsikko2"></h3>
-                <div>
-                  <a id="hteksti2"></a>
-                </div>
-                <h3 id="hotsikko3"></h3>
-                <div>
-                  <a id="hteksti3"></a>
-                </div>
-                <h3 id="hotsikko4"></h3>
-                <div>
-                  <a id="hteksti4"></a>
-                </div>
+            <div class="accordion">
+              <h3 id="hotsikko1"></h3>
+              <div>
+                <a id="hteksti1"></a>
+              </div>
+              <h3 id="hotsikko2"></h3>
+              <div>
+                <a id="hteksti2"></a>
+              </div>
+              <h3 id="hotsikko3"></h3>
+              <div>
+                <a id="hteksti3"></a>
+              </div>
+              <h3 id="hotsikko4"></h3>
+              <div>
+                <a id="hteksti4"></a>
               </div>
             </div>
           </div>
