@@ -8,6 +8,7 @@
   font-family: Corbel;
   font-size: 35px;
   color: orange;
+  line-height: 110%;
 }
 h3, a, a:hover{
   text-decoration: none;
@@ -116,10 +117,6 @@ h3, a, a:hover{
   margin: auto;
   display: block;
 }
-.accordion .ui-accordion-content {
-    max-height: 220px;
-    overflow-y: auto;
-}
 
 /* karusellin indikaattorit */
 #carousel-custom .carousel-indicators{
@@ -177,12 +174,13 @@ h3, a, a:hover{
   text-decoration: none;
   font-family: Corbel;
   color: grey;
-  font-size: 30px;
+  font-size: 25px;
+  line-height: 100%;
 }
 #navbaar .inactive,
 #navbaar .active{
   width: 370px;
-  padding-left: 10px;
+  padding: 5px;
   margin-bottom: 10px;
 }
 #navbaar .active{

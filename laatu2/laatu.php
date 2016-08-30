@@ -87,6 +87,7 @@
             <p id="teksti2" class="teksti"></p>
           </div>
           <div class="rightside">
+            <div style="height: 230px;"> <!-- Nopea ratkaisu -->
             <div class="accordion">
               <h3 id="hotsikko1"></h3>
               <div>
@@ -105,6 +106,7 @@
                 <a id="hteksti4"></a>
               </div>
             </div>
+            </div>
           </div>
         </div>
         <div class="item">
@@ -113,11 +115,13 @@
             <p id="teksti3" class="teksti"></p>
           </div>
           <div class="rightside">
+            <div style="height: 400px;"> <!-- Nopea ratkaisu -->
             <div class="accordion">
               <h3 id="hotsikko5"></h3>
               <div>
                 <a id="hteksti5"></a>
               </div>
+            </div>
             </div>
           </div>
         </div>
@@ -127,7 +131,7 @@
           <div id="blocks">
             <a id="block6" class="draggable">Henkilöstösuunnitelma</a>
             <a id="block13" class="draggable">Oppimistulokset</a>
-            <a id="block1" class="draggable">TKR</a>
+            <a id="block1" class="draggable">Työvoimapoliittisen koulutuksen raportointi</a>
             <a id="block5" class="draggable">Opetussuunnitelma</a>
             <a id="block12" class="draggable">Asiakastulokset</a>
             <a id="block7" class="draggable">Opetus</a>
@@ -145,7 +149,6 @@
             <div id="goal3" class="droppable">Arviointi</div>
             <div id="goal4" class="droppable">Parantaminen</div>
           </div>
-          <a style="font-family: Corbel; font-size: 20px; margin-left: 10px;" id="rightA"></a>/13
         </div>
         <div class="item">
           <div class="leftside">
@@ -153,17 +156,17 @@
             <p id="teksti5" class="teksti"></p>
           </div>
           <div class="rightside">
-            <div style="height: 445px;">
-              <div class="accordion">
-                <h3 id="hotsikko6"></h3>
-                <div>
-                  <a id="hteksti6"></a>
-                </div>
-                <h3 id="hotsikko7"></h3>
-                <div>
-                  <a id="hteksti7"></a>
-                </div>
+            <div style="height: 350px;"> <!-- Nopea ratkaisu -->
+            <div class="accordion">
+              <h3 id="hotsikko6"></h3>
+              <div>
+                <a id="hteksti6"></a>
               </div>
+              <h3 id="hotsikko7"></h3>
+              <div>
+                <a id="hteksti7"></a>
+              </div>
+            </div>
             </div>
           </div>
         </div>
@@ -173,17 +176,17 @@
             <p id="teksti6" class="teksti"></p>
           </div>
           <div class="rightside">
-            <div style="height: 395px;">
-              <div class="accordion">
-                <h3 id="hotsikko8"></h3>
-                <div>
-                  <a id="hteksti8"></a>
-                </div>
-                <h3 id="hotsikko9"></h3>
-                <div>
-                  <a id="hteksti9"></a>
-                </div>
+            <div style="height: 300px;"> <!-- Nopea ratkaisu -->
+            <div class="accordion">
+              <h3 id="hotsikko8"></h3>
+              <div>
+                <a id="hteksti8"></a>
               </div>
+              <h3 id="hotsikko9"></h3>
+              <div>
+                <a id="hteksti9"></a>
+              </div>
+            </div>
             </div>
           </div>
         </div>
@@ -275,21 +278,21 @@
             <p id="teksti8" class="teksti"></p>
           </div>
           <div class="rightside">
-            <div style="height: 423px;">
-              <div class="accordion">
-                <h3 id="hotsikko10"></h3>
-                <div>
-                  <a id="hteksti10"></a>
-                </div>
-                <h3 id="hotsikko11"></h3>
-                <div>
-                  <a id="hteksti11"></a>
-                </div>
-                <h3 id="hotsikko12"></h3>
-                <div>
-                  <a id="hteksti12"></a>
-                </div>
+            <div style="height: 300px;"> <!-- Nopea ratkaisu -->
+            <div class="accordion">
+              <h3 id="hotsikko10"></h3>
+              <div>
+                <a id="hteksti10"></a>
               </div>
+              <h3 id="hotsikko11"></h3>
+              <div>
+                <a id="hteksti11"></a>
+              </div>
+              <h3 id="hotsikko12"></h3>
+              <div>
+                <a id="hteksti12"></a>
+              </div>
+            </div>
             </div>
           </div>
         </div>
@@ -299,17 +302,17 @@
             <p id="teksti9" class="teksti"></p>
           </div>
           <div class="rightside">
-            <div style="height: 445px;">
-              <div class="accordion">
-                <h3 id="hotsikko13"></h3>
-                <div>
-                  <a id="hteksti13"></a>
-                </div>
-                <h3 id="hotsikko14"></h3>
-                <div>
-                  <a id="hteksti14"></a>
-                </div>
+            <div style="height: 350px;"> <!-- Nopea ratkaisu -->
+            <div class="accordion">
+              <h3 id="hotsikko13"></h3>
+              <div>
+                <a id="hteksti13"></a>
               </div>
+              <h3 id="hotsikko14"></h3>
+              <div>
+                <a id="hteksti14"></a>
+              </div>
+            </div>
             </div>
           </div>
         </div>
@@ -325,17 +328,17 @@
             <p id="teksti11" class="teksti"></p>
           </div>
           <div class="rightside">
-            <div style="height: 445px;">
-              <div class="accordion">
-                <h3 id="hotsikko15"></h3>
-                <div>
-                  <a id="hteksti15"></a>
-                </div>
-                <h3 id="hotsikko16"></h3>
-                <div>
-                  <a id="hteksti16"></a>
-                </div>
+            <div style="height: 350px;"> <!-- Nopea ratkaisu -->
+            <div class="accordion">
+              <h3 id="hotsikko15"></h3>
+              <div>
+                <a id="hteksti15"></a>
               </div>
+              <h3 id="hotsikko16"></h3>
+              <div>
+                <a id="hteksti16"></a>
+              </div>
+            </div>
             </div>
           </div>
         </div>
@@ -349,17 +352,17 @@
             <p id="teksti13" class="teksti"></p>
           </div>
           <div class="rightside">
-            <div style="height: 445px;">
-              <div class="accordion">
-                <h3 id="hotsikko17"></h3>
-                <div>
-                  <a id="hteksti17"></a>
-                </div>
-                <h3 id="hotsikko18"></h3>
-                <div>
-                  <a id="hteksti18"></a>
-                </div>
+            <div style="height: 350px;"> <!-- Nopea ratkaisu -->
+            <div class="accordion">
+              <h3 id="hotsikko17"></h3>
+              <div>
+                <a id="hteksti17"></a>
               </div>
+              <h3 id="hotsikko18"></h3>
+              <div>
+                <a id="hteksti18"></a>
+              </div>
+            </div>
             </div>
           </div>
         </div>
@@ -372,8 +375,8 @@
           <p id="teksti15" class="teksti"></p>
         </div>
         <div class="item">
-          <p> Tekninen toteutus: Onni Heinonen </p>
-          <p> Graafinen toteutus: Mitja Immonen </p>
+          <p class="teksti"> Tekninen toteutus: Onni Heinonen, Riku Hänninen </p>
+          <p class="teksti"> Graafinen toteutus: Mitja Immonen </p>
         </div>
       </div>
       <!-- Controls -->
