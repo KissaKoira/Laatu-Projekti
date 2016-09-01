@@ -77,9 +77,15 @@ function init(xml) {
 }
 
 //haitari listat
+
 $(function() {
+  var icons = {
+    header: "iconMinus",
+    activeHeader: "iconPlus"
+  };
+
   $( ".accordion" ).accordion({
-    icons: { "header": "ui-icon-plus", "activeHeader": "ui-icon-minus" },
+    icons: icons,
     collapsible: true,
     active: false,
     heightStyle: "fill"

@@ -16,27 +16,14 @@ h3, a, a:hover{
   color: #222222;
 }
 
-/* tooltip */
-.tooltip {
-    position: relative;
-    display: inline-block;
+/* haitarit */
+.iconMinus{
+  background:url('pics/minus.png') !important;
 }
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    padding: 5px 0;
-    border-radius: 6px;
+.iconPlus{
+  background:url('pics/plus.png') !important;
+}
 
-    /* Position the tooltip text - see examples below! */
-    position: absolute;
-     z-index: 1;
-}
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
 
 /* sivun wrapper */
 #wrapper{
