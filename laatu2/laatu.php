@@ -201,13 +201,13 @@
             <p id="tottatarua">Tarua</p>
             <div id="vastauswrapper">
               <table class="tableborderform">
-                <form method="post">
+                <form name="FORM" method="post">
                   <tr>
                     <td>
                       <p id="kysymys">Aikaisemman osaamisen tunnistamisen ja tunnustamisen prosessikuvauksen mukaan ohjauskeskustelun käyminen on opiskelijan vastuulla</p>
                       <fieldset id="group">
-                        <input id="radionappi" type="radio" name="kysymys1" value="Tarua">
-                        <input id="radionappi" type="radio" name="kysymys1" value="Totta"> <br>
+                        <input id="radionappi" type="radio" name="kysymys1" value="tarua">
+                        <input id="radionappi" type="radio" name="kysymys1" value="totta"> <br>
                       </fieldset>
                     </td>
                   </tr>
@@ -215,8 +215,8 @@
                     <td>
                       <p id="kysymys">Aikuiskoulutushaussa vastuuopettaja ja opintosihteeri vastaavat yhdessä mahdollisten hakijoiden informoinnista ja ohjaamisesta</p>
                       <fieldset id="group">
-                        <input id="radionappi" type="radio" name="kysymys2" value="Tarua">
-                        <input id="radionappi" type="radio" name="kysymys2" value="Totta"> <br>
+                        <input id="radionappi" type="radio" name="kysymys2" value="tarua">
+                        <input id="radionappi" type="radio" name="kysymys2" value="totta"> <br>
                       </fieldset>
                     </td>
                   </tr>
@@ -224,8 +224,8 @@
                     <td>
                       <p id="kysymys">Opettajan vastuulla on ohjata opiskelijat vastaamaan opiskelijapalautekyselyihin (nuorten tulo-, olo- ja päättökyselyt, aikuiskoulutus OPAL ja AIPAL sekä kummankin koulutusmuodon opettajan henkilökohtainen palaute)</p>
                       <fieldset id="group">
-                        <input id="radionappi" type="radio" name="kysymys3" value="Tarua">
-                        <input id="radionappi" type="radio" name="kysymys3" value="Totta"> <br>
+                        <input id="radionappi" type="radio" name="kysymys3" value="tarua">
+                        <input id="radionappi" type="radio" name="kysymys3" value="totta"> <br>
                       </fieldset>
                     </td>
                   </tr>
@@ -233,8 +233,8 @@
                     <td>
                       <p id="kysymys">Opiskelija tunnistaa olemassa olevan osaamisen</p>
                         <fieldset id="group">
-                        <input id="radionappi" type="radio"  name="kysymys4" value="Tarua">
-                        <input id="radionappi" type="radio"  name="kysymys4" value="Totta"> <br>
+                        <input id="radionappi" type="radio"  name="kysymys4" value="tarua">
+                        <input id="radionappi" type="radio"  name="kysymys4" value="totta"> <br>
                       </fieldset>
                     </td>
                   </tr>
@@ -242,8 +242,8 @@
                     <td>
                       <p id="kysymys">Oppisopimuskoordinaattori ja vastuuopettaja vastaavat yhdessä oppisopimuskoulutuksen tietopuolisen koulutuksen suunnittelusta</p>
                       <fieldset id="group">
-                        <input id="radionappi" type="radio"  name="kysymys5" value="Tarua">
-                        <input id="radionappi" type="radio"  name="kysymys5" value="Totta"> <br>
+                        <input id="radionappi" type="radio"  name="kysymys5" value="tarua">
+                        <input id="radionappi" type="radio"  name="kysymys5" value="totta"> <br>
                       </fieldset>
                     </td>
                   </tr>
@@ -253,11 +253,11 @@
                         $lista = simplexml_load_file('esimiehet.xml');
                         echo '
                         Nimi:<br>
-                        <input type="text" name="firstname" id="nimi"><br>
+                        <input type="text" name="nimi" id="nimi"><br>
                         <select name="esimiehet" id="esimies">
                         <option value="Tyhja"> Esimies </option>';
                         foreach ($lista->esimiehet->children() as $asia) {
-                          echo '<option value="esimies" id="">' .$asia. '</option>';
+                          echo '<option value="esimies" name="esimies">' .$asia. '</option>';
                         };
                       ?>
                     </td>

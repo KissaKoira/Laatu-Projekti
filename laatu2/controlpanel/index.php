@@ -9,8 +9,7 @@
 </head>
 <body>
 <?php
-$lista = simplexml_load_file('C:/xampp/htdocs/laatu/esimiehet.xml');
-$lista1 = simplexml_load_file('C:/xampp/htdocs/laatu/vastaukset.xml');
+$lista = simplexml_load_file('C:/xampp/htdocs/laatumaster/laatu2/esimiehet.xml');
 echo "<h1>$lista->nimi</h1>";
 
 $n = 0;
@@ -31,41 +30,38 @@ echo '</ul>';
   <input type="submit" value="Lisää" />
 </form>
 <br>
+
+<h1> Vastaukset kyselyyn </h1>
 <?php
-echo '<table style="border: 1px solid black"><tr><td>Nimi</td><tr>';
 
 
+$servername = "paja.esedu.fi";
+$username = "laatu";
+$password = "K@tt1m@t1k@1nen";
+$dbname = "laatuDB";
 
 
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
 
 
-foreach ($lista1->nimet->children() as $asia1) {
-  echo "<td style='width: 80px'>".$asia1."</td>";
-  }
-echo "</tr><td>Aikaisemman osaamisen tunnistamisen ja tunnustamisen prosessikuvauksen mukaan ohjauskeskustelun käyminen on opiskelijan vastuulla</td><tr>";
-foreach ($lista1->vastaukset1->children() as $asia2) {
-  echo "<td>".$asia2."</td>";
-  }
-echo "</tr><td>Aikuiskoulutushaussa vastuuopettaja ja opintosihteeri vastaavat yhdessä mahdollisten hakijoiden informoinnista ja ohjaamisesta</td><tr>";
-foreach ($lista1->vastaukset2->children() as $asia3) {
-  echo "<td>".$asia3."</td>";
-  }
-echo "</tr><td>Opettajan vastuulla on ohjata opiskelijat vastaamaan opiskelijapalautekyselyihin (nuorten tulo-, olo- ja päättökyselyt, aikuiskoulutus OPAL ja AIPAL sekä kummankin koulutusmuodon opettajan henkilökohtainen palaute)</td><tr>";
-foreach ($lista1->vastaukset3->children() as $asia4) {
-  echo "<td>".$asia4."</td>";
-  }
-echo "</tr><td>Opiskelija tunnistaa olemassa olevan osaamisen</td><tr>";
-foreach ($lista1->vastaukset4->children() as $asia5) {
-  echo "<td>".$asia5."</td>";
-  }
-echo "</tr><td>Oppisopimuskoordinaattori ja vastuuopettaja vastaavat yhdessä oppisopimuskoulutuksen tietopuolisen koulutuksen suunnittelusta</td><tr>";
-foreach ($lista1->vastaukset5->children() as $asia6) {
-  echo "<td>".$asia6."</td>";
-  }
-echo "</tr>";
+$query = "SELECT Nimi, Id FROM kysely";
 
-
+$result = $conn->query($query);
+while($row = mysqli_fetch_assoc($result))
+{
+   echo "<a href='vastausinfo.php?id=". $row['Id']. "'>". $row['Nimi']. "</a></br>";
+}
 ?>
+
+
+
+
+
+
 
 </body>
 </html>
