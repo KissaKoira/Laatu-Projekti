@@ -407,7 +407,7 @@ function checkActivity(){
 //dragdrop testi
 $(function(){
   var block1 = document.getElementById("block1");
-  $(block1).data("target", 3);
+  $(block1).data("target", 4);
   var block2 = document.getElementById("block2");
   $(block2).data("target", 4);
   var block3 = document.getElementById("block3");
@@ -415,17 +415,15 @@ $(function(){
   var block9 = document.getElementById("block9");
   $(block9).data("target", 2);
   var block4 = document.getElementById("block4");
-  $(block4).data("target", 4);
+  $(block4).data("target", 1);
   var block5 = document.getElementById("block5");
   $(block5).data("target", 1);
-  var block13 = document.getElementById("block13");
-  $(block13).data("target", 3);
   var block6 = document.getElementById("block6");
-  $(block6).data("target", 1);
+  $(block6).data("target", 2);
   var block7 = document.getElementById("block7");
   $(block7).data("target", 2);
   var block10 = document.getElementById("block10");
-  $(block10).data("target", 2);
+  $(block10).data("target", 3);
   var block11 = document.getElementById("block11");
   $(block11).data("target", 3);
   var block12 = document.getElementById("block12");

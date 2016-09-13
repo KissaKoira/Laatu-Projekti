@@ -1,18 +1,18 @@
 /* tekstit */
 .teksti{
-  font-family: Corbel;
+  font-family: Arial,Helvetica,sans-serif;
   font-size: 20px;
   color: grey;
 }
 .otsikko{
-  font-family: Corbel;
+  font-family: Arial,Helvetica,sans-serif;
   font-size: 35px;
   color: orange;
   line-height: 110%;
 }
 h3, a, a:hover{
   text-decoration: none;
-  font-family: Corbel;
+  font-family: Arial,Helvetica,sans-serif;
   color: #222222;
 }
 
@@ -84,7 +84,7 @@ h3, a, a:hover{
   float: left;
   width: 475px;
   height: 450px;
-  font-family: Corbel;
+  font-family: Arial,Helvetica,sans-serif;
   color: grey;
   font-size: 20px;
   overflow-y: auto;
@@ -94,7 +94,7 @@ h3, a, a:hover{
   width: 475px;
   height: 450px;
   float: right;
-  font-family: Corbel;
+  font-family: Arial,Helvetica,sans-serif;
   color: grey;
   font-size: 20px;
 }
@@ -154,12 +154,12 @@ h3, a, a:hover{
   width: 400px;
   float: left;
   margin: 40px 20px 0px 0px;
-  font-family: Corbel;
+  font-family: Arial,Helvetica,sans-serif;
   color: grey;
 }
 #navbaar a{
   text-decoration: none;
-  font-family: Corbel;
+  font-family: Arial,Helvetica,sans-serif;
   color: grey;
   font-size: 25px;
   line-height: 100%;
@@ -167,11 +167,17 @@ h3, a, a:hover{
 #navbaar .inactive,
 #navbaar .active{
   width: 370px;
-  padding: 5px;
-  margin-bottom: 10px;
+  padding: 3px;
+  margin-bottom: 5px;
 }
 #navbaar .active{
   background-color: #acd29b;
+}
+#navbaar .subtitle{
+  width: 370px;
+  padding: 3px;
+  margin-bottom: 5px;
+  margin-left: -10px;
 }
 #navlist{
   height: 550px;
@@ -243,7 +249,7 @@ h3, a, a:hover{
 .draggable{
   margin: 0px 10px 10px 0px;
   float: left;
-  font-family: Corbel;
+  font-family: Arial,Helvetica,sans-serif;
   font-size: 20px;
 }
 .droppable{
@@ -256,7 +262,7 @@ h3, a, a:hover{
   float: left;
   padding-top: 70px;
   text-align: center;
-  font-family: Corbel;
+  font-family: Arial,Helvetica,sans-serif;
   font-size: 30px;
 }
 #blocks{

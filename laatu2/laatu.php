@@ -22,17 +22,20 @@
       <div id="navlist">
         <div id="tab1" data-target="#carousel-custom" data-slide-to="0" class="active" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Etusivu</a></div>
         <div id="tab2" data-target="#carousel-custom" data-slide-to="1" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Esittely</a></div>
+      <div class="subtitle"><a>OSA 1 Suunnittelu ja toteutus</a></div>
         <div id="tab3" data-target="#carousel-custom" data-slide-to="2" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Mikä tekee oppilaitoksestamme laadukkaan</a></div>
         <div id="tab4" data-target="#carousel-custom" data-slide-to="3" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Mikä siis tekee työstäni laadukkaan</a></div>
         <div id="tab5" data-target="#carousel-custom" data-slide-to="4" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Tehtäväsivu 1</a></div>
         <div id="tab6" data-target="#carousel-custom" data-slide-to="5" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Miten asetamme tavoitteet oppilaitoksellemme</a></div>
         <div id="tab7" data-target="#carousel-custom" data-slide-to="6" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Miten asetan tavoitteet työlleni</a></div>
         <div id="tab8" data-target="#carousel-custom" data-slide-to="7" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Tehtäväsivu 2</a></div>
+      <div class="subtitle"><a>OSA 2 Arvointi ja parantaminen</a></div>
         <div id="tab9" data-target="#carousel-custom" data-slide-to="8" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Miten arvioimme oppilaitoksemme toiminnan vaikuttavuutta</a></div>
         <div id="tab10" data-target="#carousel-custom" data-slide-to="9" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Miten arvioin oman työni vaikutuksia ja vaikuttavuutta</a></div>
         <div id="tab11" data-target="#carousel-custom" data-slide-to="10" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Tehtäväsivu 3</a></div>
         <div id="tab12" data-target="#carousel-custom" data-slide-to="11" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Miten parannamme oppilaitoksen toimintaa</a></div>
         <div id="tab13" data-target="#carousel-custom" data-slide-to="12" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Miten osoitamme oppilaitoksen laadukkuuden</a></div>
+      <div class="subtitle"><a>OSA 3 Tuloksellisuus- ja vaikuttavuusmittarit</a></div>
         <div id="tab14" data-target="#carousel-custom" data-slide-to="13" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Tuloksellisuus- ja vaikuttavuusmittarit</a></div>
         <div id="tab15" data-target="#carousel-custom" data-slide-to="14" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Tiedon keruu ja analysointi</a></div>
         <div id="tab16" data-target="#carousel-custom" data-slide-to="15" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Tiedon keruu ja analysointi</a></div>
@@ -129,19 +132,18 @@
           <p id="otsikko5" class="otsikko"></p>
           <p id="teksti4" class="teksti"></p>
           <div id="blocks">
-            <a id="block6" class="draggable">Henkilöstösuunnitelma</a>
-            <a id="block13" class="draggable">Oppimistulokset</a>
-            <a id="block1" class="draggable">Työvoimapoliittisen koulutuksen raportointi</a>
-            <a id="block5" class="draggable">Opetussuunnitelma</a>
-            <a id="block12" class="draggable">Asiakastulokset</a>
-            <a id="block7" class="draggable">Opetus</a>
-            <a id="block3" class="draggable">Hanketoiminta</a>
-            <a id="block4" class="draggable">HEKS-keskustelut</a>
-            <a id="block9" class="draggable">Työssäoppiminen</a>
-            <a id="block11" class="draggable">Opiskelijapalautteet</a>
-            <a id="block2" class="draggable">Oman työn kehittäminen</a>
-            <a id="block10" class="draggable">Näyttötutkinto</a>
-            <a id="block8" class="draggable">Ohjaus</a>
+            <a id="block5" class="draggable">Henkilöstösuunnitelma</a>
+            <a id="block12" class="draggable">Oppimistulokset</a>
+            <a id="block4" class="draggable">Opetussuunnitelma</a>
+            <a id="block11" class="draggable">Asiakastulokset</a>
+            <a id="block6" class="draggable">Opetus</a>
+            <a id="block2" class="draggable">Hanketoiminta</a>
+            <a id="block3" class="draggable">HEKS-keskustelut</a>
+            <a id="block8" class="draggable">Työssäoppiminen</a>
+            <a id="block10" class="draggable">Opiskelijapalautteet</a>
+            <a id="block1" class="draggable">Oman työn kehittäminen</a>
+            <a id="block9" class="draggable">Näyttötutkinto</a>
+            <a id="block7" class="draggable">Ohjaus</a>
           </div>
           <div id="goals">
             <div id="goal1" class="droppable">Suunnittelu</div>
@@ -156,7 +158,7 @@
             <p id="teksti5" class="teksti"></p>
           </div>
           <div class="rightside">
-            <div style="height: 350px;"> <!-- Nopea ratkaisu -->
+            <div style="height: 325px;"> <!-- Nopea ratkaisu -->
             <div class="accordion">
               <h3 id="hotsikko6"></h3>
               <div>
@@ -317,7 +319,7 @@
           </div>
         </div>
         <div class="item">
-          <div style="width: 975px; height: 480px; overflow-y: auto;">
+          <div style="width: 975px; height: 450px; overflow-y: auto;">
             <p id="otsikko11" class="otsikko"></p>
             <p id="teksti10" class="teksti"></p>
           </div>
@@ -377,6 +379,7 @@
         <div class="item">
           <p class="teksti"> Tekninen toteutus: Onni Heinonen, Riku Hänninen </p>
           <p class="teksti"> Graafinen toteutus: Mitja Immonen </p>
+          <p class="teksti"> Sisällöissä on hyödynnetty AMEO-verkoston Laatu-Katti vieköön!-koulutusta. </p>
         </div>
       </div>
       <!-- Controls -->
