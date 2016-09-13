@@ -24,7 +24,6 @@ h3, a, a:hover{
   background:url('pics/plus.png') !important;
 }
 
-
 /* sivun wrapper */
 #wrapper{
   width: 1422px;
@@ -161,14 +160,13 @@ h3, a, a:hover{
   text-decoration: none;
   font-family: Arial,Helvetica,sans-serif;
   color: grey;
-  font-size: 25px;
   line-height: 100%;
 }
 #navbaar .inactive,
 #navbaar .active{
   width: 370px;
   padding: 3px;
-  margin-bottom: 5px;
+  font-size: 20px;
 }
 #navbaar .active{
   background-color: #acd29b;
@@ -176,8 +174,8 @@ h3, a, a:hover{
 #navbaar .subtitle{
   width: 370px;
   padding: 3px;
-  margin-bottom: 5px;
   margin-left: -10px;
+  font-size: 25px;
 }
 #navlist{
   height: 550px;

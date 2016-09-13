@@ -73,11 +73,9 @@
       <!-- Sivut -->
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <div class="leftside">
+          <div>
             <p id="otsikko1" class="otsikko"></p>
-          </div>
-          <div class="rightside">
-            <img src="pics/etusivu.png"/>
+            <img style="margin-left: 7%; width: 800px;" src="pics/laatuympyra.gif"/>
           </div>
         </div>
         <div class="item">
