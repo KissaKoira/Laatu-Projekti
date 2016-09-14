@@ -194,6 +194,9 @@
           <div class="leftside">
             <p id="otsikko8" class="otsikko"></p>
             <p id="teksti7" class="teksti"></p>
+            <div id="vastauksetDiv" class="hidden">
+              <p id="vastaukset" class="teksti"></p>
+            </div>
           </div>
           <div class="rightside" style="overflow-y: hidden;">
             <h2> Totta vai Tarua? </h2>
@@ -396,113 +399,3 @@
   <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
-
-<!--    <div class="leftside">
-      <div id="blocks">
-        <div id="block1" class="draggable">Esim1</div>
-        <div id="block2" class="draggable">Esim2</div>
-        <div id="block3" class="draggable">Esim3</div>
-        <div id="block4" class="draggable">Esim4</div>
-        <div id="block4" class="draggable">Esim5</div>
-        <div id="block4" class="draggable">Esim6</div>
-      </div>
-      <div id="goals">
-        <div id="goal1" class="droppable">Esim1</div>
-        <div id="goal2" class="droppable">Esim2</div>
-      </div>
-    </div>
-    <div class="rightside">
-      <div id="accordion">
-        <h3>Section 1</h3>
-        <div>
-          <p>
-          Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
-          ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
-          amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
-          odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
-          </p>
-        </div>
-        <h3>Section 2</h3>
-        <div>
-          <p>
-          Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
-          purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
-          velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
-          suscipit faucibus urna.
-          </p>
-        </div>
-        <h3>Section 3</h3>
-        <div>
-          <p>
-          Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
-          Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
-          ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
-          lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
-          </p>
-          <ul>
-            <li>List item one</li>
-            <li>List item two</li>
-            <li>List item three</li>
-          </ul>
-        </div>
-        <h3>Section 4</h3>
-        <div>
-          <p>
-          Cras dictum. Pellentesque habitant morbi tristique senectus et netus
-          et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
-          faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
-          mauris vel est.
-          </p>
-          <p>
-          Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
-          Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
-          inceptos himenaeos.
-        </p>
-      </div>
-    </div>
-  </div> -->
-
-  <!-- <div class="rightside">
-    <img src="pics/kysymysmerkki.png"/>
-  </div>
-  <div class="leftside">
-    <form method="post" action="send.php">
-      <h2> Totta vai Tarua? </h2>
-      <div id="vastauswrapper">
-      <p id="vastaus1">Totta ja Tarua</p>
-      <p id="vastaus1">Totta</p>
-      <p id="vastaus1">Tarua</p>
-
-      </div>
-      <div id="vastauswrapper">
-      <p id="kysymys">1. Hyvin suunniteltu on puoliksi tehty</p>
-      <fieldset id="group1">
-      <input id="vastaus" type="radio" name="group1">
-      <input id="vastaus" type="radio" name="group1">
-      <input id="vastaus" type="radio" name="group1"> <br></fieldset>
-    </div>
-    <div id="vastauswrapper">
-      <p id="kysymys">1. Hyvin suunniteltu on puoliksi tehty</p>
-      <fieldset id="group2">
-      <input id="vastaus" type="radio" name="group2">
-      <input id="vastaus" type="radio" name="group2">
-      <input id="vastaus" type="radio" name="group2"> <br></fieldset>
-    </div>
-    <div id="vastauswrapper">
-      <p id="kysymys">1. Hyvin suunniteltu on puoliksi tehty</p>
-      <fieldset id="group3">
-      <input id="vastaus" type="radio" name="group3">
-      <input id="vastaus" type="radio" name="group3">
-      <input id="vastaus" type="radio" name="group3"> <br></fieldset>
-    </div>
-    <div id="vastauswrapper">
-      <p id="kysymys">1. Hyvin suunniteltu on puoliksi tehty</p>
-      <fieldset id="group4">
-      <input id="vastaus" type="radio"  name="group4">
-      <input id="vastaus" type="radio"  name="group4">
-      <input id="vastaus" type="radio"  name="group4"> <br></fieldset>
-    </div>
-    <input type="submit" name="Lähetä">
-  </form>
-  </div>
--->
