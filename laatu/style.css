@@ -1,13 +1,53 @@
 /* tekstit */
+.carousel h3,
+.carousel a,
+.carousel a:hover{
+  font-family: Arial,Helvetica,sans-serif;
+  color: grey;
+  text-decoration: none;
+}
 .teksti{
-  font-family: Corbel;
+  font-family: Arial,Helvetica,sans-serif;
   font-size: 20px;
   color: grey;
 }
 .otsikko{
-  font-family: Corbel;
+  font-family: Arial,Helvetica,sans-serif;
   font-size: 35px;
   color: orange;
+  line-height: 110%;
+}
+.accordion h3,
+.accordion a,
+.accordion a:hover{
+  text-decoration: none;
+  font-family: Arial,Helvetica,sans-serif;
+  color: grey !important;
+}
+.accordion a,
+.accordion a:hover{
+  font-size: 20px;
+}
+
+/* hidden / visible */
+.hidden{
+  display: none !important;
+  font-family: Arial,Helvetica,sans-serif;
+}
+.visible{
+  display: visible;
+  font-family: Arial,Helvetica,sans-serif;
+}
+
+/* haitarit */
+.iconMinus{
+  background:url('pics/minus.png') !important;
+}
+.iconPlus{
+  background:url('pics/plus.png') !important;
+}
+.ui-accordion-content{
+  padding: 20px !important;
 }
 
 /* sivun wrapper */
@@ -47,10 +87,7 @@
   font-style: italic;
   text-decoration: none;
 }
-#mobileheader{
-  background-color: #4BAD31;
-  height: 50px;
-}
+
 /* karuselli */
 #carousel-custom{
   width: 1000px;
@@ -64,55 +101,15 @@
   position: relative;
   float:left;
 }
-@media only screen and (max-device-width: 700px) {
-  #wrapper{
-    width: 100% !important;
-    height: auto !important;
-    margin: auto !important;
-    margin-top: 10px !important;
-    overflow-x: hidden !important;
-  }
-  #carousel-custom{
-    width: 700px;
-    height: auto;
-    margin: auto;
-  }
-  .leftside{
-    float: left;
-    width: 100%;
-    height: auto;
-    font-family: Corbel;
-    color: grey;
-    font-size: 20px;
-    overflow-y: auto;
-    overflow-x: hidden;
-  }
-  .rightside{
-    float: left !important;
-    width: 100% !important;
-    height: auto !important;
-    font-family: Corbel !important;
-    color: grey !important;
-    font-size: 20px !important;
-    overflow-y: auto !important;
-    overflow-x: hidden !important;
-  }
-  .rightside img{
-    height: 450px;
-    margin: 0px !important;
-    background-color: transparent;
-  }
-  }
 .item{
   padding: 20px;
-  height: 450px;
-  width: 1000px;
+  height: 469px;
 }
 .leftside{
   float: left;
   width: 475px;
   height: 450px;
-  font-family: Corbel;
+  font-family: Arial,Helvetica,sans-serif;
   color: grey;
   font-size: 20px;
   overflow-y: auto;
@@ -121,12 +118,10 @@
 .rightside{
   width: 475px;
   height: 450px;
-  float:right;
-  font-family: Corbel;
+  float: right;
+  font-family: Arial,Helvetica,sans-serif;
   color: grey;
   font-size: 20px;
-  overflow-y: auto;
-  overflow-x: hidden;
 }
 .rightside img{
   height: 450px;
@@ -141,10 +136,11 @@
   bottom: 0px;
   left: 50%;
   z-index: 15;
-  width: 60%;
   margin-left: -30%;
   text-align: center;
   list-style: none;
+  width: 70%;
+  left: 45%;
 }
 #carousel-custom .carousel-indicators li {
   background-color: transparent;
@@ -173,6 +169,9 @@
   background-image: none;
   top: 88%
 }
+.carousel-control{
+  width: 10%;
+}
 .glyphicon-chevron-left,
 .glyphicon-chevron-right{
   color: green;
@@ -184,23 +183,10 @@
   width: 400px;
   float: left;
   margin: 40px 20px 0px 0px;
-  font-family: Corbel;
-  color: grey;
 }
-#navbaar a{
-  text-decoration: none;
-  font-family: Corbel;
-  color: grey;
-  font-size: 30px;
-}
-#navbaar .inactive,
-#navbaar .active{
-  height: 40px;
-  width: 370px;
-  padding-left: 10px;
-}
-#navbaar .active{
-  background-color: #acd29b;
+#navbaar h1{
+  font-family: Arial,Helvetica,sans-serif;
+  color: #595959;
 }
 #navlist{
   height: 550px;
@@ -208,6 +194,37 @@
   padding: 10px;
   overflow-y: auto;
   overflow-x: hidden;
+}
+#navbaar .inactive a,
+#navbaar .active a{
+  text-decoration: none;
+  font-family: Arial,Helvetica,sans-serif;
+  line-height: 90%;
+  color: grey;
+  font-size: 20px;
+}
+#navbaar .inactive,
+#navbaar .active{
+  width: 370px;
+  padding: 5px;
+  margin: 5px 0px 5px 0px;
+}
+#navbaar .active{
+  background-color: #acd29b;
+}
+/* Osa sivut */
+#tab3,
+#tab10,
+#tab16{
+  width: 370px !important;
+  padding: 3px !important;
+  margin-left: -10px !important;
+}
+#tab3 a,
+#tab10 a,
+#tab16 a{
+  color: #595959 !important;
+  font-size: 25px !important;
 }
 
  /* totta vai tarua tehtävät */
@@ -248,12 +265,6 @@
   margin: auto;
 }
 
-/* haitarilistat */
-.accwrapper{
-  height: 290px;
-  width: 475px;
-}
-
 /* taulukot */
 .tableborder,
 .tableborder tr,
@@ -270,14 +281,13 @@
 
 /* dragrop */
 
-.draggable{
-  width: 100px;
-  height: 50px;
+.draggable,
+.droppedright,
+.droppedwrong{
   margin: 0px 10px 10px 0px;
-  border: 5px solid #66cc66;
-  border-radius: 5px;
-  background-color: #9fdf9f;
   float: left;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 20px;
 }
 .droppable{
   width: 200px;
@@ -287,6 +297,10 @@
   border-radius: 10px;
   background-color: #9fdf9f;
   float: left;
+  padding-top: 70px;
+  text-align: center;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 30px;
 }
 #blocks{
   width: 771px;

@@ -48,6 +48,11 @@ function init(xml) {
     document.getElementById(tekstiAttribute).innerHTML = tekstiValue;
   }
   function addContent(){
+    //vastaukset
+    var $vastaukset = $xml.find("vastaukset");
+    var vastauksetValue = $vastaukset.text();
+    document.getElementById("vastaukset").innerHTML = vastauksetValue;
+
     addTitle("sivu1");
     var sivut = ["sivu2","sivu3","sivu4","sivu5","sivu6","sivu7","sivu8","sivu9","sivu10","sivu11","sivu12","sivu13","sivu14","sivu15","sivu16"];
     for(i=0; i < sivut.length; i++){
@@ -131,6 +136,9 @@ function checkActivity(){
     document.getElementById("tab15").setAttribute("class", "inactive");
     document.getElementById("tab16").setAttribute("class", "inactive");
     document.getElementById("tab17").setAttribute("class", "inactive");
+    document.getElementById("tab18").setAttribute("class", "inactive");
+    document.getElementById("tab19").setAttribute("class", "inactive");
+    document.getElementById("tab20").setAttribute("class", "inactive");
   }else if(document.getElementById("indicator3").getAttribute("class") === "active"){
     document.getElementById("tab1").setAttribute("class", "inactive");
     document.getElementById("tab2").setAttribute("class", "inactive");
@@ -149,6 +157,9 @@ function checkActivity(){
     document.getElementById("tab15").setAttribute("class", "inactive");
     document.getElementById("tab16").setAttribute("class", "inactive");
     document.getElementById("tab17").setAttribute("class", "inactive");
+    document.getElementById("tab18").setAttribute("class", "inactive");
+    document.getElementById("tab19").setAttribute("class", "inactive");
+    document.getElementById("tab20").setAttribute("class", "inactive");
   }else if(document.getElementById("indicator4").getAttribute("class") === "active"){
     document.getElementById("tab1").setAttribute("class", "inactive");
     document.getElementById("tab2").setAttribute("class", "inactive");
@@ -167,6 +178,9 @@ function checkActivity(){
     document.getElementById("tab15").setAttribute("class", "inactive");
     document.getElementById("tab16").setAttribute("class", "inactive");
     document.getElementById("tab17").setAttribute("class", "inactive");
+    document.getElementById("tab18").setAttribute("class", "inactive");
+    document.getElementById("tab19").setAttribute("class", "inactive");
+    document.getElementById("tab20").setAttribute("class", "inactive");
   }else if(document.getElementById("indicator5").getAttribute("class") === "active"){
     document.getElementById("tab1").setAttribute("class", "inactive");
     document.getElementById("tab2").setAttribute("class", "inactive");
@@ -185,6 +199,9 @@ function checkActivity(){
     document.getElementById("tab15").setAttribute("class", "inactive");
     document.getElementById("tab16").setAttribute("class", "inactive");
     document.getElementById("tab17").setAttribute("class", "inactive");
+    document.getElementById("tab18").setAttribute("class", "inactive");
+    document.getElementById("tab19").setAttribute("class", "inactive");
+    document.getElementById("tab20").setAttribute("class", "inactive");
   }else if(document.getElementById("indicator6").getAttribute("class") === "active"){
     document.getElementById("tab1").setAttribute("class", "inactive");
     document.getElementById("tab2").setAttribute("class", "inactive");
@@ -203,6 +220,9 @@ function checkActivity(){
     document.getElementById("tab15").setAttribute("class", "inactive");
     document.getElementById("tab16").setAttribute("class", "inactive");
     document.getElementById("tab17").setAttribute("class", "inactive");
+    document.getElementById("tab18").setAttribute("class", "inactive");
+    document.getElementById("tab19").setAttribute("class", "inactive");
+    document.getElementById("tab20").setAttribute("class", "inactive");
   }else if(document.getElementById("indicator7").getAttribute("class") === "active"){
     document.getElementById("tab1").setAttribute("class", "inactive");
     document.getElementById("tab2").setAttribute("class", "inactive");
@@ -221,6 +241,9 @@ function checkActivity(){
     document.getElementById("tab15").setAttribute("class", "inactive");
     document.getElementById("tab16").setAttribute("class", "inactive");
     document.getElementById("tab17").setAttribute("class", "inactive");
+    document.getElementById("tab18").setAttribute("class", "inactive");
+    document.getElementById("tab19").setAttribute("class", "inactive");
+    document.getElementById("tab20").setAttribute("class", "inactive");
   }else if(document.getElementById("indicator8").getAttribute("class") === "active"){
     document.getElementById("tab1").setAttribute("class", "inactive");
     document.getElementById("tab2").setAttribute("class", "inactive");
@@ -239,6 +262,9 @@ function checkActivity(){
     document.getElementById("tab15").setAttribute("class", "inactive");
     document.getElementById("tab16").setAttribute("class", "inactive");
     document.getElementById("tab17").setAttribute("class", "inactive");
+    document.getElementById("tab18").setAttribute("class", "inactive");
+    document.getElementById("tab19").setAttribute("class", "inactive");
+    document.getElementById("tab20").setAttribute("class", "inactive");
   }else if(document.getElementById("indicator9").getAttribute("class") === "active"){
     document.getElementById("tab1").setAttribute("class", "inactive");
     document.getElementById("tab2").setAttribute("class", "inactive");
@@ -257,6 +283,9 @@ function checkActivity(){
     document.getElementById("tab15").setAttribute("class", "inactive");
     document.getElementById("tab16").setAttribute("class", "inactive");
     document.getElementById("tab17").setAttribute("class", "inactive");
+    document.getElementById("tab18").setAttribute("class", "inactive");
+    document.getElementById("tab19").setAttribute("class", "inactive");
+    document.getElementById("tab20").setAttribute("class", "inactive");
   }else if(document.getElementById("indicator10").getAttribute("class") === "active"){
     document.getElementById("tab1").setAttribute("class", "inactive");
     document.getElementById("tab2").setAttribute("class", "inactive");
@@ -275,6 +304,9 @@ function checkActivity(){
     document.getElementById("tab15").setAttribute("class", "inactive");
     document.getElementById("tab16").setAttribute("class", "inactive");
     document.getElementById("tab17").setAttribute("class", "inactive");
+    document.getElementById("tab18").setAttribute("class", "inactive");
+    document.getElementById("tab19").setAttribute("class", "inactive");
+    document.getElementById("tab20").setAttribute("class", "inactive");
   }else if(document.getElementById("indicator11").getAttribute("class") === "active"){
     document.getElementById("tab1").setAttribute("class", "inactive");
     document.getElementById("tab2").setAttribute("class", "inactive");
@@ -293,6 +325,9 @@ function checkActivity(){
     document.getElementById("tab15").setAttribute("class", "inactive");
     document.getElementById("tab16").setAttribute("class", "inactive");
     document.getElementById("tab17").setAttribute("class", "inactive");
+    document.getElementById("tab18").setAttribute("class", "inactive");
+    document.getElementById("tab19").setAttribute("class", "inactive");
+    document.getElementById("tab20").setAttribute("class", "inactive");
   }else if(document.getElementById("indicator12").getAttribute("class") === "active"){
     document.getElementById("tab1").setAttribute("class", "inactive");
     document.getElementById("tab2").setAttribute("class", "inactive");
@@ -311,6 +346,9 @@ function checkActivity(){
     document.getElementById("tab15").setAttribute("class", "inactive");
     document.getElementById("tab16").setAttribute("class", "inactive");
     document.getElementById("tab17").setAttribute("class", "inactive");
+    document.getElementById("tab18").setAttribute("class", "inactive");
+    document.getElementById("tab19").setAttribute("class", "inactive");
+    document.getElementById("tab20").setAttribute("class", "inactive");
   }else if(document.getElementById("indicator13").getAttribute("class") === "active"){
     document.getElementById("tab1").setAttribute("class", "inactive");
     document.getElementById("tab2").setAttribute("class", "inactive");
@@ -329,6 +367,9 @@ function checkActivity(){
     document.getElementById("tab15").setAttribute("class", "inactive");
     document.getElementById("tab16").setAttribute("class", "inactive");
     document.getElementById("tab17").setAttribute("class", "inactive");
+    document.getElementById("tab18").setAttribute("class", "inactive");
+    document.getElementById("tab19").setAttribute("class", "inactive");
+    document.getElementById("tab20").setAttribute("class", "inactive");
   }else if(document.getElementById("indicator14").getAttribute("class") === "active"){
     document.getElementById("tab1").setAttribute("class", "inactive");
     document.getElementById("tab2").setAttribute("class", "inactive");
@@ -347,6 +388,9 @@ function checkActivity(){
     document.getElementById("tab15").setAttribute("class", "inactive");
     document.getElementById("tab16").setAttribute("class", "inactive");
     document.getElementById("tab17").setAttribute("class", "inactive");
+    document.getElementById("tab18").setAttribute("class", "inactive");
+    document.getElementById("tab19").setAttribute("class", "inactive");
+    document.getElementById("tab20").setAttribute("class", "inactive");
   }else if(document.getElementById("indicator15").getAttribute("class") === "active"){
     document.getElementById("tab1").setAttribute("class", "inactive");
     document.getElementById("tab2").setAttribute("class", "inactive");
@@ -365,6 +409,9 @@ function checkActivity(){
     document.getElementById("tab15").setAttribute("class", "active");
     document.getElementById("tab16").setAttribute("class", "inactive");
     document.getElementById("tab17").setAttribute("class", "inactive");
+    document.getElementById("tab18").setAttribute("class", "inactive");
+    document.getElementById("tab19").setAttribute("class", "inactive");
+    document.getElementById("tab20").setAttribute("class", "inactive");
   }else if(document.getElementById("indicator16").getAttribute("class") === "active"){
     document.getElementById("tab1").setAttribute("class", "inactive");
     document.getElementById("tab2").setAttribute("class", "inactive");
@@ -383,6 +430,9 @@ function checkActivity(){
     document.getElementById("tab15").setAttribute("class", "inactive");
     document.getElementById("tab16").setAttribute("class", "active");
     document.getElementById("tab17").setAttribute("class", "inactive");
+    document.getElementById("tab18").setAttribute("class", "inactive");
+    document.getElementById("tab19").setAttribute("class", "inactive");
+    document.getElementById("tab20").setAttribute("class", "inactive");
   }else if(document.getElementById("indicator17").getAttribute("class") === "active"){
     document.getElementById("tab1").setAttribute("class", "inactive");
     document.getElementById("tab2").setAttribute("class", "inactive");
@@ -401,13 +451,80 @@ function checkActivity(){
     document.getElementById("tab15").setAttribute("class", "inactive");
     document.getElementById("tab16").setAttribute("class", "inactive");
     document.getElementById("tab17").setAttribute("class", "active");
+    document.getElementById("tab18").setAttribute("class", "inactive");
+    document.getElementById("tab19").setAttribute("class", "inactive");
+    document.getElementById("tab20").setAttribute("class", "inactive");
+  }
+  else if(document.getElementById("indicator18").getAttribute("class") === "active"){
+    document.getElementById("tab1").setAttribute("class", "inactive");
+    document.getElementById("tab2").setAttribute("class", "inactive");
+    document.getElementById("tab3").setAttribute("class", "inactive");
+    document.getElementById("tab4").setAttribute("class", "inactive");
+    document.getElementById("tab5").setAttribute("class", "inactive");
+    document.getElementById("tab6").setAttribute("class", "inactive");
+    document.getElementById("tab7").setAttribute("class", "inactive");
+    document.getElementById("tab8").setAttribute("class", "inactive");
+    document.getElementById("tab9").setAttribute("class", "inactive");
+    document.getElementById("tab10").setAttribute("class", "inactive");
+    document.getElementById("tab11").setAttribute("class", "inactive");
+    document.getElementById("tab12").setAttribute("class", "inactive");
+    document.getElementById("tab13").setAttribute("class", "inactive");
+    document.getElementById("tab14").setAttribute("class", "inactive");
+    document.getElementById("tab15").setAttribute("class", "inactive");
+    document.getElementById("tab16").setAttribute("class", "inactive");
+    document.getElementById("tab17").setAttribute("class", "inactive");
+    document.getElementById("tab18").setAttribute("class", "active");
+    document.getElementById("tab19").setAttribute("class", "inactive");
+    document.getElementById("tab20").setAttribute("class", "inactive");
+  }else if(document.getElementById("indicator19").getAttribute("class") === "active"){
+    document.getElementById("tab1").setAttribute("class", "inactive");
+    document.getElementById("tab2").setAttribute("class", "inactive");
+    document.getElementById("tab3").setAttribute("class", "inactive");
+    document.getElementById("tab4").setAttribute("class", "inactive");
+    document.getElementById("tab5").setAttribute("class", "inactive");
+    document.getElementById("tab6").setAttribute("class", "inactive");
+    document.getElementById("tab7").setAttribute("class", "inactive");
+    document.getElementById("tab8").setAttribute("class", "inactive");
+    document.getElementById("tab9").setAttribute("class", "inactive");
+    document.getElementById("tab10").setAttribute("class", "inactive");
+    document.getElementById("tab11").setAttribute("class", "inactive");
+    document.getElementById("tab12").setAttribute("class", "inactive");
+    document.getElementById("tab13").setAttribute("class", "inactive");
+    document.getElementById("tab14").setAttribute("class", "inactive");
+    document.getElementById("tab15").setAttribute("class", "inactive");
+    document.getElementById("tab16").setAttribute("class", "inactive");
+    document.getElementById("tab17").setAttribute("class", "inactive");
+    document.getElementById("tab18").setAttribute("class", "inactive");
+    document.getElementById("tab19").setAttribute("class", "active");
+    document.getElementById("tab20").setAttribute("class", "inactive");
+  }else if(document.getElementById("indicator20").getAttribute("class") === "active"){
+    document.getElementById("tab1").setAttribute("class", "inactive");
+    document.getElementById("tab2").setAttribute("class", "inactive");
+    document.getElementById("tab3").setAttribute("class", "inactive");
+    document.getElementById("tab4").setAttribute("class", "inactive");
+    document.getElementById("tab5").setAttribute("class", "inactive");
+    document.getElementById("tab6").setAttribute("class", "inactive");
+    document.getElementById("tab7").setAttribute("class", "inactive");
+    document.getElementById("tab8").setAttribute("class", "inactive");
+    document.getElementById("tab9").setAttribute("class", "inactive");
+    document.getElementById("tab10").setAttribute("class", "inactive");
+    document.getElementById("tab11").setAttribute("class", "inactive");
+    document.getElementById("tab12").setAttribute("class", "inactive");
+    document.getElementById("tab13").setAttribute("class", "inactive");
+    document.getElementById("tab14").setAttribute("class", "inactive");
+    document.getElementById("tab15").setAttribute("class", "inactive");
+    document.getElementById("tab16").setAttribute("class", "inactive");
+    document.getElementById("tab17").setAttribute("class", "inactive");
+    document.getElementById("tab18").setAttribute("class", "inactive");
+    document.getElementById("tab19").setAttribute("class", "inactive");
+    document.getElementById("tab20").setAttribute("class", "active");
   }
 }
 
 //dragdrop testi
 $(function(){
   var block1 = document.getElementById("block1");
-  $(block1).data("target", 3);
+  $(block1).data("target", 4);
   var block2 = document.getElementById("block2");
   $(block2).data("target", 4);
   var block3 = document.getElementById("block3");
@@ -415,17 +532,15 @@ $(function(){
   var block9 = document.getElementById("block9");
   $(block9).data("target", 2);
   var block4 = document.getElementById("block4");
-  $(block4).data("target", 4);
+  $(block4).data("target", 1);
   var block5 = document.getElementById("block5");
   $(block5).data("target", 1);
-  var block13 = document.getElementById("block13");
-  $(block13).data("target", 3);
   var block6 = document.getElementById("block6");
-  $(block6).data("target", 1);
+  $(block6).data("target", 2);
   var block7 = document.getElementById("block7");
   $(block7).data("target", 2);
   var block10 = document.getElementById("block10");
-  $(block10).data("target", 2);
+  $(block10).data("target", 3);
   var block11 = document.getElementById("block11");
   $(block11).data("target", 3);
   var block12 = document.getElementById("block12");
@@ -442,26 +557,20 @@ $(function(){
   var goal4 = document.getElementById("goal4");
   $(goal4).data("id", 4);
 
-  $( ".draggable" ).draggable({
-    revert: "invalid",
-  });
+  $( ".draggable" ).draggable();
   $( ".droppable" ).droppable({
     drop: handleDropEvent,
   });
 });
 
-var rightAnswers = 0;
-
 function handleDropEvent( event, ui ) {
   var drop = $(this).data( 'id' );
   var drag = ui.draggable.data( 'target' );
   if(drop === drag){
-    rightAnswers += 1;
-    console.log(rightAnswers);
+    ui.draggable.removeClass( "droppedwrong" );
     ui.draggable.addClass( "droppedright" );
-    ui.draggable('disable');
   } else{
+    ui.draggable.removeClass( "droppedright" );
     ui.draggable.addClass( "droppedwrong" );
-    ui.draggable('disable');
   }
 }

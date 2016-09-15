@@ -10,14 +10,8 @@
     <nimi1>Riku Hänninen</nimi1>
     <nimi1>123</nimi1>
     <nimi1>Riku Hänninen</nimi1>
-    <nimi1>Riku Hänninen</nimi1>
-    <nimi1>Riku Hänninen</nimi1>
-    <nimi1>Riku Hänninen</nimi1>
-    <nimi1>Lauri Pohjolainen</nimi1>
-    <nimi1>RIku</nimi1>
-    <nimi1>Riku Hänninen</nimi1>
-    <nimi1>1234</nimi1>
-    <nimi1>1234</nimi1>
+    <nimi1/>
+    <nimi1>Riq</nimi1>
   </nimet>
   <vastaukset1>
     <vastaus1>-</vastaus1>
@@ -28,13 +22,7 @@
     <vastaus1>Tarua</vastaus1>
     <vastaus1>Tarua</vastaus1>
     <vastaus1>Tarua</vastaus1>
-    <vastaus1>Tarua</vastaus1>
-    <vastaus1>Tarua</vastaus1>
-    <vastaus1>Tarua</vastaus1>
-    <vastaus1>Tarua</vastaus1>
-    <vastaus1>Tarua</vastaus1>
-    <vastaus1>Totta</vastaus1>
-    <vastaus1>Tarua</vastaus1>
+    <vastaus1/>
     <vastaus1>Tarua</vastaus1>
   </vastaukset1>
   <vastaukset2>
@@ -46,14 +34,8 @@
     <vastaus2>Totta</vastaus2>
     <vastaus2>Totta</vastaus2>
     <vastaus2>Totta</vastaus2>
-    <vastaus2>Totta</vastaus2>
-    <vastaus2>Totta</vastaus2>
-    <vastaus2>Totta</vastaus2>
+    <vastaus2/>
     <vastaus2>Tarua</vastaus2>
-    <vastaus2>Totta</vastaus2>
-    <vastaus2>Tarua</vastaus2>
-    <vastaus2>Totta</vastaus2>
-    <vastaus2>Totta</vastaus2>
   </vastaukset2>
   <vastaukset3>
     <vastaus3>-</vastaus3>
@@ -64,13 +46,7 @@
     <vastaus3>Tarua</vastaus3>
     <vastaus3>Tarua</vastaus3>
     <vastaus3>Tarua</vastaus3>
-    <vastaus3>Tarua</vastaus3>
-    <vastaus3>Tarua</vastaus3>
-    <vastaus3>Tarua</vastaus3>
-    <vastaus3>Tarua</vastaus3>
-    <vastaus3>Tarua</vastaus3>
-    <vastaus3>Totta</vastaus3>
-    <vastaus3>Tarua</vastaus3>
+    <vastaus3/>
     <vastaus3>Tarua</vastaus3>
   </vastaukset3>
   <vastaukset4>
@@ -82,14 +58,8 @@
     <vastaus4>Totta</vastaus4>
     <vastaus4>Totta</vastaus4>
     <vastaus4>Totta</vastaus4>
-    <vastaus4>Totta</vastaus4>
-    <vastaus4>Totta</vastaus4>
-    <vastaus4>Totta</vastaus4>
+    <vastaus4/>
     <vastaus4>Tarua</vastaus4>
-    <vastaus4>Totta</vastaus4>
-    <vastaus4>Tarua</vastaus4>
-    <vastaus4>Totta</vastaus4>
-    <vastaus4>Totta</vastaus4>
   </vastaukset4>
   <vastaukset5>
     <vastaus5>-</vastaus5>
@@ -100,23 +70,11 @@
     <vastaus5>Tarua</vastaus5>
     <vastaus5>Totta</vastaus5>
     <vastaus5>Tarua</vastaus5>
-    <vastaus5>Tarua</vastaus5>
-    <vastaus5>Tarua</vastaus5>
-    <vastaus5>Tarua</vastaus5>
-    <vastaus5>Tarua</vastaus5>
-    <vastaus5>Tarua</vastaus5>
-    <vastaus5>Totta</vastaus5>
-    <vastaus5>Tarua</vastaus5>
+    <vastaus5/>
     <vastaus5>Tarua</vastaus5>
   </vastaukset5>
   <esimiehet>
     <esimies>-</esimies>
-    <esimies/>
-    <esimies/>
-    <esimies/>
-    <esimies/>
-    <esimies/>
-    <esimies/>
     <esimies/>
     <esimies/>
     <esimies/>

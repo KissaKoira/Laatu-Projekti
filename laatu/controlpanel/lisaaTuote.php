@@ -6,7 +6,7 @@ else {
   die("Die!");
 }
 
-$lista = simplexml_load_file('C:/xampp/htdocs/laatu/esimiehet.xml');
+$lista = simplexml_load_file('C:/xampp/htdocs/laatumaster/laatu2/esimiehet.xml');
 
 $uusiTuote = $lista->esimiehet->addChild('esimies', $tuote);
 
@@ -15,6 +15,6 @@ $dom = new DOMDocument("1.0");
 $dom->preserveWhiteSpace = false;
 $dom->formatOutput = true;
 $dom->loadXML($lista->asXML());
-$dom->save("C:/xampp/htdocs/laatu/esimiehet.xml");
+$dom->save('C:/xampp/htdocs/laatumaster/laatu2/esimiehet.xml');
 
 header("Location: index.php");
