@@ -11,6 +11,71 @@
     <teksti>Etelä-Savon ammattiopisto</teksti>
     <teksti>South Savo Vocational College</teksti>
   </header>
+  <tabit>
+    <tab sivulle="0" activity="active">
+      <otsikko> Etusivu </otsikko>
+    </tab>
+    <tab sivulle="1" activity="inactive">
+      <otsikko> Esittely </otsikko>
+    </tab>
+    <tab sivulle="2" activity="inactive">
+      <otsikko> OSA 1 Suunnittelu ja toteutus </otsikko>
+    </tab>
+    <tab sivulle="3" activity="inactive">
+      <otsikko> Mikä tekee oppilaitoksestamme laadukkaan </otsikko>
+    </tab>
+    <tab sivulle="4" activity="inactive">
+      <otsikko> Mikä tekee omasta työstäni laadukkaan </otsikko>
+    </tab>
+    <tab sivulle="5" activity="inactive">
+      <otsikko> Tehtäväsivu 1 </otsikko>
+    </tab>
+    <tab sivulle="6" activity="inactive">
+      <otsikko> Miten asetamme tavoitteet oppilaitoksellemme </otsikko>
+    </tab>
+    <tab sivulle="7" activity="inactive">
+      <otsikko> Miten asetan tavoitteet työlleni </otsikko>
+    </tab>
+    <tab sivulle="8" activity="inactive">
+      <otsikko> Tehtäväsivu 2 </otsikko>
+    </tab>
+    <tab sivulle="9" activity="inactive">
+      <otsikko> OSA 2 Arvointi ja parantaminen </otsikko>
+    </tab>
+    <tab sivulle="10" activity="inactive">
+      <otsikko> Miten arvioimme oppilaitoksemme toiminnan vaikuttavuutta </otsikko>
+    </tab>
+    <tab sivulle="11" activity="inactive">
+      <otsikko> Miten arvioin oman työni vaikutuksia ja vaikuttavuutta </otsikko>
+    </tab>
+    <tab sivulle="12" activity="inactive">
+      <otsikko> Tehtäväsivu 3 </otsikko>
+    </tab>
+    <tab sivulle="13" activity="inactive">
+      <otsikko> Miten parannamme oppilaitoksen toimintaa </otsikko>
+    </tab>
+    <tab sivulle="14" activity="inactive">
+      <otsikko> Miten osoitamme oppilaitoksen laadukkuuden </otsikko>
+    </tab>
+    <tab sivulle="15" activity="inactive">
+      <otsikko> OSA 3 Tuloksellisuus- ja vaikuttavuusmittarit </otsikko>
+    </tab>
+    <tab sivulle="16" activity="inactive">
+      <otsikko> Tuloksellisuus- ja vaikuttavuusmittarit </otsikko>
+    </tab>
+    <tab sivulle="17" activity="inactive">
+      <otsikko> Tiedon keruu ja analysointi </otsikko>
+    </tab>
+    <tab sivulle="18" activity="inactive">
+      <otsikko> Näytöt tuloksellisuudesta ja vaikuttavuudesta </otsikko>
+    </tab>
+    <tab sivulle="19" activity="inactive">
+      <otsikko> Toteutus </otsikko>
+    </tab>
+  </tabit>
+
+  <indikaattorit></indikaattorit>
+
   <sivut>
 
     <sivu numero="1" tyyppi="kansi">
@@ -32,7 +97,7 @@
     </sivu>
 
     <sivu numero="3" tyyppi="kansi">
-      <otsikko> OSA 1 Suunnittelu ja toteutus <otsikko>
+      <otsikko> OSA 1 Suunnittelu ja toteutus </otsikko>
     </sivu>
 
     <sivu numero="4" tyyppi="sivu2">
@@ -355,7 +420,7 @@
     </sivu>
 
     <sivu numero="10" tyyppi="kansi">
-      <otsikko> OSA 2 Arvointi ja parantaminen <otsikko>
+      <otsikko> OSA 2 Arvointi ja parantaminen </otsikko>
     </sivu>
 
     <sivu numero="11" tyyppi="sivu2">
@@ -544,7 +609,7 @@
     </sivu>
 
     <sivu numero="16" tyyppi="kansi">
-      <otsikko> OSA 3 Tuloksellisuus- ja vaikuttavuusmittarit <otsikko>
+      <otsikko> OSA 3 Tuloksellisuus- ja vaikuttavuusmittarit </otsikko>
     </sivu>
 
     <sivu numero="17" tyyppi="sivu2">

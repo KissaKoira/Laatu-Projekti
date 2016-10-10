@@ -18,6 +18,28 @@ function init(xml) {
   var titleText = $title.text();
   document.getElementsByTagName("title").innerHTML = titleText;
 
+  function addTabs(){
+    var $tabs = $xml.find("tabit");
+    var $tab = $tabs.find("tab");
+    for($tab in $tabs){
+      var listElem = document.createElement("li");
+      var node = $tab.find("otsikko");
+      listElem.appendChild(node);
+
+      var elem = document.getElementById("navlist");
+      elem.appendChild(listElem);
+
+      var slideTo = $tab.getAttribute("sivulle");
+      var activity = $tab.getAttribute("activity");
+      listElem.setAttribute("data-target", "#carousel-custom");
+      listElem.setAttribute("data-slide-to", slideTo);
+      listElem.setAttribute("class", activity);
+      listElem.setAttribute("onClick", "window.setTimeout(checkActivity, 100);");
+      }
+    }
+    addTabs();
+  }
+/*
   function addTitle(sivu){
     var $sivu = $xml.find(sivu);
     var $tekstit = $sivu.find("tekstit");
@@ -82,7 +104,6 @@ function init(xml) {
     addAccordion("sivu14", "haitari18");
   }
   addContent();
-}
 
 //haitari listat
 
@@ -207,7 +228,7 @@ $(function() {
       }
     }
   }
-
+*/
 
 //dragdrop testi
 $(function(){

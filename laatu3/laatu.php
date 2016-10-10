@@ -20,6 +20,7 @@
     <div id="navbaar">
       <h1> Sisältö </h1>
       <div id="navlist">
+        <!--
         <div id="tab1" data-target="#carousel-custom" data-slide-to="0" class="active" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Etusivu</a></div>
         <div id="tab2" data-target="#carousel-custom" data-slide-to="1" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Esittely</a></div>
         <div id="tab3" data-target="#carousel-custom" data-slide-to="2" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>OSA 1 Suunnittelu ja toteutus</a></div>
@@ -40,6 +41,7 @@
         <div id="tab18" data-target="#carousel-custom" data-slide-to="17" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Tiedon keruu ja analysointi</a></div>
         <div id="tab19" data-target="#carousel-custom" data-slide-to="18" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Näytöt tuloksellisuudesta ja vaikuttavuudesta</a></div>
         <div id="tab20" data-target="#carousel-custom" data-slide-to="19" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Toteutus</a></div>
+        -->
       </div>
     </div>
     <div class="header"><img src="pics/esedu_logo.png" style="float: left;"></img>
@@ -51,6 +53,7 @@
 
     <!-- Sivujen indikaattorit -->
       <ol class="carousel-indicators">
+        <!--
         <li id="indicator1" data-target="#carousel-custom" data-slide-to="0" class="active" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
         <li id="indicator2" data-target="#carousel-custom" data-slide-to="1" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
         <li id="indicator3" data-target="#carousel-custom" data-slide-to="2" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
@@ -71,6 +74,7 @@
         <li id="indicator18" data-target="#carousel-custom" data-slide-to="17" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
         <li id="indicator19" data-target="#carousel-custom" data-slide-to="18" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
         <li id="indicator20" data-target="#carousel-custom" data-slide-to="19" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
+        -->
       </ol>
 
       <!-- Sivut -->
