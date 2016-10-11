@@ -11,79 +11,23 @@
     <teksti>Etelä-Savon ammattiopisto</teksti>
     <teksti>South Savo Vocational College</teksti>
   </header>
-  <tabit>
-    <tab sivulle="0" activity="active">
-      <otsikko> Etusivu </otsikko>
-    </tab>
-    <tab sivulle="1" activity="inactive">
-      <otsikko> Esittely </otsikko>
-    </tab>
-    <tab sivulle="2" activity="inactive">
-      <otsikko> OSA 1 Suunnittelu ja toteutus </otsikko>
-    </tab>
-    <tab sivulle="3" activity="inactive">
-      <otsikko> Mikä tekee oppilaitoksestamme laadukkaan </otsikko>
-    </tab>
-    <tab sivulle="4" activity="inactive">
-      <otsikko> Mikä tekee omasta työstäni laadukkaan </otsikko>
-    </tab>
-    <tab sivulle="5" activity="inactive">
-      <otsikko> Tehtäväsivu 1 </otsikko>
-    </tab>
-    <tab sivulle="6" activity="inactive">
-      <otsikko> Miten asetamme tavoitteet oppilaitoksellemme </otsikko>
-    </tab>
-    <tab sivulle="7" activity="inactive">
-      <otsikko> Miten asetan tavoitteet työlleni </otsikko>
-    </tab>
-    <tab sivulle="8" activity="inactive">
-      <otsikko> Tehtäväsivu 2 </otsikko>
-    </tab>
-    <tab sivulle="9" activity="inactive">
-      <otsikko> OSA 2 Arvointi ja parantaminen </otsikko>
-    </tab>
-    <tab sivulle="10" activity="inactive">
-      <otsikko> Miten arvioimme oppilaitoksemme toiminnan vaikuttavuutta </otsikko>
-    </tab>
-    <tab sivulle="11" activity="inactive">
-      <otsikko> Miten arvioin oman työni vaikutuksia ja vaikuttavuutta </otsikko>
-    </tab>
-    <tab sivulle="12" activity="inactive">
-      <otsikko> Tehtäväsivu 3 </otsikko>
-    </tab>
-    <tab sivulle="13" activity="inactive">
-      <otsikko> Miten parannamme oppilaitoksen toimintaa </otsikko>
-    </tab>
-    <tab sivulle="14" activity="inactive">
-      <otsikko> Miten osoitamme oppilaitoksen laadukkuuden </otsikko>
-    </tab>
-    <tab sivulle="15" activity="inactive">
-      <otsikko> OSA 3 Tuloksellisuus- ja vaikuttavuusmittarit </otsikko>
-    </tab>
-    <tab sivulle="16" activity="inactive">
-      <otsikko> Tuloksellisuus- ja vaikuttavuusmittarit </otsikko>
-    </tab>
-    <tab sivulle="17" activity="inactive">
-      <otsikko> Tiedon keruu ja analysointi </otsikko>
-    </tab>
-    <tab sivulle="18" activity="inactive">
-      <otsikko> Näytöt tuloksellisuudesta ja vaikuttavuudesta </otsikko>
-    </tab>
-    <tab sivulle="19" activity="inactive">
-      <otsikko> Toteutus </otsikko>
-    </tab>
-  </tabit>
-
-  <indikaattorit></indikaattorit>
 
   <sivut>
 
     <sivu numero="1" tyyppi="kansi">
+      <tab sivulle="0" activity="active">
+        <otsikko> Etusivu </otsikko>
+      </tab>
+      <indicator sivulle="0" activity="active"></indicator>
       <otsikko>Laadunhallinnasta ja laadun kehityksestä Esedulaisille</otsikko>
       <kuva>laatuympyrä.png</kuva>
     </sivu>
 
     <sivu numero="2" tyyppi="sivu1">
+      <tab sivulle="1" activity="inactive">
+        <otsikko> Esittely </otsikko>
+      </tab>
+      <indicator sivulle="1" activity="inactive"></indicator>
       <otsikko>Tervetuloa tutustumaan laadunhallintaan ja jatkuvan parantamisen periaatteeseen!</otsikko>
       <teksti>
         <![CDATA[
@@ -97,10 +41,18 @@
     </sivu>
 
     <sivu numero="3" tyyppi="kansi">
+      <tab sivulle="2" activity="inactive">
+        <otsikko> OSA 1 Suunnittelu ja toteutus </otsikko>
+      </tab>
+      <indicator sivulle="2" activity="inactive"></indicator>
       <otsikko> OSA 1 Suunnittelu ja toteutus </otsikko>
     </sivu>
 
     <sivu numero="4" tyyppi="sivu2">
+      <tab sivulle="3" activity="inactive">
+        <otsikko> Mikä tekee oppilaitoksestamme laadukkaan </otsikko>
+      </tab>
+      <indicator sivulle="3" activity="inactive"></indicator>
       <otsikko>Mikä tekee oppilaitoksestamme laadukkaan</otsikko>
       <teksti>
         <![CDATA[
@@ -192,6 +144,10 @@
     </sivu>
 
     <sivu numero="5" tyyppi="sivu2">
+      <tab sivulle="4" activity="inactive">
+        <otsikko> Mikä tekee omasta työstäni laadukkaan </otsikko>
+      </tab>
+      <indicator sivulle="4" activity="inactive"></indicator>
       <otsikko>Mikä tekee omasta työstäni laadukkaan</otsikko>
       <teksti>
         <![CDATA[
@@ -233,6 +189,10 @@
     </sivu>
 
     <sivu numero="6" tyyppi="dragdrop">
+      <tab sivulle="5" activity="inactive">
+        <otsikko> Tehtäväsivu 1 </otsikko>
+      </tab>
+      <indicator sivulle="5" activity="inactive"></indicator>
       <otsikko>TEHTÄVÄSIVU</otsikko>
       <teksti>Vie sanat oikeaan laatikkoon:</teksti>
       <dragdrop>
@@ -261,6 +221,10 @@
     </sivu>
 
     <sivu numero="7" tyyppi="sivu2">
+      <tab sivulle="6" activity="inactive">
+        <otsikko> Miten asetamme tavoitteet oppilaitoksellemme </otsikko>
+      </tab>
+      <indicator sivulle="6" activity="inactive"></indicator>
       <otsikko>Miten asetamme tavoitteet oppilaitoksellemme</otsikko>
       <teksti>
         <![CDATA[
@@ -326,6 +290,10 @@
     </sivu>
 
     <sivu numero="8" tyyppi="sivu2">
+      <tab sivulle="7" activity="inactive">
+        <otsikko> Miten asetan tavoitteet työlleni </otsikko>
+      </tab>
+      <indicator sivulle="7" activity="inactive"></indicator>
       <otsikko>Miten asetan tavoitteet työlleni</otsikko>
       <teksti>
         <![CDATA[
@@ -393,6 +361,10 @@
     </sivu>
 
     <sivu numero="9" tyyppi="kysely">
+      <tab sivulle="8" activity="inactive">
+        <otsikko> Tehtäväsivu 2 </otsikko>
+      </tab>
+      <indicator sivulle="8" activity="inactive"></indicator>
       <otsikko>TEHTÄVÄSIVU:</otsikko>
       <teksti>
         <![CDATA[
@@ -420,10 +392,18 @@
     </sivu>
 
     <sivu numero="10" tyyppi="kansi">
+      <tab sivulle="9" activity="inactive">
+        <otsikko> OSA 2 Arvointi ja parantaminen </otsikko>
+      </tab>
+      <indicator sivulle="9" activity="inactive"></indicator>
       <otsikko> OSA 2 Arvointi ja parantaminen </otsikko>
     </sivu>
 
     <sivu numero="11" tyyppi="sivu2">
+      <tab sivulle="10" activity="inactive">
+        <otsikko> Miten arvioimme oppilaitoksemme toiminnan vaikuttavuutta </otsikko>
+      </tab>
+      <indicator sivulle="10" activity="inactive"></indicator>
       <otsikko>Miten arvioimme oppilaitoksemme toiminnan vaikuttavuutta</otsikko>
       <teksti>
         <![CDATA[
@@ -489,6 +469,10 @@
     </sivu>
 
     <sivu numero="12" tyyppi="sivu2">
+      <tab sivulle="11" activity="inactive">
+        <otsikko> Miten arvioin oman työni vaikutuksia ja vaikuttavuutta </otsikko>
+      </tab>
+      <indicator sivulle="11" activity="inactive"></indicator>
       <otsikko>Miten arvioin oman työni vaikutuksia ja vaikuttavuutta</otsikko>
       <teksti>
         <![CDATA[
@@ -530,6 +514,10 @@
     </sivu>
 
     <sivu numero="13" tyyppi="sivu1">
+      <tab sivulle="12" activity="inactive">
+        <otsikko> Tehtäväsivu 3 </otsikko>
+      </tab>
+      <indicator sivulle="12" activity="inactive"></indicator>
       <otsikko>TEHTÄVÄSIVU: Palautteiden hyödyntäminen</otsikko>
       <teksti>
         <![CDATA[
@@ -558,6 +546,10 @@
     </sivu>
 
     <sivu numero="14" tyyppi="sivu2">
+      <tab sivulle="13" activity="inactive">
+        <otsikko> Miten parannamme oppilaitoksen toimintaa </otsikko>
+      </tab>
+      <indicator sivulle="13" activity="inactive"></indicator>
       <otsikko>Miten parannamme oppilaitoksen toimintaa</otsikko>
       <teksti>
         <![CDATA[
@@ -590,6 +582,10 @@
     </sivu>
 
     <sivu numero="15" tyyppi="sivu1">
+      <tab sivulle="14" activity="inactive">
+        <otsikko> Miten osoitamme oppilaitoksen laadukkuuden </otsikko>
+      </tab>
+      <indicator sivulle="14" activity="inactive"></indicator>
       <otsikko>Miten osoitamme oppilaitoksen laadukkuuden</otsikko>
       <teksti>
         <![CDATA[
@@ -609,10 +605,18 @@
     </sivu>
 
     <sivu numero="16" tyyppi="kansi">
+      <tab sivulle="15" activity="inactive">
+        <otsikko> OSA 3 Tuloksellisuus- ja vaikuttavuusmittarit </otsikko>
+      </tab>
+      <indicator sivulle="15" activity="inactive"></indicator>
       <otsikko> OSA 3 Tuloksellisuus- ja vaikuttavuusmittarit </otsikko>
     </sivu>
 
     <sivu numero="17" tyyppi="sivu2">
+      <tab sivulle="16" activity="inactive">
+        <otsikko> Tuloksellisuus- ja vaikuttavuusmittarit </otsikko>
+      </tab>
+      <indicator sivulle="16" activity="inactive"></indicator>
       <otsikko>Tuloksellisuus- ja vaikuttavuusmittarit</otsikko>
       <teksti>
         <![CDATA[
@@ -660,6 +664,10 @@
     </sivu>
 
     <sivu numero="18" tyyppi="sivu1">
+      <tab sivulle="17" activity="inactive">
+        <otsikko> Tiedon keruu ja analysointi </otsikko>
+      </tab>
+      <indicator sivulle="17" activity="inactive"></indicator>
       <otsikko>Tiedon keruu ja analysointi</otsikko>
       <teksti>
         <![CDATA[
@@ -679,6 +687,10 @@
     </sivu>
 
     <sivu numero="19" tyyppi="sivu1">
+      <tab sivulle="18" activity="inactive">
+        <otsikko> Näytöt tuloksellisuudesta ja vaikuttavuudesta </otsikko>
+      </tab>
+      <indicator sivulle="18" activity="inactive"></indicator>
       <otsikko>Näytöt tuloksellisuudesta ja vaikuttavuudesta</otsikko>
       <teksti>
         <![CDATA[
@@ -697,14 +709,18 @@
     </sivu>
 
     <sivu numero="20" tyyppi="sivu1">
+      <tab sivulle="19" activity="inactive">
         <otsikko> Toteutus </otsikko>
-        <teksti>
-          <![CDATA[
-            Tekninen toteutus: Onni Heinonen <br>
-            Graafinen toteutus: Mitja Immonen <br>
-            Sisällöissä on hyödynnetty AMEO-verkoston Laatu-Katti vieköön!-koulutusta.
-          ]]>
-        </teksti>
+      </tab>
+      <indicator sivulle="19" activity="inactive"></indicator>
+      <otsikko> Toteutus </otsikko>
+      <teksti>
+        <![CDATA[
+          Tekninen toteutus: Onni Heinonen <br>
+          Graafinen toteutus: Mitja Immonen <br>
+          Sisällöissä on hyödynnetty AMEO-verkoston Laatu-Katti vieköön!-koulutusta.
+        ]]>
+      </teksti>
     </sivu>
   </sivut>
 </root>

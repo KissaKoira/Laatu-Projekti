@@ -13,32 +13,25 @@ $.ajax({
 });
 
 function init(xml) {
-  var $xml = $(xml);
-  var $title = $xml.find("title");
-  var titleText = $title.text();
-  document.getElementsByTagName("title").innerHTML = titleText;
 
-  function addTabs(){
-    var $tabs = $xml.find("tabit");
-    var $tab = $tabs.find("tab");
-    for($tab in $tabs){
-      var listElem = document.createElement("li");
-      var node = $tab.find("otsikko");
-      listElem.appendChild(node);
+  $.parseXML(xml).find('sivu').each(function(index){
+    var $tab = $(this).find('tab');
+    var tabElem = document.createElement("li");
+    var tabTitle = $tab.text();
+    tabElem.appendChild(tabTitle);
 
-      var elem = document.getElementById("navlist");
-      elem.appendChild(listElem);
+    var tabList = document.getElementById("navlist");
+    tabList.appendChild(tabElem);
 
-      var slideTo = $tab.getAttribute("sivulle");
-      var activity = $tab.getAttribute("activity");
-      listElem.setAttribute("data-target", "#carousel-custom");
-      listElem.setAttribute("data-slide-to", slideTo);
-      listElem.setAttribute("class", activity);
-      listElem.setAttribute("onClick", "window.setTimeout(checkActivity, 100);");
-      }
-    }
-    addTabs();
-  }
+    var slideTo = $tab.getAttribute("sivulle");
+    var activity = $tab.getAttribute("activity");
+
+    tabElem.setAttribute("data-target", "#carousel-custom");
+    tabElem.setAttribute("data-slide-to", slideTo);
+    tabtElem.setAttribute("class", activity);
+    tabElem.setAttribute("onClick", "window.setTimeout(checkActivity, 100);");
+  });
+}
 /*
   function addTitle(sivu){
     var $sivu = $xml.find(sivu);
