@@ -14,10 +14,10 @@ $.ajax({
 
 function init(xml) {
 
-  $.parseXML(xml).find('sivu').each(function(index){
+  $(xml).find('sivu').each(function(index){
     var $tab = $(this).find('tab');
     var tabElem = document.createElement("li");
-    var tabTitle = $tab.text();
+    var tabTitle = document.createTextNode($tab.text());
     tabElem.appendChild(tabTitle);
 
     var tabList = document.getElementById("navlist");
