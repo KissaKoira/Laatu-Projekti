@@ -15,22 +15,64 @@ $.ajax({
 function init(xml) {
 
   $(xml).find('sivu').each(function(index){
-    var $tab = $(this).find('tab');
-    var tabElem = document.createElement("li");
-    var tabTitle = document.createTextNode($tab.text());
-    tabElem.appendChild(tabTitle);
 
-    var tabList = document.getElementById("navlist");
-    tabList.appendChild(tabElem);
+    var $nav = $(this).find("nav");
 
-    var slideTo = $tab.getAttribute("sivulle");
-    var activity = $tab.getAttribute("activity");
+    function addNavElements(){
+      var tabElem = document.createElement("li");
+      var tabTitle = document.createTextNode($nav.find("otsikko").text());
+      tabElem.appendChild(tabTitle);
 
-    tabElem.setAttribute("data-target", "#carousel-custom");
-    tabElem.setAttribute("data-slide-to", slideTo);
-    tabtElem.setAttribute("class", activity);
-    tabElem.setAttribute("onClick", "window.setTimeout(checkActivity, 100);");
+      var slideTo = $nav.find('sivulle').text();
+      var activity = $nav.find('activity').text();
+
+      tabElem.setAttribute("data-target", "#carousel-custom");
+      tabElem.setAttribute("data-slide-to", slideTo);
+      tabElem.setAttribute("class", activity);
+      tabElem.setAttribute("onClick", "window.setTimeout(checkActivity(), 100);");
+
+      var tabList = document.getElementById("navlist");
+      tabList.appendChild(tabElem);
+
+      var indElem = document.createElement("li");
+      var indPict = document.createElement("img");
+      indPict.setAttribute("src", "pics/123.png");
+      indElem.appendChild(indPict);
+
+      indElem.setAttribute("data-target", "#carousel-custom");
+      indElem.setAttribute("data-slide-to", slideTo);
+      indElem.setAttribute("class", "carousel-indicators");
+      indElem.setAttribute("onClick", "window.setTimeout(checkActivity(), 100);");
+
+      var indicators = document.getElementById("indicators");
+      indicators.appendChild(indElem);
+    }
+
+    addNavElements();
   });
+}
+
+function checkActivity(){
+  var indElements = document.getElementById("indicators").getElementsByTagName("li");
+  var tabElements = document.getElementById("navlist").getElementsByTagName("li");
+  for(var i = 0; i < indElements.length; i++){
+    var indTo = indElements[i].getAttribute("data-slide-to");
+    console.log(indTo);
+    for(var o = 0; o < tabElements.length; o++){
+      var tabTo = tabElements[o].getAttribute("data-slide-to");
+      console.log(tabTo);
+      if(indTo === tabTo){
+        if($(indElements[i]).hasClass("active")){
+          tabElements[o].setAttribute("class", "active");
+          console.log("active");
+        }
+        else{
+          tabElements[o].setAttribute("class", "inactive");
+          console.log("inactive");
+        }
+      }
+    }
+  }
 }
 /*
   function addTitle(sivu){

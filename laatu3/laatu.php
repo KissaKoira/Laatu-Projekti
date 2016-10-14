@@ -1,5 +1,4 @@
-
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -52,7 +51,7 @@
     <div id='carousel-custom' class="carousel slide" data-interval="false">
 
     <!-- Sivujen indikaattorit -->
-      <ol class="carousel-indicators">
+      <ol id="indicators" class="carousel-indicators">
         <!--
         <li id="indicator1" data-target="#carousel-custom" data-slide-to="0" class="active" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
         <li id="indicator2" data-target="#carousel-custom" data-slide-to="1" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>

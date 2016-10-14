@@ -15,19 +15,21 @@
   <sivut>
 
     <sivu numero="1" tyyppi="kansi">
-      <tab sivulle="0" activity="active">
+      <nav>
+        <sivulle> 0 </sivulle>
+        <activity> active </activity>
         <otsikko> Etusivu </otsikko>
-      </tab>
-      <indicator sivulle="0" activity="active"></indicator>
+      </nav>
       <otsikko>Laadunhallinnasta ja laadun kehityksestä Esedulaisille</otsikko>
       <kuva>laatuympyrä.png</kuva>
     </sivu>
 
     <sivu numero="2" tyyppi="sivu1">
-      <tab sivulle="1" activity="inactive">
+      <nav>
+        <sivulle> 1 </sivulle>
+        <activity> inactive </activity>
         <otsikko> Esittely </otsikko>
-      </tab>
-      <indicator sivulle="1" activity="inactive"></indicator>
+      </nav>
       <otsikko>Tervetuloa tutustumaan laadunhallintaan ja jatkuvan parantamisen periaatteeseen!</otsikko>
       <teksti>
         <![CDATA[
@@ -41,18 +43,20 @@
     </sivu>
 
     <sivu numero="3" tyyppi="kansi">
-      <tab sivulle="2" activity="inactive">
+      <nav>
+        <sivulle> 2 </sivulle>
+        <activity> inactive </activity>
         <otsikko> OSA 1 Suunnittelu ja toteutus </otsikko>
-      </tab>
-      <indicator sivulle="2" activity="inactive"></indicator>
+      </nav>
       <otsikko> OSA 1 Suunnittelu ja toteutus </otsikko>
     </sivu>
 
     <sivu numero="4" tyyppi="sivu2">
-      <tab sivulle="3" activity="inactive">
+      <nav>
+        <sivulle> 3 </sivulle>
+        <activity> inactive </activity>
         <otsikko> Mikä tekee oppilaitoksestamme laadukkaan </otsikko>
-      </tab>
-      <indicator sivulle="3" activity="inactive"></indicator>
+      </nav>
       <otsikko>Mikä tekee oppilaitoksestamme laadukkaan</otsikko>
       <teksti>
         <![CDATA[
@@ -144,10 +148,11 @@
     </sivu>
 
     <sivu numero="5" tyyppi="sivu2">
-      <tab sivulle="4" activity="inactive">
+      <nav>
+        <sivulle> 4 </sivulle>
+        <activity> inactive </activity>
         <otsikko> Mikä tekee omasta työstäni laadukkaan </otsikko>
-      </tab>
-      <indicator sivulle="4" activity="inactive"></indicator>
+      </nav>
       <otsikko>Mikä tekee omasta työstäni laadukkaan</otsikko>
       <teksti>
         <![CDATA[
@@ -189,10 +194,11 @@
     </sivu>
 
     <sivu numero="6" tyyppi="dragdrop">
-      <tab sivulle="5" activity="inactive">
+      <nav>
+        <sivulle> 5 </sivulle>
+        <activity> inactive </activity>
         <otsikko> Tehtäväsivu 1 </otsikko>
-      </tab>
-      <indicator sivulle="5" activity="inactive"></indicator>
+      </nav>
       <otsikko>TEHTÄVÄSIVU</otsikko>
       <teksti>Vie sanat oikeaan laatikkoon:</teksti>
       <dragdrop>
@@ -221,10 +227,11 @@
     </sivu>
 
     <sivu numero="7" tyyppi="sivu2">
-      <tab sivulle="6" activity="inactive">
+      <nav>
+        <sivulle> 6 </sivulle>
+        <activity> inactive </activity>
         <otsikko> Miten asetamme tavoitteet oppilaitoksellemme </otsikko>
-      </tab>
-      <indicator sivulle="6" activity="inactive"></indicator>
+      </nav>
       <otsikko>Miten asetamme tavoitteet oppilaitoksellemme</otsikko>
       <teksti>
         <![CDATA[
@@ -290,10 +297,11 @@
     </sivu>
 
     <sivu numero="8" tyyppi="sivu2">
-      <tab sivulle="7" activity="inactive">
+      <nav>
+        <sivulle> 7 </sivulle>
+        <activity> inactive </activity>
         <otsikko> Miten asetan tavoitteet työlleni </otsikko>
-      </tab>
-      <indicator sivulle="7" activity="inactive"></indicator>
+      </nav>
       <otsikko>Miten asetan tavoitteet työlleni</otsikko>
       <teksti>
         <![CDATA[
@@ -361,10 +369,11 @@
     </sivu>
 
     <sivu numero="9" tyyppi="kysely">
-      <tab sivulle="8" activity="inactive">
+      <nav>
+        <sivulle> 8 </sivulle>
+        <activity> inactive </activity>
         <otsikko> Tehtäväsivu 2 </otsikko>
-      </tab>
-      <indicator sivulle="8" activity="inactive"></indicator>
+      </nav>
       <otsikko>TEHTÄVÄSIVU:</otsikko>
       <teksti>
         <![CDATA[
@@ -392,18 +401,20 @@
     </sivu>
 
     <sivu numero="10" tyyppi="kansi">
-      <tab sivulle="9" activity="inactive">
+      <nav>
+        <sivulle> 9 </sivulle>
+        <activity> inactive </activity>
         <otsikko> OSA 2 Arvointi ja parantaminen </otsikko>
-      </tab>
-      <indicator sivulle="9" activity="inactive"></indicator>
+      </nav>
       <otsikko> OSA 2 Arvointi ja parantaminen </otsikko>
     </sivu>
 
     <sivu numero="11" tyyppi="sivu2">
-      <tab sivulle="10" activity="inactive">
+      <nav>
+        <sivulle> 10 </sivulle>
+        <activity> inactive </activity>
         <otsikko> Miten arvioimme oppilaitoksemme toiminnan vaikuttavuutta </otsikko>
-      </tab>
-      <indicator sivulle="10" activity="inactive"></indicator>
+      </nav>
       <otsikko>Miten arvioimme oppilaitoksemme toiminnan vaikuttavuutta</otsikko>
       <teksti>
         <![CDATA[
@@ -469,10 +480,11 @@
     </sivu>
 
     <sivu numero="12" tyyppi="sivu2">
-      <tab sivulle="11" activity="inactive">
+      <nav>
+        <sivulle> 11 </sivulle>
+        <activity> inactive </activity>
         <otsikko> Miten arvioin oman työni vaikutuksia ja vaikuttavuutta </otsikko>
-      </tab>
-      <indicator sivulle="11" activity="inactive"></indicator>
+      </nav>
       <otsikko>Miten arvioin oman työni vaikutuksia ja vaikuttavuutta</otsikko>
       <teksti>
         <![CDATA[
@@ -514,10 +526,11 @@
     </sivu>
 
     <sivu numero="13" tyyppi="sivu1">
-      <tab sivulle="12" activity="inactive">
+      <nav>
+        <sivulle> 12 </sivulle>
+        <activity> inactive </activity>
         <otsikko> Tehtäväsivu 3 </otsikko>
-      </tab>
-      <indicator sivulle="12" activity="inactive"></indicator>
+      </nav>
       <otsikko>TEHTÄVÄSIVU: Palautteiden hyödyntäminen</otsikko>
       <teksti>
         <![CDATA[
@@ -546,10 +559,11 @@
     </sivu>
 
     <sivu numero="14" tyyppi="sivu2">
-      <tab sivulle="13" activity="inactive">
+      <nav>
+        <sivulle> 13 </sivulle>
+        <activity> inactive </activity>
         <otsikko> Miten parannamme oppilaitoksen toimintaa </otsikko>
-      </tab>
-      <indicator sivulle="13" activity="inactive"></indicator>
+      </nav>
       <otsikko>Miten parannamme oppilaitoksen toimintaa</otsikko>
       <teksti>
         <![CDATA[
@@ -582,10 +596,11 @@
     </sivu>
 
     <sivu numero="15" tyyppi="sivu1">
-      <tab sivulle="14" activity="inactive">
+      <nav>
+        <sivulle> 14 </sivulle>
+        <activity> inactive </activity>
         <otsikko> Miten osoitamme oppilaitoksen laadukkuuden </otsikko>
-      </tab>
-      <indicator sivulle="14" activity="inactive"></indicator>
+      </nav>
       <otsikko>Miten osoitamme oppilaitoksen laadukkuuden</otsikko>
       <teksti>
         <![CDATA[
@@ -605,18 +620,20 @@
     </sivu>
 
     <sivu numero="16" tyyppi="kansi">
-      <tab sivulle="15" activity="inactive">
+      <nav>
+        <sivulle> 15 </sivulle>
+        <activity> inactive </activity>
         <otsikko> OSA 3 Tuloksellisuus- ja vaikuttavuusmittarit </otsikko>
-      </tab>
-      <indicator sivulle="15" activity="inactive"></indicator>
+      </nav>
       <otsikko> OSA 3 Tuloksellisuus- ja vaikuttavuusmittarit </otsikko>
     </sivu>
 
     <sivu numero="17" tyyppi="sivu2">
-      <tab sivulle="16" activity="inactive">
+      <nav>
+        <sivulle> 16 </sivulle>
+        <activity> inactive </activity>
         <otsikko> Tuloksellisuus- ja vaikuttavuusmittarit </otsikko>
-      </tab>
-      <indicator sivulle="16" activity="inactive"></indicator>
+      </nav>
       <otsikko>Tuloksellisuus- ja vaikuttavuusmittarit</otsikko>
       <teksti>
         <![CDATA[
@@ -664,10 +681,11 @@
     </sivu>
 
     <sivu numero="18" tyyppi="sivu1">
-      <tab sivulle="17" activity="inactive">
+      <nav>
+        <sivulle> 17 </sivulle>
+        <activity> inactive </activity>
         <otsikko> Tiedon keruu ja analysointi </otsikko>
-      </tab>
-      <indicator sivulle="17" activity="inactive"></indicator>
+      </nav>
       <otsikko>Tiedon keruu ja analysointi</otsikko>
       <teksti>
         <![CDATA[
@@ -687,10 +705,11 @@
     </sivu>
 
     <sivu numero="19" tyyppi="sivu1">
-      <tab sivulle="18" activity="inactive">
+      <nav>
+        <sivulle> 18 </sivulle>
+        <activity> inactive </activity>
         <otsikko> Näytöt tuloksellisuudesta ja vaikuttavuudesta </otsikko>
-      </tab>
-      <indicator sivulle="18" activity="inactive"></indicator>
+      </nav>
       <otsikko>Näytöt tuloksellisuudesta ja vaikuttavuudesta</otsikko>
       <teksti>
         <![CDATA[
@@ -709,10 +728,11 @@
     </sivu>
 
     <sivu numero="20" tyyppi="sivu1">
-      <tab sivulle="19" activity="inactive">
+      <nav>
+        <sivulle> 19 </sivulle>
+        <activity> inactive </activity>
         <otsikko> Toteutus </otsikko>
-      </tab>
-      <indicator sivulle="19" activity="inactive"></indicator>
+      </nav>
       <otsikko> Toteutus </otsikko>
       <teksti>
         <![CDATA[
