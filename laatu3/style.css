@@ -195,8 +195,8 @@
   overflow-y: auto;
   overflow-x: hidden;
 }
-#navbaar .inactive a,
-#navbaar .active a{
+#navbaar .inactive,
+#navbaar .active{
   text-decoration: none;
   font-family: Arial,Helvetica,sans-serif;
   line-height: 90%;
@@ -211,20 +211,6 @@
 }
 #navbaar .active{
   background-color: #acd29b;
-}
-/* Osa sivut */
-#tab3,
-#tab10,
-#tab16{
-  width: 370px !important;
-  padding: 3px !important;
-  margin-left: -10px !important;
-}
-#tab3 a,
-#tab10 a,
-#tab16 a{
-  color: #595959 !important;
-  font-size: 25px !important;
 }
 
  /* totta vai tarua tehtävät */

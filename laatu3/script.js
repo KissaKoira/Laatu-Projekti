@@ -29,20 +29,19 @@ function init(xml) {
       tabElem.setAttribute("data-target", "#carousel-custom");
       tabElem.setAttribute("data-slide-to", slideTo);
       tabElem.setAttribute("class", activity);
-      tabElem.setAttribute("onClick", "window.setTimeout(checkActivity(), 100);");
+      tabElem.setAttribute("onClick", "window.setTimeout(checkActivity, 100);");
 
       var tabList = document.getElementById("navlist");
       tabList.appendChild(tabElem);
 
       var indElem = document.createElement("li");
       var indPict = document.createElement("img");
-      indPict.setAttribute("src", "pics/123.png");
+      indPict.setAttribute("src", "pics/indicator.png");
       indElem.appendChild(indPict);
 
       indElem.setAttribute("data-target", "#carousel-custom");
       indElem.setAttribute("data-slide-to", slideTo);
-      indElem.setAttribute("class", "carousel-indicators");
-      indElem.setAttribute("onClick", "window.setTimeout(checkActivity(), 100);");
+      indElem.setAttribute("onClick", "window.setTimeout(checkActivity, 100);");
 
       var indicators = document.getElementById("indicators");
       indicators.appendChild(indElem);
