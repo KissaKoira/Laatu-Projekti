@@ -18,30 +18,7 @@
   <div id="wrapper">
     <div id="navbaar">
       <h1> Sisältö </h1>
-      <div id="navlist">
-        <!--
-        <div id="tab1" data-target="#carousel-custom" data-slide-to="0" class="active" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Etusivu</a></div>
-        <div id="tab2" data-target="#carousel-custom" data-slide-to="1" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Esittely</a></div>
-        <div id="tab3" data-target="#carousel-custom" data-slide-to="2" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>OSA 1 Suunnittelu ja toteutus</a></div>
-        <div id="tab4" data-target="#carousel-custom" data-slide-to="3" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Mikä tekee oppilaitoksestamme laadukkaan</a></div>
-        <div id="tab5" data-target="#carousel-custom" data-slide-to="4" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Mikä tekee omasta työstäni laadukkaan</a></div>
-        <div id="tab6" data-target="#carousel-custom" data-slide-to="5" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Tehtäväsivu 1</a></div>
-        <div id="tab7" data-target="#carousel-custom" data-slide-to="6" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Miten asetamme tavoitteet oppilaitoksellemme</a></div>
-        <div id="tab8" data-target="#carousel-custom" data-slide-to="7" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Miten asetan tavoitteet työlleni</a></div>
-        <div id="tab9" data-target="#carousel-custom" data-slide-to="8" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Tehtäväsivu 2</a></div>
-        <div id="tab10" data-target="#carousel-custom" data-slide-to="9" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>OSA 2 Arvointi ja parantaminen</a></div>
-        <div id="tab11" data-target="#carousel-custom" data-slide-to="10" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Miten arvioimme oppilaitoksemme toiminnan vaikuttavuutta</a></div>
-        <div id="tab12" data-target="#carousel-custom" data-slide-to="11" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Miten arvioin oman työni vaikutuksia ja vaikuttavuutta</a></div>
-        <div id="tab13" data-target="#carousel-custom" data-slide-to="12" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Tehtäväsivu 3</a></div>
-        <div id="tab14" data-target="#carousel-custom" data-slide-to="13" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Miten parannamme oppilaitoksen toimintaa</a></div>
-        <div id="tab15" data-target="#carousel-custom" data-slide-to="14" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Miten osoitamme oppilaitoksen laadukkuuden</a></div>
-        <div id="tab16" data-target="#carousel-custom" data-slide-to="15" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>OSA 3 Tuloksellisuus- ja vaikuttavuusmittarit</a></div>
-        <div id="tab17" data-target="#carousel-custom" data-slide-to="16" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Tuloksellisuus- ja vaikuttavuusmittarit</a></div>
-        <div id="tab18" data-target="#carousel-custom" data-slide-to="17" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Tiedon keruu ja analysointi</a></div>
-        <div id="tab19" data-target="#carousel-custom" data-slide-to="18" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Näytöt tuloksellisuudesta ja vaikuttavuudesta</a></div>
-        <div id="tab20" data-target="#carousel-custom" data-slide-to="19" class="inactive" onClick="window.setTimeout(checkActivity, 100);"><a href=#>Toteutus</a></div>
-        -->
-      </div>
+      <div id="navlist"></div>
     </div>
     <div class="header"><img src="pics/esedu_logo.png" style="float: left;"></img>
       <a id="header_text1">Etelä-Savon ammattiopisto</a><br>
@@ -51,60 +28,39 @@
     <div id='carousel-custom' class="carousel slide" data-interval="false">
 
     <!-- Sivujen indikaattorit -->
-      <ol id="indicators" class="carousel-indicators">
-        <!--
-        <li id="indicator1" data-target="#carousel-custom" data-slide-to="0" class="active" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
-        <li id="indicator2" data-target="#carousel-custom" data-slide-to="1" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
-        <li id="indicator3" data-target="#carousel-custom" data-slide-to="2" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
-        <li id="indicator4" data-target="#carousel-custom" data-slide-to="3" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
-        <li id="indicator5" data-target="#carousel-custom" data-slide-to="4" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
-        <li id="indicator6" data-target="#carousel-custom" data-slide-to="5" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
-        <li id="indicator7" data-target="#carousel-custom" data-slide-to="6" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
-        <li id="indicator8" data-target="#carousel-custom" data-slide-to="7" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
-        <li id="indicator9" data-target="#carousel-custom" data-slide-to="8" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
-        <li id="indicator10" data-target="#carousel-custom" data-slide-to="9" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
-        <li id="indicator11" data-target="#carousel-custom" data-slide-to="10" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
-        <li id="indicator12" data-target="#carousel-custom" data-slide-to="11" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
-        <li id="indicator13" data-target="#carousel-custom" data-slide-to="12" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
-        <li id="indicator14" data-target="#carousel-custom" data-slide-to="13" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
-        <li id="indicator15" data-target="#carousel-custom" data-slide-to="14" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
-        <li id="indicator16" data-target="#carousel-custom" data-slide-to="15" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
-        <li id="indicator17" data-target="#carousel-custom" data-slide-to="16" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
-        <li id="indicator18" data-target="#carousel-custom" data-slide-to="17" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
-        <li id="indicator19" data-target="#carousel-custom" data-slide-to="18" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
-        <li id="indicator20" data-target="#carousel-custom" data-slide-to="19" onClick="window.setTimeout(checkActivity, 100);"><img src="pics/123.png"/></li>
-        -->
-      </ol>
+      <ol id="indicators" class="carousel-indicators"></ol>
 
       <!-- Sivut -->
-      <div class="carousel-inner" role="listbox">
-        <!-- Sivu1 -->
+      <div id="carousel-inner" class="carousel-inner" role="listbox"></div>
+
+        <!--
+        Sivu1
         <div class="item active">
           <div>
             <p id="otsikko1" class="otsikko"></p>
             <img style="margin-left: 7%; width: 800px;" src="pics/Laatuympyra.gif"/>
           </div>
         </div>
-        <!-- Sivu2 -->
+        Sivu2
         <div class="item">
           <p id="otsikko2" class="otsikko"></p>
           <p id="teksti1" class="teksti"></p>
         </div>
-        <!-- Sivu3 -->
+        Sivu3
         <div class="item">
           <div>
             <p id="osaOtsikko1" class="otsikko"></p>
             <img style="margin-left: 7%; width: 800px;" src="pics/Laatuympyra.gif"/>
           </div>
         </div>
-        <!-- Sivu4 -->
+        Sivu4
         <div class="item">
           <div class="leftside">
             <p id="otsikko3" class="otsikko"></p>
             <p id="teksti2" class="teksti"></p>
           </div>
           <div class="rightside">
-            <div style="height: 230px;"> <!-- Nopea ratkaisu -->
+            <div style="height: 230px;"> Nopea ratkaisu
             <div class="accordion">
               <h3 id="hOtsikko1"></h3>
               <div>
@@ -126,14 +82,14 @@
             </div>
           </div>
         </div>
-        <!-- Sivu5 -->
+        Sivu5
         <div class="item">
           <div class="leftside">
             <p id="otsikko4" class="otsikko"></p>
             <p id="teksti3" class="teksti"></p>
           </div>
           <div class="rightside">
-            <div style="height: 400px;"> <!-- Nopea ratkaisu -->
+            <div style="height: 400px;"> Nopea ratkaisu
             <div class="accordion">
               <h3 id="hOtsikko5"></h3>
               <div>
@@ -143,7 +99,7 @@
             </div>
           </div>
         </div>
-        <!-- Sivu6 -->
+        Sivu6
         <div class="item">
           <p id="otsikko5" class="otsikko"></p>
           <p id="teksti4" class="teksti"></p>
@@ -168,14 +124,14 @@
             <div id="goal4" class="droppable">Parantaminen</div>
           </div>
         </div>
-        <!-- Sivu7 -->
+        Sivu7
         <div class="item">
           <div class="leftside">
             <p id="otsikko6" class="otsikko"></p>
             <p id="teksti5" class="teksti"></p>
           </div>
           <div class="rightside">
-            <div style="height: 325px;"> <!-- Nopea ratkaisu -->
+            <div style="height: 325px;"> Nopea ratkaisu
             <div class="accordion">
               <h3 id="hOtsikko6"></h3>
               <div>
@@ -189,14 +145,14 @@
             </div>
           </div>
         </div>
-        <!-- Sivu8 -->
+        Sivu8
         <div class="item">
           <div class="leftside">
             <p id="otsikko7" class="otsikko"></p>
             <p id="teksti6" class="teksti"></p>
           </div>
           <div class="rightside">
-            <div style="height: 300px;"> <!-- Nopea ratkaisu -->
+            <div style="height: 300px;"> Nopea ratkaisu
             <div class="accordion">
               <h3 id="hOtsikko8"></h3>
               <div>
@@ -210,7 +166,7 @@
             </div>
           </div>
         </div>
-        <!-- Sivu9 -->
+        Sivu9
         <div class="item">
           <div class="leftside">
             <p id="otsikko8" class="otsikko"></p>
@@ -273,7 +229,7 @@
                   </tr>
                   <tr>
                     <td>
-                      <?php
+                      <?php /*
                         $lista = simplexml_load_file('esimiehet.xml');
                         echo '
                         Nimi:<br>
@@ -283,7 +239,7 @@
                         foreach ($lista->esimiehet->children() as $asia) {
                           echo '<option value="esimies" name="esimies">' .$asia. '</option>';
                         };
-                      ?>
+                      */ ?>
                     </td>
                   </tr>
                   <tr>
@@ -296,21 +252,21 @@
             </div>
           </div>
         </div>
-        <!-- Sivu10 -->
+        Sivu10
         <div class="item">
           <div>
             <p id="osaOtsikko2" class="otsikko"></p>
             <img style="margin-left: 7%; width: 800px;" src="pics/Laatuympyra.gif"/>
           </div>
         </div>
-        <!-- Sivu11 -->
+        Sivu11
         <div class="item">
           <div class="leftside">
             <p id="otsikko9" class="otsikko"></p>
             <p id="teksti8" class="teksti"></p>
           </div>
           <div class="rightside">
-            <div style="height: 300px;"> <!-- Nopea ratkaisu -->
+            <div style="height: 300px;"> Nopea ratkaisu
             <div class="accordion">
               <h3 id="hOtsikko10"></h3>
               <div>
@@ -328,14 +284,14 @@
             </div>
           </div>
         </div>
-        <!-- Sivu12 -->
+        Sivu12
         <div class="item">
           <div class="leftside">
             <p id="otsikko10" class="otsikko"></p>
             <p id="teksti9" class="teksti"></p>
           </div>
           <div class="rightside">
-            <div style="height: 350px;"> <!-- Nopea ratkaisu -->
+            <div style="height: 350px;"> Nopea ratkaisu
             <div class="accordion">
               <h3 id="hOtsikko13"></h3>
               <div>
@@ -349,21 +305,21 @@
             </div>
           </div>
         </div>
-        <!-- Sivu13 -->
+        Sivu13
         <div class="item">
           <div style="width: 975px; height: 450px; overflow-y: auto;">
             <p id="otsikko11" class="otsikko"></p>
             <p id="teksti10" class="teksti"></p>
           </div>
         </div>
-        <!-- Sivu14 -->
+        Sivu14
         <div class="item">
           <div class="leftside">
             <p id="otsikko12" class="otsikko"></p>
             <p id="teksti11" class="teksti"></p>
           </div>
           <div class="rightside">
-            <div style="height: 350px;"> <!-- Nopea ratkaisu -->
+            <div style="height: 350px;"> Nopea ratkaisu
             <div class="accordion">
               <h3 id="hOtsikko15"></h3>
               <div>
@@ -377,26 +333,26 @@
             </div>
           </div>
         </div>
-        <!-- Sivu15 -->
+        Sivu15
         <div class="item">
           <p id="otsikko13" class="otsikko"></p>
           <p id="teksti12" class="teksti"></p>
         </div>
-        <!-- Sivu16 -->
+        Sivu16
         <div class="item">
           <div>
             <p id="osaOtsikko3" class="otsikko"></p>
             <img style="margin-left: 7%; width: 800px;" src="pics/Laatuympyra.gif"/>
           </div>
         </div>
-        <!-- Sivu17 -->
+        Sivu17
         <div class="item">
           <div class="leftside">
             <p id="otsikko14" class="otsikko"></p>
             <p id="teksti13" class="teksti"></p>
           </div>
           <div class="rightside">
-            <div style="height: 350px;"> <!-- Nopea ratkaisu -->
+            <div style="height: 350px;"> Nopea ratkaisu
             <div class="accordion">
               <h3 id="hOtsikko17"></h3>
               <div>
@@ -410,21 +366,22 @@
             </div>
           </div>
         </div>
-        <!-- Sivu18 -->
+        Sivu18
         <div class="item">
           <p id="otsikko15" class="otsikko"></p>
           <p id="teksti14" class="teksti"></p>
         </div>
-        <!-- Sivu19 -->
+        Sivu19
         <div class="item">
           <p id="otsikko16" class="otsikko"></p>
           <p id="teksti15" class="teksti"></p>
         </div>
-        <!-- Sivu20 -->
+        Sivu20
         <div class="item">
           <p class="teksti"> </p>
         </div>
-      </div>
+        -->
+
       <!-- Controls -->
       <a class="left carousel-control" href="#carousel-custom" role="button" data-slide="prev" onClick="window.setTimeout(checkActivity, 100);">
         <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>

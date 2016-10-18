@@ -129,6 +129,10 @@
   margin: auto;
   display: block;
 }
+.titleImage{
+  margin-left: 7%;
+  width: 800px;
+}
 
 /* karusellin indikaattorit */
 #carousel-custom .carousel-indicators{

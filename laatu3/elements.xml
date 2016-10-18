@@ -5,7 +5,7 @@
   <br> tarkoittaa pakotettua rivinvaihtoa
 -->
 <root>
-  <title> Laatu </title>
+  <title>Laatu</title>
   <header>
     <logo>esedu_logo.png</logo>
     <teksti>Etelä-Savon ammattiopisto</teksti>
@@ -14,21 +14,25 @@
 
   <sivut>
 
-    <sivu numero="1" tyyppi="kansi">
+    <sivu>
+      <numero>1</numero>
+      <tyyppi>kansi</tyyppi>
       <nav>
-        <sivulle> 0 </sivulle>
-        <activity> active </activity>
-        <otsikko> Etusivu </otsikko>
+        <sivulle>0</sivulle>
+        <activity>active</activity>
+        <otsikko>Etusivu</otsikko>
       </nav>
       <otsikko>Laadunhallinnasta ja laadun kehityksestä Esedulaisille</otsikko>
-      <kuva>laatuympyrä.png</kuva>
+      <kuva>pics/laatuympyra.gif</kuva>
     </sivu>
 
-    <sivu numero="2" tyyppi="sivu1">
+    <sivu>
+      <numero>2</numero>
+      <tyyppi>sivu1</tyyppi>
       <nav>
-        <sivulle> 1 </sivulle>
-        <activity> inactive </activity>
-        <otsikko> Esittely </otsikko>
+        <sivulle>1</sivulle>
+        <activity>inactive</activity>
+        <otsikko>Esittely</otsikko>
       </nav>
       <otsikko>Tervetuloa tutustumaan laadunhallintaan ja jatkuvan parantamisen periaatteeseen!</otsikko>
       <teksti>
@@ -42,20 +46,25 @@
       </teksti>
     </sivu>
 
-    <sivu numero="3" tyyppi="kansi">
+    <sivu>
+      <numero>3</numero>
+      <tyyppi>kansi</tyyppi>
       <nav>
-        <sivulle> 2 </sivulle>
-        <activity> inactive </activity>
-        <otsikko> OSA 1 Suunnittelu ja toteutus </otsikko>
+        <sivulle>2</sivulle>
+        <activity>inactive</activity>
+        <otsikko>OSA 1 Suunnittelu ja toteutus</otsikko>
       </nav>
-      <otsikko> OSA 1 Suunnittelu ja toteutus </otsikko>
+      <otsikko>OSA 1 Suunnittelu ja toteutus</otsikko>
+      <kuva>pics/laatuympyra.gif</kuva>
     </sivu>
 
-    <sivu numero="4" tyyppi="sivu2">
+    <sivu>
+      <numero>4</numero>
+      <tyyppi>sivu2</tyyppi>
       <nav>
-        <sivulle> 3 </sivulle>
-        <activity> inactive </activity>
-        <otsikko> Mikä tekee oppilaitoksestamme laadukkaan </otsikko>
+        <sivulle>3</sivulle>
+        <activity>inactive</activity>
+        <otsikko>Mikä tekee oppilaitoksestamme laadukkaan</otsikko>
       </nav>
       <otsikko>Mikä tekee oppilaitoksestamme laadukkaan</otsikko>
       <teksti>
@@ -147,11 +156,13 @@
       </haitarilista>
     </sivu>
 
-    <sivu numero="5" tyyppi="sivu2">
+    <sivu>
+      <numero>5</numero>
+      <tyyppi>sivu2</tyyppi>
       <nav>
-        <sivulle> 4 </sivulle>
-        <activity> inactive </activity>
-        <otsikko> Mikä tekee omasta työstäni laadukkaan </otsikko>
+        <sivulle>4</sivulle>
+        <activity>inactive</activity>
+        <otsikko>Mikä tekee omasta työstäni laadukkaan</otsikko>
       </nav>
       <otsikko>Mikä tekee omasta työstäni laadukkaan</otsikko>
       <teksti>
@@ -193,11 +204,13 @@
       </haitarilista>
     </sivu>
 
-    <sivu numero="6" tyyppi="dragdrop">
+    <sivu>
+      <numero>6</numero>
+      <tyyppi>dragdrop</tyyppi>
       <nav>
-        <sivulle> 5 </sivulle>
-        <activity> inactive </activity>
-        <otsikko> Tehtäväsivu 1 </otsikko>
+        <sivulle>5</sivulle>
+        <activity>inactive</activity>
+        <otsikko>Tehtäväsivu 1</otsikko>
       </nav>
       <otsikko>TEHTÄVÄSIVU</otsikko>
       <teksti>Vie sanat oikeaan laatikkoon:</teksti>
@@ -226,11 +239,13 @@
       </dragdrop>
     </sivu>
 
-    <sivu numero="7" tyyppi="sivu2">
+    <sivu>
+      <numero>7</numero>
+      <tyyppi>sivu2</tyyppi>
       <nav>
-        <sivulle> 6 </sivulle>
-        <activity> inactive </activity>
-        <otsikko> Miten asetamme tavoitteet oppilaitoksellemme </otsikko>
+        <sivulle>6</sivulle>
+        <activity>inactive</activity>
+        <otsikko>Miten asetamme tavoitteet oppilaitoksellemme</otsikko>
       </nav>
       <otsikko>Miten asetamme tavoitteet oppilaitoksellemme</otsikko>
       <teksti>
@@ -256,7 +271,7 @@
       </teksti>
       <haitarilista>
         <haitari>
-          <otsikko> Esedun strategia 2020 – Ketterä edelläkävijä</otsikko>
+          <otsikko>Esedun strategia 2020 – Ketterä edelläkävijä</otsikko>
           <teksti>
             <![CDATA[
               <b>Visiomme</b>: Eturivin taitajat varmistavat alueen menestymisen <br>
@@ -296,11 +311,13 @@
       </haitarilista>
     </sivu>
 
-    <sivu numero="8" tyyppi="sivu2">
+    <sivu>
+      <numero>8</numero>
+      <tyyppi>sivu2</tyyppi>
       <nav>
-        <sivulle> 7 </sivulle>
-        <activity> inactive </activity>
-        <otsikko> Miten asetan tavoitteet työlleni </otsikko>
+        <sivulle>7</sivulle>
+        <activity>inactive</activity>
+        <otsikko>Miten asetan tavoitteet työlleni</otsikko>
       </nav>
       <otsikko>Miten asetan tavoitteet työlleni</otsikko>
       <teksti>
@@ -368,11 +385,13 @@
       </haitarilista>
     </sivu>
 
-    <sivu numero="9" tyyppi="kysely">
+    <sivu>
+      <numero>9</numero>
+      <tyyppi>kysely</tyyppi>
       <nav>
-        <sivulle> 8 </sivulle>
-        <activity> inactive </activity>
-        <otsikko> Tehtäväsivu 2 </otsikko>
+        <sivulle>8</sivulle>
+        <activity>inactive</activity>
+        <otsikko>Tehtäväsivu 2</otsikko>
       </nav>
       <otsikko>TEHTÄVÄSIVU:</otsikko>
       <teksti>
@@ -400,20 +419,25 @@
       </tehtava>
     </sivu>
 
-    <sivu numero="10" tyyppi="kansi">
+    <sivu>
+      <numero>10</numero>
+      <tyyppi>kansi</tyyppi>
       <nav>
-        <sivulle> 9 </sivulle>
-        <activity> inactive </activity>
-        <otsikko> OSA 2 Arvointi ja parantaminen </otsikko>
+        <sivulle>9</sivulle>
+        <activity>inactive</activity>
+        <otsikko>OSA 2 Arvointi ja parantaminen</otsikko>
       </nav>
-      <otsikko> OSA 2 Arvointi ja parantaminen </otsikko>
+      <otsikko>OSA 2 Arvointi ja parantaminen</otsikko>
+      <kuva>pics/laatuympyra.gif</kuva>
     </sivu>
 
-    <sivu numero="11" tyyppi="sivu2">
+    <sivu>
+      <numero>11</numero>
+      <tyyppi>sivu2</tyyppi>
       <nav>
-        <sivulle> 10 </sivulle>
-        <activity> inactive </activity>
-        <otsikko> Miten arvioimme oppilaitoksemme toiminnan vaikuttavuutta </otsikko>
+        <sivulle>10</sivulle>
+        <activity>inactive</activity>
+        <otsikko>Miten arvioimme oppilaitoksemme toiminnan vaikuttavuutta</otsikko>
       </nav>
       <otsikko>Miten arvioimme oppilaitoksemme toiminnan vaikuttavuutta</otsikko>
       <teksti>
@@ -479,11 +503,13 @@
       </haitarilista>
     </sivu>
 
-    <sivu numero="12" tyyppi="sivu2">
+    <sivu>
+      <numero>12</numero>
+      <tyyppi>sivu2</tyyppi>
       <nav>
-        <sivulle> 11 </sivulle>
-        <activity> inactive </activity>
-        <otsikko> Miten arvioin oman työni vaikutuksia ja vaikuttavuutta </otsikko>
+        <sivulle>11</sivulle>
+        <activity>inactive</activity>
+        <otsikko>Miten arvioin oman työni vaikutuksia ja vaikuttavuutta</otsikko>
       </nav>
       <otsikko>Miten arvioin oman työni vaikutuksia ja vaikuttavuutta</otsikko>
       <teksti>
@@ -525,11 +551,13 @@
       </haitarilista>
     </sivu>
 
-    <sivu numero="13" tyyppi="sivu1">
+    <sivu>
+      <numero>13</numero>
+      <tyyppi>sivu1</tyyppi>
       <nav>
-        <sivulle> 12 </sivulle>
-        <activity> inactive </activity>
-        <otsikko> Tehtäväsivu 3 </otsikko>
+        <sivulle>12</sivulle>
+        <activity>inactive</activity>
+        <otsikko>Tehtäväsivu 3</otsikko>
       </nav>
       <otsikko>TEHTÄVÄSIVU: Palautteiden hyödyntäminen</otsikko>
       <teksti>
@@ -558,11 +586,13 @@
       <kuva>pics/opiskelijapalaute.png</kuva>
     </sivu>
 
-    <sivu numero="14" tyyppi="sivu2">
+    <sivu>
+      <numero>14</numero>
+      <tyyppi>sivu2</tyyppi>
       <nav>
-        <sivulle> 13 </sivulle>
-        <activity> inactive </activity>
-        <otsikko> Miten parannamme oppilaitoksen toimintaa </otsikko>
+        <sivulle>13</sivulle>
+        <activity>inactive</activity>
+        <otsikko>Miten parannamme oppilaitoksen toimintaa</otsikko>
       </nav>
       <otsikko>Miten parannamme oppilaitoksen toimintaa</otsikko>
       <teksti>
@@ -595,11 +625,13 @@
       </haitarilista>
     </sivu>
 
-    <sivu numero="15" tyyppi="sivu1">
+    <sivu>
+      <numero>15</numero>
+      <tyyppi>sivu1</tyyppi>
       <nav>
-        <sivulle> 14 </sivulle>
-        <activity> inactive </activity>
-        <otsikko> Miten osoitamme oppilaitoksen laadukkuuden </otsikko>
+        <sivulle>14</sivulle>
+        <activity>inactive</activity>
+        <otsikko>Miten osoitamme oppilaitoksen laadukkuuden</otsikko>
       </nav>
       <otsikko>Miten osoitamme oppilaitoksen laadukkuuden</otsikko>
       <teksti>
@@ -619,20 +651,25 @@
       </teksti>
     </sivu>
 
-    <sivu numero="16" tyyppi="kansi">
+    <sivu>
+      <numero>16</numero>
+      <tyyppi>kansi</tyyppi>
       <nav>
-        <sivulle> 15 </sivulle>
-        <activity> inactive </activity>
-        <otsikko> OSA 3 Tuloksellisuus- ja vaikuttavuusmittarit </otsikko>
+        <sivulle>15</sivulle>
+        <activity>inactive</activity>
+        <otsikko>OSA 3 Tuloksellisuus- ja vaikuttavuusmittarit</otsikko>
       </nav>
-      <otsikko> OSA 3 Tuloksellisuus- ja vaikuttavuusmittarit </otsikko>
+      <otsikko>OSA 3 Tuloksellisuus- ja vaikuttavuusmittarit</otsikko>
+      <kuva>pics/laatuympyra.gif</kuva>
     </sivu>
 
-    <sivu numero="17" tyyppi="sivu2">
+    <sivu>
+      <numero>17</numero>
+      <tyyppi>sivu2</tyyppi>
       <nav>
-        <sivulle> 16 </sivulle>
-        <activity> inactive </activity>
-        <otsikko> Tuloksellisuus- ja vaikuttavuusmittarit </otsikko>
+        <sivulle>16</sivulle>
+        <activity>inactive</activity>
+        <otsikko>Tuloksellisuus- ja vaikuttavuusmittarit</otsikko>
       </nav>
       <otsikko>Tuloksellisuus- ja vaikuttavuusmittarit</otsikko>
       <teksti>
@@ -680,11 +717,13 @@
       </haitarilista>
     </sivu>
 
-    <sivu numero="18" tyyppi="sivu1">
+    <sivu>
+      <numero>18</numero>
+      <tyyppi>sivu1</tyyppi>
       <nav>
-        <sivulle> 17 </sivulle>
-        <activity> inactive </activity>
-        <otsikko> Tiedon keruu ja analysointi </otsikko>
+        <sivulle>17</sivulle>
+        <activity>inactive</activity>
+        <otsikko>Tiedon keruu ja analysointi</otsikko>
       </nav>
       <otsikko>Tiedon keruu ja analysointi</otsikko>
       <teksti>
@@ -704,11 +743,13 @@
       </teksti>
     </sivu>
 
-    <sivu numero="19" tyyppi="sivu1">
+    <sivu>
+      <numero>19</numero>
+      <tyyppi>sivu1</tyyppi>
       <nav>
-        <sivulle> 18 </sivulle>
-        <activity> inactive </activity>
-        <otsikko> Näytöt tuloksellisuudesta ja vaikuttavuudesta </otsikko>
+        <sivulle>18</sivulle>
+        <activity>inactive</activity>
+        <otsikko>Näytöt tuloksellisuudesta ja vaikuttavuudesta</otsikko>
       </nav>
       <otsikko>Näytöt tuloksellisuudesta ja vaikuttavuudesta</otsikko>
       <teksti>
@@ -727,13 +768,15 @@
       </teksti>
     </sivu>
 
-    <sivu numero="20" tyyppi="sivu1">
+    <sivu>
+      <numero>20</numero>
+      <tyyppi>sivu1</tyyppi>
       <nav>
-        <sivulle> 19 </sivulle>
-        <activity> inactive </activity>
-        <otsikko> Toteutus </otsikko>
+        <sivulle>19</sivulle>
+        <activity>inactive</activity>
+        <otsikko>Toteutus</otsikko>
       </nav>
-      <otsikko> Toteutus </otsikko>
+      <otsikko>Toteutus</otsikko>
       <teksti>
         <![CDATA[
           Tekninen toteutus: Onni Heinonen <br>

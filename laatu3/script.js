@@ -16,38 +16,81 @@ function init(xml) {
 
   $(xml).find('sivu').each(function(index){
 
+    var $sivu = $(this);
     var $nav = $(this).find("nav");
+    var carousel = document.getElementById("carousel-inner");
+    var content;
+    var number = $sivu.find("numero").text()
 
     function addNavElements(){
       var tabElem = document.createElement("li");
       var tabTitle = document.createTextNode($nav.find("otsikko").text());
       tabElem.appendChild(tabTitle);
-
       var slideTo = $nav.find('sivulle').text();
       var activity = $nav.find('activity').text();
-
       tabElem.setAttribute("data-target", "#carousel-custom");
       tabElem.setAttribute("data-slide-to", slideTo);
       tabElem.setAttribute("class", activity);
       tabElem.setAttribute("onClick", "window.setTimeout(checkActivity, 100);");
-
       var tabList = document.getElementById("navlist");
       tabList.appendChild(tabElem);
-
       var indElem = document.createElement("li");
       var indPict = document.createElement("img");
       indPict.setAttribute("src", "pics/indicator.png");
       indElem.appendChild(indPict);
-
+      indElem.setAttribute("class", activity);
       indElem.setAttribute("data-target", "#carousel-custom");
       indElem.setAttribute("data-slide-to", slideTo);
       indElem.setAttribute("onClick", "window.setTimeout(checkActivity, 100);");
-
       var indicators = document.getElementById("indicators");
       indicators.appendChild(indElem);
     }
 
+    function addItems(){
+      var itemElem = document.createElement("div");
+      itemElem.setAttribute("class", "item");
+      var activity = $sivu.find("nav").find("activity").text();
+      if(activity === "active"){
+        itemElem.classList.add("active");
+      }
+      var contentElem = document.createElement("div");
+      contentElem.setAttribute("class", "content");
+      itemElem.appendChild(contentElem);
+      carousel.appendChild(itemElem);
+
+      content = contentElem;
+    }
+
+    function pageTypes(){
+
+      var pageType = $sivu.find("tyyppi").text();
+
+      if(pageType === "kansi"){
+        console.log(number + " - " + pageType);
+        var titleElem = document.createElement("p");
+        titleElem.setAttribute("class", "otsikko");
+        var title = $sivu.children("otsikko").text();
+        var titleNode = document.createTextNode(title);
+        titleElem.appendChild(titleNode);
+        content.appendChild(titleElem);
+
+        var image = $sivu.find("kuva").text();
+        var imgElem = document.createElement("img");
+        imgElem.setAttribute("src", image);
+        imgElem.setAttribute("class", "titleImage");
+        content.appendChild(imgElem);
+      } else if(pageType === "sivu1"){
+        console.log(number + " - " + pageType);
+      } else if(pageType === "sivu2"){
+        console.log(number + " - " + pageType);
+      } else{
+        console.log(number + " - " + pageType);
+      }
+    }
+
     addNavElements();
+    addItems();
+    pageTypes();
   });
 }
 
@@ -56,18 +99,14 @@ function checkActivity(){
   var tabElements = document.getElementById("navlist").getElementsByTagName("li");
   for(var i = 0; i < indElements.length; i++){
     var indTo = indElements[i].getAttribute("data-slide-to");
-    console.log(indTo);
     for(var o = 0; o < tabElements.length; o++){
       var tabTo = tabElements[o].getAttribute("data-slide-to");
-      console.log(tabTo);
       if(indTo === tabTo){
         if($(indElements[i]).hasClass("active")){
           tabElements[o].setAttribute("class", "active");
-          console.log("active");
         }
         else{
           tabElements[o].setAttribute("class", "inactive");
-          console.log("inactive");
         }
       }
     }
