@@ -64,9 +64,9 @@ function init(xml) {
     function pageTypes(){
 
       var pageType = $sivu.find("tyyppi").text();
+      console.log(number + " - " + pageType);
 
       if(pageType === "kansi"){
-        console.log(number + " - " + pageType);
         var titleElem = document.createElement("p");
         titleElem.setAttribute("class", "otsikko");
         var title = $sivu.children("otsikko").text();
@@ -80,11 +80,85 @@ function init(xml) {
         imgElem.setAttribute("class", "titleImage");
         content.appendChild(imgElem);
       } else if(pageType === "sivu1"){
-        console.log(number + " - " + pageType);
+        var titleElem = document.createElement("p");
+        titleElem.setAttribute("class", "otsikko");
+        var title = $sivu.children("otsikko").text();
+        var titleNode = document.createTextNode(title);
+        titleElem.appendChild(titleNode);
+        content.appendChild(titleElem);
+
+        var overflowElem = document.createElement("div");
+        overflowElem.setAttribute("class", "textOverflow");
+        var textElem = document.createElement("p");
+        textElem.setAttribute("class", "teksti");
+        var text = $sivu.children("teksti").text();
+        textElem.innerHTML = text;
+        overflowElem.appendChild(textElem);
+        content.appendChild(overflowElem);
       } else if(pageType === "sivu2"){
-        console.log(number + " - " + pageType);
+        var leftElem = document.createElement("div");
+        leftElem.setAttribute("class", "leftside");
+        var rightElem = document.createElement("div");
+        rightElem.setAttribute("class", "rightside");
+
+        var titleElem = document.createElement("p");
+        titleElem.setAttribute("class", "otsikko");
+        var title = $sivu.children("otsikko").text();
+        var titleNode = document.createTextNode(title);
+        titleElem.appendChild(titleNode);
+        leftElem.appendChild(titleElem);
+
+        var textElem = document.createElement("p");
+        textElem.setAttribute("class", "teksti");
+        var text = $sivu.children("teksti").text();
+        textElem.innerHTML = text;
+        leftElem.appendChild(textElem);
+
+        //accordion
+        var accordion = document.createElement("div");
+        accordion.setAttribute("class", "accordion");
+        var $pList = $sivu.find("haitarilista");
+
+        //accordion function
+        $pList.find("haitari").each(function(){
+          var $panel = $(this);
+          // panel button
+          var pButtonElem = document.createElement("button");
+          pButtonElem.setAttribute("class", "aPanelButton");
+          pButtonElem.setAttribute("onclick", "accordion(this);");
+          // panel indicator
+          var pIndicatorElem = document.createElement("p");
+          pIndicatorElem.innerHTML = "+";
+          pIndicatorElem.classList.add("aPanelIndicator");
+          // panel title
+          var pTitleElem = document.createElement("p");
+          pTitleElem.classList.add("teksti");
+          pTitleElem.classList.add("aPanelButtonText");
+          var pTitle = $panel.find("otsikko").text();
+          var pTitleNode = document.createTextNode(pTitle);
+          // append
+          pTitleElem.appendChild(pTitleNode);
+          pButtonElem.appendChild(pIndicatorElem);
+          pButtonElem.appendChild(pTitleElem);
+          accordion.appendChild(pButtonElem);
+          // text panel
+          var panelElem = document.createElement("div");
+          panelElem.classList.add("aPanel");
+          panelElem.classList.add("hidden");
+          // text
+          var pTextElem = document.createElement("p");
+          pTextElem.setAttribute("class", "teksti");
+          var pText = $panel.find("teksti").text();
+          pTextElem.innerHTML = pText;
+          // append
+          panelElem.appendChild(pTextElem);
+          accordion.appendChild(panelElem);
+        });
+        rightElem.appendChild(accordion);
+        content.appendChild(rightElem);
+        content.appendChild(leftElem);
       } else{
-        console.log(number + " - " + pageType);
+
       }
     }
 
@@ -92,6 +166,29 @@ function init(xml) {
     addItems();
     pageTypes();
   });
+}
+
+function next(elem) {
+  do {
+      elem = elem.nextSibling;
+  } while (elem && elem.nodeType !== 1);
+  return elem;
+}
+
+function accordion(elem){
+  var button = elem;
+  var nextElem = next(button);
+  if($(nextElem).hasClass("hidden")){
+    button.children[0].innerHTML = "-";
+    nextElem.classList.add("visible");
+    nextElem.classList.remove("hidden");
+    console.log(button);
+  } else{
+    button.children[0].innerHTML = "+";
+    nextElem.classList.add("hidden");
+    nextElem.classList.remove("visible");
+    console.log(button);
+  }
 }
 
 function checkActivity(){

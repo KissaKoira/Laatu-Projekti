@@ -10,6 +10,7 @@
   font-family: Arial,Helvetica,sans-serif;
   font-size: 20px;
   color: grey;
+  margin: 0 !important;
 }
 .otsikko{
   font-family: Arial,Helvetica,sans-serif;
@@ -32,22 +33,34 @@
 /* hidden / visible */
 .hidden{
   display: none !important;
-  font-family: Arial,Helvetica,sans-serif;
 }
 .visible{
-  display: visible;
-  font-family: Arial,Helvetica,sans-serif;
+  display: block !important;
 }
 
 /* haitarit */
-.iconMinus{
-  background:url('pics/minus.png') !important;
+.accordion{
+ height: 100%;
 }
-.iconPlus{
-  background:url('pics/plus.png') !important;
+.aPanel{
+  border: 1px solid black;
+  border-top: none;
+  width: 100%;
+  padding: 10px;
 }
-.ui-accordion-content{
-  padding: 20px !important;
+.aPanelIndicator{
+  text-align: left !important;
+  float: left;
+  margin: 0px 5px 0px 5px;
+  width: 15px;
+}
+.aPanelButton{
+  width: 100%;
+  padding: 5px;
+}
+.aPanelButtonText{
+  text-align: left !important;
+  float: left;
 }
 
 /* sivun wrapper */
@@ -104,6 +117,14 @@
 .item{
   padding: 20px;
   height: 469px;
+}
+.content{
+  height: 449px;
+}
+.textOverflow{
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 400.5px;
 }
 .leftside{
   float: left;
