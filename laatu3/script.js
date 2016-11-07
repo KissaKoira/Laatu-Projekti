@@ -53,6 +53,8 @@ function init(xml) {
       if(activity === "active"){
         itemElem.classList.add("active");
       }
+      var pageNumber = "page " + $sivu.find("numero").text();
+      itemElem.setAttribute("id", pageNumber)
       var contentElem = document.createElement("div");
       contentElem.setAttribute("class", "content");
       itemElem.appendChild(contentElem);
@@ -175,19 +177,45 @@ function next(elem) {
   return elem;
 }
 
+function closePanels(){
+  $('p.aPanelIndicator').each(function(){
+    this.innerHTML = "+";
+  });
+  $('div.aPanel').each(function(){
+    var $thisPanel = $(this);
+    $thisPanel.addClass("hidden");
+    $thisPanel.removeClass("visible");
+  });
+}
+
+function calcHeight(){
+  var totalHeight = 0;
+  var activeItems = $('div.item.active');
+  console.log(activeItems[0]);
+  var panelButtons = $(activeItems[0]).find('div.aPanelButton');
+  console.log(panelButtons);
+  $(panelButtons).each(function(){
+    console.log("toimii");
+    var thisButton = this;
+    totalHeight += thisButton.style.height;
+  });
+  console.log(totalHeight);
+}
+
 function accordion(elem){
   var button = elem;
   var nextElem = next(button);
   if($(nextElem).hasClass("hidden")){
+    closePanels();
+    calcHeight();
     button.children[0].innerHTML = "-";
     nextElem.classList.add("visible");
     nextElem.classList.remove("hidden");
-    console.log(button);
   } else{
     button.children[0].innerHTML = "+";
     nextElem.classList.add("hidden");
     nextElem.classList.remove("visible");
-    console.log(button);
+
   }
 }
 
