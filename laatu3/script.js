@@ -137,9 +137,8 @@ function init(xml) {
           pTitleElem.classList.add("teksti");
           pTitleElem.classList.add("aPanelButtonText");
           var pTitle = $panel.find("otsikko").text();
-          var pTitleNode = document.createTextNode(pTitle);
+          pTitleElem.innerHTML = pTitle;
           // append
-          pTitleElem.appendChild(pTitleNode);
           pButtonElem.appendChild(pIndicatorElem);
           pButtonElem.appendChild(pTitleElem);
           accordion.appendChild(pButtonElem);
@@ -157,13 +156,56 @@ function init(xml) {
           accordion.appendChild(panelElem);
         });
         rightElem.appendChild(accordion);
-        content.appendChild(rightElem);
         content.appendChild(leftElem);
-      } else{
+        content.appendChild(rightElem);
+      } else if(pageType === "dragdrop"){
+        content.innerHTML = $sivu.find("valiaikainen").text();
+      } else if(pageType === "kysely"){
+        var leftElem = document.createElement("div");
+        leftElem.setAttribute("class", "leftside");
+        var rightElem = document.createElement("div");
+        rightElem.setAttribute("class", "rightside");
 
+        var titleElem = document.createElement("p");
+        titleElem.setAttribute("class", "otsikko");
+        var title = $sivu.children("otsikko").text();
+        var titleNode = document.createTextNode(title);
+        titleElem.appendChild(titleNode);
+        leftElem.appendChild(titleElem);
+
+        var textElem = document.createElement("p");
+        textElem.setAttribute("class", "teksti");
+        var text = $sivu.children("teksti").text();
+        textElem.innerHTML = text;
+        leftElem.appendChild(textElem);
+
+        var answerElem = document.createElement("p");
+        $(answerElem).addClass("teksti");
+        $(answerElem).addClass("hidden");
+        answerElem.setAttribute("id", "vastauksetDiv")
+        var answerText = $sivu.find("vastaukset").text();
+        answerElem.innerHTML = answerText;
+        leftElem.appendChild(answerElem);
+
+        var valiaikainen = $sivu.find("valiaikainen");
+        rightElem.innerHTML = $(valiaikainen[0]).text();
+
+        var selectElem = document.createElement("select");
+        selectElem.setAttribute("name", "esimiehet");
+        selectElem.setAttribute("id", "esimies");
+
+        $sivu.find("esimies").each(function(){
+          var thisOption = $(this).text();
+          var optionElem = document.createElement("option");
+          optionElem.innerHTML = thisOption;
+          selectElem.appendChild(optionElem);
+        });
+        rightElem.appendChild(selectElem);
+        rightElem.innerHTML += $(valiaikainen[1]).text();
+        content.appendChild(leftElem);
+        content.appendChild(rightElem);
       }
     }
-
     addNavElements();
     addItems();
     pageTypes();
@@ -189,17 +231,19 @@ function closePanels(){
 }
 
 function calcHeight(){
+  // var accordionHeight = $('div.accordion').height();
+  var accordionHeight = "380";
+  console.log("accordion " + accordionHeight);
   var totalHeight = 0;
   var activeItems = $('div.item.active');
-  console.log(activeItems[0]);
-  var panelButtons = $(activeItems[0]).find('div.aPanelButton');
-  console.log(panelButtons);
+  var panelButtons = $(activeItems[0]).find('button.aPanelButton');
   $(panelButtons).each(function(){
-    console.log("toimii");
     var thisButton = this;
-    totalHeight += thisButton.style.height;
+    totalHeight += $(thisButton).height();
   });
-  console.log(totalHeight);
+  console.log("total " + totalHeight);
+  console.log("panel " + (accordionHeight - totalHeight));
+  return accordionHeight - totalHeight;
 }
 
 function accordion(elem){
@@ -207,15 +251,14 @@ function accordion(elem){
   var nextElem = next(button);
   if($(nextElem).hasClass("hidden")){
     closePanels();
-    calcHeight();
     button.children[0].innerHTML = "-";
+    $(nextElem).css("height", calcHeight())
     nextElem.classList.add("visible");
     nextElem.classList.remove("hidden");
   } else{
     button.children[0].innerHTML = "+";
     nextElem.classList.add("hidden");
     nextElem.classList.remove("visible");
-
   }
 }
 
@@ -428,6 +471,25 @@ $(function() {
   }
 */
 
+$("#esimies").load('options.php');
+
+function submitData() {
+  var vastausElem = document.getElementById("vastauksetDiv");
+  $(vastausElem).addClass("visible");
+  $(vastausElem).removeClass("hidden");
+
+  $(function() {
+    $.ajax({
+      type: 'POST',
+      url: "submit.php",
+      data: $("FORM").serialize(),
+      success: function() {
+        return "success";
+      }
+    });
+  });
+}
+
 //dragdrop testi
 $(function(){
   var block1 = document.getElementById("block1");
@@ -474,10 +536,10 @@ function handleDropEvent( event, ui ) {
   var drop = $(this).data( 'id' );
   var drag = ui.draggable.data( 'target' );
   if(drop === drag){
-    ui.draggable.removeClass( "droppedwrong" );
     ui.draggable.addClass( "droppedright" );
+    ui.draggable.removeClass( "droppedwrong" );
   } else{
-    ui.draggable.removeClass( "droppedright" );
     ui.draggable.addClass( "droppedwrong" );
+    ui.draggable.removeClass( "droppedright" );
   }
 }

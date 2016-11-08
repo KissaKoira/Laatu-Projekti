@@ -101,7 +101,12 @@
           </teksti>
         </haitari>
         <haitari>
-          <otsikko>Laatuympyrä – suunnittelu, toteutus, arviointi ja parantaminen</otsikko>
+          <otsikko>
+            <![CDATA[
+              Laatuympyrä – suunnittelu, toteutus, <br>
+              arviointi ja parantaminen
+            ]]>
+          </otsikko>
           <teksti>
             <![CDATA[
               Laatuympyröitä on useita, mutta periaate niissä kaikissa on sama. Ympyrän mukainen toiminta on keskeistä omassa, tiimien sekä koko organisaation toiminnassa, jotta laatu kehittyy. <br><br>
@@ -205,6 +210,33 @@
     </sivu>
 
     <sivu>
+      <valiaikainen>
+        <![CDATA[
+          <p id="otsikko5" class="otsikko">TEHTÄVÄSIVU</p>
+          <p id="teksti4" class="teksti" style="font-weight: bold;">Vie sanat oikeaan laatikkoon:</p>
+          <br>
+          <div id="blocks">
+            <a id="block5" class="draggable ui-draggable ui-draggable-handle" style="position: relative; width: 201px; right: auto; height: 29px; bottom: auto; left: 0px; top: 0px;">Henkilöstösuunnitelma</a>
+            <a id="block12" class="draggable ui-draggable ui-draggable-handle" style="position: relative; width: 142px; right: auto; height: 29px; bottom: auto; left: 0px; top: 0px;">Oppimistulokset</a>
+            <a id="block4" class="draggable ui-draggable ui-draggable-handle" style="position: relative; width: 172px; right: auto; height: 29px; bottom: auto; left: 0px; top: 0px;">Opetussuunnitelma</a>
+            <a id="block11" class="draggable ui-draggable ui-draggable-handle" style="position: relative; width: 139px; right: auto; height: 29px; bottom: auto; left: 0px; top: 0px;">Asiakastulokset</a>
+            <a id="block11" class="draggable ui-draggable ui-draggable-handle" style="position: relative; width: 139px; right: auto; height: 29px; bottom: auto; left: 0px; top: 0px;">Asiakastulokset</a>
+            <a id="block2" class="draggable ui-draggable ui-draggable-handle" style="position: relative; width: 128px; right: auto; height: 29px; bottom: auto; left: 0px; top: 0px;">Hanketoiminta</a>
+            <a id="block3" class="draggable ui-draggable ui-draggable-handle" style="position: relative; width: 161px; right: auto; height: 29px; bottom: auto; left: 0px; top: 0px;">HEKS-keskustelut</a>
+            <a id="block8" class="draggable ui-draggable ui-draggable-handle" style="position: relative; width: 156px; right: auto; height: 29px; bottom: auto; left: 0px; top: 0px;">Työssäoppiminen</a>
+            <a id="block10" class="draggable ui-draggable ui-draggable-handle" style="position: relative; width: 175px; right: auto; height: 29px; bottom: auto; left: 0px; top: 0px;">Opiskelijapalautteet</a>
+            <a id="block1" class="draggable ui-draggable ui-draggable-handle" style="position: relative; width: 217px; right: auto; height: 29px; bottom: auto; left: 0px; top: 0px;">Oman työn kehittäminen</a>
+            <a id="block9" class="draggable ui-draggable ui-draggable-handle" style="position: relative; width: 122px; right: auto; height: 29px; bottom: auto; left: 0px; top: 0px;">Näyttötutkinto</a>
+            <a id="block7" class="draggable ui-draggable ui-draggable-handle" style="position: relative; width: 63px; right: auto; height: 29px; bottom: auto; left: 0px; top: 0px;">Ohjaus</a>
+          </div>
+          <div id="goals">
+            <div id="goal1" class="droppable">Suunnittelu</div>
+            <div id="goal2" class="droppable">Toteutus</div>
+            <div id="goal3" class="droppable">Arviointi</div>
+            <div id="goal4" class="droppable">Parantaminen</div>
+          </div>
+        ]]>
+      </valiaikainen>
       <numero>6</numero>
       <tyyppi>dragdrop</tyyppi>
       <nav>
@@ -386,6 +418,79 @@
     </sivu>
 
     <sivu>
+      <valiaikainen>
+        <![CDATA[
+          <h2> Totta vai Tarua? </h2>
+          <p id="tottatarua">Totta</p>
+          <p id="tottatarua">Tarua</p>
+          <div id="vastauswrapper">
+            <table class="tableborderform">
+              <form name="FORM" method="post">
+                <tr>
+                  <td>
+                    <p id="kysymys">Aikaisemman osaamisen tunnistamisen ja tunnustamisen prosessikuvauksen mukaan ohjauskeskustelun käyminen on opiskelijan vastuulla</p>
+                    <fieldset id="group">
+                      <input id="radionappi" type="radio" name="kysymys1" value="tarua">
+                      <input id="radionappi" type="radio" name="kysymys1" value="totta"> <br>
+                    </fieldset>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p id="kysymys">Aikuiskoulutushaussa vastuuopettaja ja opintosihteeri vastaavat yhdessä mahdollisten hakijoiden informoinnista ja ohjaamisesta</p>
+                    <fieldset id="group">
+                      <input id="radionappi" type="radio" name="kysymys2" value="tarua">
+                      <input id="radionappi" type="radio" name="kysymys2" value="totta"> <br>
+                    </fieldset>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p id="kysymys">Opettajan vastuulla on ohjata opiskelijat vastaamaan opiskelijapalautekyselyihin (nuorten tulo-, olo- ja päättökyselyt, aikuiskoulutus OPAL ja AIPAL sekä kummankin koulutusmuodon opettajan henkilökohtainen palaute)</p>
+                    <fieldset id="group">
+                      <input id="radionappi" type="radio" name="kysymys3" value="tarua">
+                      <input id="radionappi" type="radio" name="kysymys3" value="totta"> <br>
+                    </fieldset>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p id="kysymys">Opiskelija tunnistaa olemassa olevan osaamisen</p>
+                      <fieldset id="group">
+                      <input id="radionappi" type="radio"  name="kysymys4" value="tarua">
+                      <input id="radionappi" type="radio"  name="kysymys4" value="totta"> <br>
+                    </fieldset>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <p id="kysymys">Oppisopimuskoordinaattori ja vastuuopettaja vastaavat yhdessä oppisopimuskoulutuksen tietopuolisen koulutuksen suunnittelusta</p>
+                    <fieldset id="group">
+                      <input id="radionappi" type="radio"  name="kysymys5" value="tarua">
+                      <input id="radionappi" type="radio"  name="kysymys5" value="totta"> <br>
+                    </fieldset>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    Nimi:<br>
+                    <input type="text" name="nimi" id="nimi"></input><br>
+                  ]]>
+                </valiaikainen>
+                <valiaikainen>
+                  <![CDATA[
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <button type="button" onClick="submitData();">Submit</button>
+                  </td>
+                </tr>
+              </form>
+            </table>
+          </div>
+        ]]>
+      </valiaikainen>
       <numero>9</numero>
       <tyyppi>kysely</tyyppi>
       <nav>
@@ -393,6 +498,10 @@
         <activity>inactive</activity>
         <otsikko>Tehtäväsivu 2</otsikko>
       </nav>
+      <esimiehet>
+        <esimies>Onni Heinonen</esimies>
+        <esimies>Riku Hänninen</esimies>
+      </esimiehet>
       <otsikko>TEHTÄVÄSIVU:</otsikko>
       <teksti>
         <![CDATA[
@@ -403,6 +512,7 @@
       </teksti>
       <vastaukset>
         <![CDATA[
+          <br>
           <b>a)</b> Aikaisemman osaamisen tunnistamisen ja tunnustamisen prosessikuvauksen mukaan ohjauskeskustelun käyminen on opiskelijan vastuulla [väärin. Vastaus: Ryhmäohjaaja kartoittaa opiskelijan aiempaa osaamista HOPS –keskustelun yhteydessä. Opinto-ohjaaja kirjaa suoraan tutkinnon perusteissa mainitut korvaavuudet]<br><br>
           <b>b)</b> Aikuiskoulutushaussa vastuuopettaja ja opintosihteeri vastaavat yhdessä mahdollisten hakijoiden informoinnista ja ohjaamisesta [Totta: Vastuuopettaja sekä opintosihteeri vastaavat hakeutujien tiedusteluihin ja ohjaavat hakeutujia]<br><br>
           <b>c)</b> Opettajan vastuulla on ohjata opiskelijat vastaamaan opiskelijapalautekyselyihin (nuorten tulo-, olo- ja päättökyselyt, aikuiskoulutus OPAL ja AIPAL sekä kummankin koulutusmuodon opettajan henkilökohtainen palaute) [Totta: Opettajan tehtäviin kuuluu opiskelijapalautteen keruu! Aikuisten OPAL- ja AIPAL-palautteissa tunnukset pyydetään opintosihteeri Satu Vuoriselta, joka tekee tunnukset vain opettajan pyynnöstä. ]<br><br>
