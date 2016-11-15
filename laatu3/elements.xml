@@ -220,7 +220,6 @@
             <a id="block12" class="draggable ui-draggable ui-draggable-handle" style="position: relative; width: 142px; right: auto; height: 29px; bottom: auto; left: 0px; top: 0px;">Oppimistulokset</a>
             <a id="block4" class="draggable ui-draggable ui-draggable-handle" style="position: relative; width: 172px; right: auto; height: 29px; bottom: auto; left: 0px; top: 0px;">Opetussuunnitelma</a>
             <a id="block11" class="draggable ui-draggable ui-draggable-handle" style="position: relative; width: 139px; right: auto; height: 29px; bottom: auto; left: 0px; top: 0px;">Asiakastulokset</a>
-            <a id="block11" class="draggable ui-draggable ui-draggable-handle" style="position: relative; width: 139px; right: auto; height: 29px; bottom: auto; left: 0px; top: 0px;">Asiakastulokset</a>
             <a id="block2" class="draggable ui-draggable ui-draggable-handle" style="position: relative; width: 128px; right: auto; height: 29px; bottom: auto; left: 0px; top: 0px;">Hanketoiminta</a>
             <a id="block3" class="draggable ui-draggable ui-draggable-handle" style="position: relative; width: 161px; right: auto; height: 29px; bottom: auto; left: 0px; top: 0px;">HEKS-keskustelut</a>
             <a id="block8" class="draggable ui-draggable ui-draggable-handle" style="position: relative; width: 156px; right: auto; height: 29px; bottom: auto; left: 0px; top: 0px;">Työssäoppiminen</a>

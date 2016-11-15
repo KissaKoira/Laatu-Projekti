@@ -43,12 +43,13 @@
  height: 100%;
 }
 .aPanel{
-  border: 1px solid black;
+  border: 1px solid grey;
   border-top: none;
-  width: 100%;
+  width: 99%;
   padding: 10px;
   overflow-y: auto;
   overflow-x: hidden;
+  margin: auto;
 }
 .aPanelIndicator{
   text-align: left !important;
@@ -59,6 +60,7 @@
 .aPanelButton{
   width: 100%;
   padding: 5px;
+  margin: 0px !important;
 }
 .aPanelButtonText{
   text-align: left !important;
@@ -175,6 +177,7 @@
   height: auto;
   margin: 0 !important;
   width: auto;
+  cursor:pointer;
 }
 .carousel-indicators img {
   display: block;
@@ -194,7 +197,8 @@
 /* karusellin controllit */
 .carousel-control.left, .carousel-control.right {
   background-image: none;
-  top: 88%
+  top: 88%;
+  cursor: pointer;
 }
 .carousel-control{
   width: 10%;
@@ -224,17 +228,16 @@
 }
 #navbaar .inactive,
 #navbaar .active{
+  list-style: none;
   text-decoration: none;
   font-family: Arial,Helvetica,sans-serif;
   line-height: 90%;
   color: grey;
   font-size: 20px;
-}
-#navbaar .inactive,
-#navbaar .active{
   width: 370px;
   padding: 5px;
   margin: 5px 0px 5px 0px;
+  cursor:pointer;
 }
 #navbaar .active{
   background-color: #acd29b;
@@ -294,11 +297,17 @@
 
 /* dragrop */
 
-.draggable,
-.droppedright,
-.droppedwrong{
+.draggable{
+  cursor:pointer;
   margin: 0px 10px 10px 0px;
   float: left;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 20px;
+  white-space: nowrap; 
+  overflow: hidden;
+}
+.droppedright,
+.droppedwrong{
   font-family: Arial,Helvetica,sans-serif;
   font-size: 20px;
 }
